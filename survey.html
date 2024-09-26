@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Testing Questionnaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        h2, h3, h4 {
+            color: #333;
+        }
+        .questionnaire-section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .question label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .question input[type="text"], .question select, .question textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .question input[type="radio"] {
+            margin-right: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>System Testing Questionnaire for Automatic Legal Analysis</h2>
+
+    <form action="#" method="post">
+
+        <!-- Section 1: Background Information -->
+        <div class="questionnaire-section">
+            <h3>Section 1: Background Information</h3>
+
+            <div class="question">
+                <label for="annotator_id">Annotator ID:</label>
+                <input type="text" id="annotator_id" name="annotator_id" required>
+            </div>
+
+            <div class="question">
+                <label for="legal_expertise">Legal Expertise Level:</label>
+                <select id="legal_expertise" name="legal_expertise" required>
+                    <option value="none">No formal training</option>
+                    <option value="student">Law student</option>
+                    <option value="junior">Junior lawyer/paralegal</option>
+                    <option value="experienced">Experienced lawyer/judge</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="familiarity_irac">Familiarity with IRAC Methodology:</label>
+                <select id="familiarity_irac" name="familiarity_irac" required>
+                    <option value="not_familiar">Not familiar</option>
+                    <option value="somewhat_familiar">Somewhat familiar</option>
+                    <option value="very_familiar">Very familiar</option>
+                    <option value="expert">Expert</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Section 2: System Usability and Interface -->
+        <div class="questionnaire-section">
+            <h3>Section 2: System Usability and Interface</h3>
+
+            <div class="question">
+                <label>How intuitive is the user interface of the system?</label>
+                <input type="radio" name="ui_intuitive" value="very_intuitive" required> Very intuitive
+                <input type="radio" name="ui_intuitive" value="intuitive"> Intuitive
+                <input type="radio" name="ui_intuitive" value="neutral"> Neutral
+                <input type="radio" name="ui_intuitive" value="difficult"> Difficult to navigate
+                <input type="radio" name="ui_intuitive" value="very_difficult"> Very difficult to navigate
+            </div>
+
+            <div class="question">
+                <label for="technical_issues">Were there any technical issues or bugs encountered during the use of the system?</label>
+                <select id="technical_issues" name="technical_issues" required>
+                    <option value="no_issues">No issues</option>
+                    <option value="minor_issues">Minor issues (did not affect usage significantly)</option>
+                    <option value="moderate_issues">Moderate issues (required workaround)</option>
+                    <option value="major_issues">Major issues (affected usability)</option>
+                    <option value="critical_issues">Critical issues (could not complete tasks)</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label>How satisfied are you with the system's response time (speed of processing and returning results)?</label>
+                <input type="radio" name="response_time" value="very_satisfied" required> Very satisfied
+                <input type="radio" name="response_time" value="satisfied"> Satisfied
+                <input type="radio" name="response_time" value="neutral"> Neutral
+                <input type="radio" name="response_time" value="unsatisfied"> Unsatisfied
+                <input type="radio" name="response_time" value="very_unsatisfied"> Very unsatisfied
+            </div>
+        </div>
+
+        <!-- Section 3: System Performance and Output Quality -->
+        <div class="questionnaire-section">
+            <h3>Section 3: System Performance and Output Quality</h3>
+
+            <!-- Issue Quality -->
+            <h4>Issue Quality</h4>
+            <div class="question">
+                <label>How accurately does the system identify and categorize legal issues (Issue Identification) in a scenario?</label><br>
+                <input type="radio" name="issue_accuracy" value="very_accurate" required> Very accurate<br>
+                <input type="radio" name="issue_accuracy" value="accurate"> Accurate<br>
+                <input type="radio" name="issue_accuracy" value="neutral"> Neutral<br>
+                <input type="radio" name="issue_accuracy" value="inaccurate"> Inaccurate<br>
+                <input type="radio" name="issue_accuracy" value="very_inaccurate"> Very inaccurate
+            </div>
+
+            <div class="question">
+                <label>Does the system identify all relevant issues and distinguish between primary and secondary issues?</label><br>
+                <input type="radio" name="issue_completeness" value="very_well" required> Very well<br>
+                <input type="radio" name="issue_completeness" value="well"> Well<br>
+                <input type="radio" name="issue_completeness" value="neutral"> Neutral<br>
+                <input type="radio" name="issue_completeness" value="poorly"> Poorly<br>
+                <input type="radio" name="issue_completeness" value="very_poorly"> Very poorly
+            </div>
+
+            <!-- Rule Quality -->
+            <h4>Rule Quality</h4>
+            <div class="question">
+                <label>How accurately does the system retrieve and present relevant legal rules (Rule Retrieval) for the identified issues?</label><br>
+                <input type="radio" name="rule_accuracy" value="very_accurate" required> Very accurate<br>
+                <input type="radio" name="rule_accuracy" value="accurate"> Accurate<br>
+                <input type="radio" name="rule_accuracy" value="neutral"> Neutral<br>
+                <input type="radio" name="rule_accuracy" value="inaccurate"> Inaccurate<br>
+                <input type="radio" name="rule_accuracy" value="very_inaccurate"> Very inaccurate
+            </div>
+
+            <div class="question">
+                <label>Are the legal rules retrieved by the system comprehensive, relevant, and well-cited?</label><br>
+                <input type="radio" name="rule_comprehensiveness" value="very_comprehensive" required> Very comprehensive and well-cited<br>
+                <input type="radio" name="rule_comprehensiveness" value="comprehensive"> Comprehensive and relevant<br>
+                <input type="radio" name="rule_comprehensiveness" value="neutral"> Neutral<br>
+                <input type="radio" name="rule_comprehensiveness" value="somewhat_irrelevant"> Somewhat irrelevant<br>
+                <input type="radio" name="rule_comprehensiveness" value="very_irrelevant"> Very irrelevant
+            </div>
+
+            <!-- Application Quality -->
+            <h4>Application Quality</h4>
+            <div class="question">
+                <label>How well does the system apply the legal rules to the facts of the scenario (Application)?</label><br>
+                <input type="radio" name="application_quality" value="excellent" required> Excellent application<br>
+                <input type="radio" name="application_quality" value="good"> Good application<br>
+                <input type="radio" name="application_quality" value="neutral"> Neutral<br>
+                <input type="radio" name="application_quality" value="poor"> Poor application<br>
+                <input type="radio" name="application_quality" value="very_poor"> Very poor application
+            </div>
+
+            <div class="question">
+                <label>Is the reasoning behind the application of legal rules to the facts clear, logical, and easy to follow?</label><br>
+                <input type="radio" name="reasoning_clarity" value="very_clear" required> Very clear and logical<br>
+                <input type="radio" name="reasoning_clarity" value="clear"> Clear and logical<br>
+                <input type="radio" name="reasoning_clarity" value="neutral"> Neutral<br>
+                <input type="radio" name="reasoning_clarity" value="unclear"> Somewhat unclear or illogical<br>
+                <input type="radio" name="reasoning_clarity" value="very_unclear"> Very unclear or illogical
+            </div>
+
+            <!-- Conclusion Quality -->
+            <h4>Conclusion Quality</h4>
+            <div class="question">
+                <label>How well does the system generate logical and sound conclusions (Conclusion Generation) for each legal scenario?</label><br>
+                <input type="radio" name="conclusion_quality" value="very_well" required> Very well<br>
+                <input type="radio" name="conclusion_quality" value="well"> Well<br>
+                <input type="radio" name="conclusion_quality" value="neutral"> Neutral<br>
+                <input type="radio" name="conclusion_quality" value="poorly"> Poorly<br>
+                <input type="radio" name="conclusion_quality" value="very_poorly"> Very poorly
+            </div>
+
+            <div class="question">
+                <label>How consistent are the conclusions generated by the system with established legal principles and precedents?</label><br>
+                <input type="radio" name="conclusion_consistency" value="very_consistent" required> Very consistent<br>
+                <input type="radio" name="conclusion_consistency" value="consistent"> Consistent<br>
+                <input type="radio" name="conclusion_consistency" value="neutral"> Neutral<br>
+                <input type="radio" name="conclusion_consistency" value="inconsistent"> Inconsistent<br>
+                <input type="radio" name="conclusion_consistency" value="very_inconsistent"> Very inconsistent
+            </div>
+
+            <!-- Overall Quality -->
+            <h4>Overall Quality</h4>
+            <div class="question">
+                <label>Rate the overall quality of the system's legal analysis.</label><br>
+                <input type="radio" name="overall_quality" value="excellent" required> Excellent<br>
+                <input type="radio" name="overall_quality" value="good"> Good<br>
+                <input type="radio" name="overall_quality" value="neutral"> Neutral<br>
+                <input type="radio" name="overall_quality" value="poor"> Poor<br>
+                <input type="radio" name="overall_quality" value="very_poor"> Very poor
+            </div>
+
+            <div class="question">
+                <label>Would you recommend this system for legal analysis tasks to other professionals or students?</label><br>
+                <input type="radio" name="recommend_system" value="definitely_yes" required> Definitely yes<br>
+                <input type="radio" name="recommend_system" value="probably_yes"> Probably yes<br>
+                <input type="radio" name="recommend_system" value="unsure"> Unsure<br>
+                <input type="radio" name="recommend_system" value="probably_no"> Probably no<br>
+                <input type="radio" name="recommend_system" value="definitely_no"> Definitely no
+            </div>
+        </div>
+
+        <!-- Section 4: Comparative Evaluation -->
+        <div class="questionnaire-section">
+            <h3>Section 4: Comparative Evaluation</h3>
+
+            <div class="question">
+                <label>How does the system's analysis compare to a human legal expert's analysis?</label>
+                <input type="radio" name="compare_human" value="much_better" required> Much better than a human expert
+                <input type="radio" name="compare_human" value="better"> Better than a human expert
+                <input type="radio" name="compare_human" value="comparable"> Comparable to a human expert
+                <input type="radio" name="compare_human" value="worse"> Worse than a human expert
+                <input type="radio" name="compare_human" value="much_worse"> Much worse than a human expert
+            </div>
+        </div>
+
+        <!-- Section 5: User Experience and Suggestions -->
+        <div class="questionnaire-section">
+            <h3>Section 5: User Experience and Suggestions</h3>
+
+            <div class="question">
+                <label for="useful_features">What features did you find most useful in the system?</label>
+                <textarea id="useful_features" name="useful_features" rows="3" required></textarea>
+            </div>
+
+            <div class="question">
+                <label for="improvement_suggestions">What features or improvements would you suggest for the system?</label>
+                <textarea id="improvement_suggestions" name="improvement_suggestions" rows="3" required></textarea>
+            </div>
+        </div>
+
+        <!-- Section 6: Understanding of Law Enhancement -->
+        <div class="questionnaire-section">
+            <h3>Section 6: Enhancement of Understanding of Law</h3>
+
+            <div class="question">
+                <label>Do you think the system helps you better understand legal concepts and reasoning?</label>
+                <input type="radio" name="understanding_improvement" value="definitely_yes" required> Definitely yes
+                <input type="radio" name="understanding_improvement" value="probably_yes"> Probably yes
+                <input type="radio" name="understanding_improvement" value="unsure"> Unsure
+                <input type="radio" name="understanding_improvement" value="probably_no"> Probably no
+                <input type="radio" name="understanding_improvement" value="definitely_no"> Definitely no
+            </div>
+
+            <div class="question">
+                <label>Does the system improve your efficiency in understanding legal cases and principles?</label>
+                <input type="radio" name="efficiency_improvement" value="significantly" required> Significantly
+                <input type="radio" name="efficiency_improvement" value="moderately"> Moderately
+                <input type="radio" name="efficiency_improvement" value="slightly"> Slightly
+                <input type="radio" name="efficiency_improvement" value="not_at_all"> Not at all
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Survey</button>
+
+    </form>
+
+</body>
+</html>

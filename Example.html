@@ -1,0 +1,882 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Include bootstrap multiselect js and css -->
+    <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css" />
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="css/recogito.min.css" rel="stylesheet">
+
+    <!-- Functions-->
+    <script type="text/javascript" src="js/recogito.min.js"></script>
+    <script type="text/javascript" src="js/reviewDisplay.js"></script>
+
+    <!-- Multiselect Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Include the plugin's CSS and JS: -->
+    <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css" />
+
+    <title>Example</title>
+</head>
+
+<body id="page-top" onload=init()>
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar navigtion area-->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Legal Text Annotation</div>
+            </a>
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="dashboard.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="scenario.html">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>scenarios </span>
+                </a>
+            </li>
+
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link" href="review.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Review</span>
+                </a>
+            </li>
+
+             <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link" href="Example.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Example of annotation</span>
+                </a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+        </ul>
+        <!-- End of Sidebar -->
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="mr-2 d-none d-lg-inline text-gray-600 small">
+                                    <label id="userDisplay" class="mr-2 d-none d-lg-inline text-gray-600 small"></label>
+                                </div>
+                                <img class="img-profile rounded-circle"
+                                     src="img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                 aria-labelledby="userDropdown">
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End of Topbar -->
+                <!-- End of Topbar -->
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-4 text-gray-800">Example of annotation </h1>
+
+
+                        <div class="card-header py-3">
+                            <select id="scenarioSelect" onchange="getScenario()" class="form-select" aria-label="Default select example">
+                                <option value="0" selected>Select scenario</option>
+                            </select>
+                        </div>
+
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <div>
+                                <button id="toggle-mode" class="btn btn-primary">CHANGE MODE: ANNOTATION</button>
+                            </div>
+                            <h6 class="m-0 font-weight-bold text-primary">Scenario Text </h6>
+                        </div>
+
+                        <div class="card-body">
+                            <div id="ScenarioContent" class="plaintext" style="margin-top: 1em; margin-bottom: 1em;">
+                                <br />
+                                <p id="ScenarioText"></p>
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">IRAC Analysis</h3>
+                        <!-- General Form Elements -->
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <label for="inputText" class="col-sm-4 col-form-label">Issues</label>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input id="issues" type="text" class="form-control">
+                                </div>
+                            </div>
+                            <br />
+
+                               <div class="row">
+                                <label>Decomposition Questions</label>
+                                <textarea class="col-sm-8" id="decompositions" style="height: 100px;"></textarea>
+                            </div>
+                              <br />
+
+                            <div class="row">
+                                <label class="col-sm-4 col-form-label">Select Related sections </label>
+                                <div class="col-sm-8">
+                                    <select id="selectedSections" onchange="checkDisabledRS()" multiple="multiple">
+                                        <option value="1.1">Section 1.1</option>
+                                        <option value="1.2">Section 1.2</option>
+                                        <option value="2">Section 2</option>
+                                        <option value="2a">Section 2a</option>
+                                        <option value="2b">Section 2b</option>
+                                        <option value="2c">Section 2c</option>
+                                        <option value="2d">Section 2d</option>
+                                        <option value="2e">Section 2e</option>
+                                        <option value="2f">Section 2f</option>
+                                        <option value="2g">Section 2g</option>
+                                        <option value="2h">Section 2h</option>
+                                        <option value="2i">Section 2i</option>
+                                        <option value="2j">Section 2j</option>
+                                        <option value="3">Section 3</option>
+                                        <option value="4.1">Section 4.1</option>
+                                        <option value="4.2">Section 4.2</option>
+                                        <option value="4.2a">Section 4.2a</option>
+                                        <option value="4.2b">Section 4.2b</option>
+                                        <option value="4.3">Section 4.3</option>
+                                        <option value="4.3a">Section 4.3a</option>
+                                        <option value="4.3b">Section 4.3b</option>
+                                        <option value="5.1">Section 5.1</option>
+                                        <option value="5.2">Section 5.2</option>
+                                        <option value="6">Section 6</option>
+                                        <option value="6a">Section 6a</option>
+                                        <option value="6b">Section 6b</option>
+                                        <option value="6c">Section 6c</option>
+                                        <option value="6d">Section 6d</option>
+                                        <option value="7">Section 7</option>
+                                        <option value="7a">Section 7a</option>
+                                        <option value="7b">Section 7b</option>
+                                        <option value="8">Section 8</option>
+                                        <option value="9">Section 9</option>
+                                        <option value="10.1">Section 10.1</option>
+                                        <option value="10.2">Section 10.2</option>
+                                        <option value="11">Section 11</option>
+                                        <option value="12.1">Section 12.1</option>
+                                        <option value="12.2">Section 12.2</option>
+                                        <option value="12.3">Section 12.3</option>
+                                        <option value="13">Section 13</option>
+                                        <option value="14">Section 14</option>
+                                        <option value="14a">Section 14a</option>
+                                        <option value="14b">Section 14b</option>
+                                        <option value="14c">Section 14c</option>
+                                        <option value="14d">Section 14d</option>
+                                        <option value="14e">Section 14e</option>
+                                        <option value="14">Section 14</option>
+                                        <option value="15">Section 15</option>
+                                        <option value="15 Explanation">Section 15 Explanation</option>
+                                        <option value="16.1">Section 16.1</option>
+                                        <option value="16.2">Section 16.2</option>
+                                        <option value="16.2a">Section 16.2a</option>
+                                        <option value="16.2b">Section 16.2b</option>
+                                        <option value="16.3a">Section 16.3a</option>
+                                        <option value="16.3b">Section 16.3b</option>
+                                        <option value="17">Section 17</option>
+                                        <option value="17a">Section 17a</option>
+                                        <option value="17b">Section 17b</option>
+                                        <option value="17c">Section 17c</option>
+                                        <option value="17d">Section 17d</option>
+                                        <option value="17e">Section 17e</option>
+                                        <option value="17 Explanation">Section 17 Explanation</option>
+                                        <option value="18">Section 18</option>
+                                        <option value="18a">Section 18a</option>
+                                        <option value="18b">Section 18b</option>
+                                        <option value="18c">Section 18c</option>
+                                        <option value="19.1">Section 19.1</option>
+                                        <option value="19.2">Section 19.2</option>
+                                        <option value="19.Exception">Section 19 Exception</option>
+                                        <option value="19.Explanation">Section 19 Explanation</option>
+                                        <option value="20">Section 20</option>
+                                        <option value="21">Section 21</option>
+                                        <option value="21 Explanation">Section 21 Explanation</option>
+                                        <option value="22">Section 22</option>
+                                        <option value="23">Section 23</option>
+                                        <option value="24">Section 24</option>
+                                        <option value="24a">Section 24a</option>
+                                        <option value="24b">Section 24b</option>
+                                        <option value="24c">Section 24c</option>
+                                        <option value="24d">Section 24d</option>
+                                        <option value="24e">Section 24e</option>
+                                        <option value="24">Section 24</option>
+                                        <option value="25">Section 25</option>
+                                        <option value="26">Section 26</option>
+                                        <option value="26a">Section 26a</option>
+                                        <option value="26b">Section 26b</option>
+                                        <option value="26c">Section 26c</option>
+                                        <option value="26">Section 26</option>
+                                        <option value="26 Explanation 1">Section 26 Explanation 1</option>
+                                        <option value="26 Explanation2">Section 26 Explanation2</option>
+                                        <option value="27 ">Section 27</option>
+                                        <option value="28 ">Section 28</option>
+                                        <option value="28.Exception1">Section 28 Exception1</option>
+                                        <option value="28.Exception2">Section 28 Exception2</option>
+                                        <option value="28.Exception 3">Section 28 Exception 3</option>
+                                        <option value="29">Section 29</option>
+                                        <option value="29 Exception 1">Section 29 Exception 1</option>
+                                        <option value="29.Exception 2">Section 29 Exception 2</option>
+                                        <option value="29.Exception 3">Section 29 Exception 3</option>
+                                        <option value="29.Exception 3">Section 29 Exception 3</option>
+                                        <option value="30">Section 30</option>
+                                        <option value="31.1">Section 31.1</option>
+                                        <option value="31.2">Section 31.2</option>
+                                        <option value="31.3">Section 31.3</option>
+                                        <option value="32">Section 32</option>
+                                        <option value="33a">Section 33a</option>
+                                        <option value="33b">Section 33b</option>
+                                        <option value="34">Section 34</option>
+                                        <option value="35">Section 35</option>
+                                        <option value="36.1">Section 36.1</option>
+                                        <option value="36.2">Section 36.2</option>
+                                        <option value="37">Section 37</option>
+                                        <option value="38.1">Section 38.1</option>
+                                        <option value="38.2">Section 38.2</option>
+                                        <option value="39.1">Section 39.1</option>
+                                        <option value="39.2">Section 39.2</option>
+                                        <option value="39.2a">Section 39.2a</option>
+                                        <option value="39.2b">Section 39.2b</option>
+                                        <option value="39.2c">Section 39.2c</option>
+                                        <option value="39.3">Section 39.3</option>
+                                        <option value="40">Section 40</option>
+                                        <option value="41">Section 41</option>
+                                        <option value="42">Section 42</option>
+                                        <option value="43">Section 43</option>
+                                        <option value="44.1">Section 44.1</option>
+                                        <option value="44.2">Section 44.2</option>
+                                        <option value="44.3">Section 44.3</option>
+                                        <option value="44.Explanation">Section 44 Explanation</option>
+                                        <option value="45">Section 45</option>
+                                        <option value="46">Section 46</option>
+                                        <option value="47">Section 47</option>
+                                        <option value="47.Explanation">Section 47 Explanation</option>
+                                        <option value="48">Section 48</option>
+                                        <option value="49">Section 49</option>
+                                        <option value="49.Explanation">Section 49 Explanation</option>
+                                        <option value="50">Section 50</option>
+                                        <option value="51">Section 51</option>
+                                        <option value="52">Section 52</option>
+                                        <option value="53">Section 53</option>
+                                        <option value="54">Section 54</option>
+                                        <option value="55">Section 55</option>
+                                        <option value="56.1">Section 56.1</option>
+                                        <option value="56.2">Section 56.2</option>
+                                        <option value="56.3">Section 56.3</option>
+                                        <option value="57.1">Section 57.1</option>
+                                        <option value="57.2">Section 57.2</option>
+                                        <option value="57.3">Section 57.3</option>
+                                        <option value="58">Section 58</option>
+                                        <option value="59">Section 59</option>
+                                        <option value="60">Section 60</option>
+                                        <option value="61">Section 61</option>
+                                        <option value="62">Section 62</option>
+                                        <option value="63">Section 63</option>
+                                        <option value="64">Section 64</option>
+                                        <option value="65">Section 65</option>
+                                        <option value="66">Section 66</option>
+                                        <option value="67">Section 67</option>
+                                        <option value="68">Section 68</option>
+                                        <option value="69">Section 69</option>
+                                        <option value="70">Section 70</option>
+                                        <option value="71">Section 71</option>
+                                        <option value="72">Section 72</option>
+                                        <option value="73">Section 73</option>
+                                        <option value="74.1">Section 74.1</option>
+                                        <option value="74.2">Section 74.2</option>
+                                        <option value="74.3">Section 74.3</option>
+                                        <option value="74.3 Explanation">Section 74.3 Explanation</option>
+                                        <option value="75">Section 75</option>
+                                        <option value="75.Explanation">Section 75 Explanation</option>
+                                        <option value="76.">Section 76</option>
+                                        <option value="77.">Section 77</option>
+                                        <option value="78.">Section 78</option>
+                                        <option value="78a">Section 78a</option>
+                                        <option value="78b">Section 78b</option>
+                                        <option value="78c">Section 78c</option>
+                                        <option value="79">Section 79</option>
+                                        <option value="80">Section 80</option>
+                                        <option value="81">Section 81</option>
+                                        <option value="82">Section 82</option>
+                                        <option value="83">Section 83</option>
+                                        <option value="84">Section 84</option>
+                                        <option value="85">Section 85</option>
+                                        <option value="86">Section 86</option>
+                                        <option value="87">Section 87</option>
+                                        <option value="88">Section 88</option>
+                                        <option value="89">Section 89</option>
+                                        <option value="90">Section 90</option>
+                                        <option value="91">Section 91</option>
+                                        <option value="92">Section 92</option>
+                                        <option value="93">Section 93</option>
+                                        <option value="94">Section 94</option>
+                                        <option value="95">Section 95</option>
+                                        <option value="96">Section 96</option>
+                                        <option value="97">Section 97</option>
+                                        <option value="98">Section 98</option>
+                                        <option value="99">Section 99</option>
+                                        <option value="100">Section 100</option>
+                                        <option value="101">Section 101</option>
+                                        <option value="101.Explanation">Section 101 Explanation</option>
+                                        <option value="102">Section 102</option>
+                                        <option value="103">Section 103</option>
+                                        <option value="104">Section 104</option>
+                                        <option value="105">Section 105</option>
+                                        <option value="106">Section 106</option>
+                                        <option value="107">Section 107</option>
+                                        <option value="108.">Section 108</option>
+                                        <option value="109">Section 109</option>
+                                        <option value="110">Section 110</option>
+                                        <option value="111">Section 111</option>
+                                        <option value="112">Section 112</option>
+                                        <option value="113">Section 113</option>
+                                        <option value="114">Section 114</option>
+                                        <option value="115">Section 115</option>
+                                        <option value="116">Section 116</option>
+                                        <option value="117">Section 117</option>
+                                        <option value="118">Section 118</option>
+                                        <option value="119">Section 119</option>
+                                        <option value="120">Section 120</option>
+                                        <option value="121">Section 121</option>
+                                        <option value="122">Section 122</option>
+                                        <option value="122a">Section 122a</option>
+                                        <option value="122b">Section 122b</option>
+                                        <option value="123">Section 123</option>
+                                        <option value="124">Section 124</option>
+                                        <option value="125">Section 125</option>
+                                        <option value="126">Section 126</option>
+                                        <option value="127">Section 127</option>
+                                        <option value="128">Section 128</option>
+                                        <option value="129">Section 129</option>
+                                        <option value="130">Section 130</option>
+                                        <option value="131">Section 131</option>
+                                        <option value="131a">Section 131a</option>
+                                        <option value="131b">Section 131b</option>
+                                        <option value="132">Section 132</option>
+                                        <option value="133">Section 133</option>
+                                        <option value="134">Section 134</option>
+                                        <option value="135">Section 135</option>
+                                        <option value="136">Section 136</option>
+                                        <option value="137">Section 137</option>
+                                        <option value="138">Section 138</option>
+                                        <option value="139">Section 139</option>
+                                        <option value="140">Section 140</option>
+                                        <option value="141.1">Section 141.1</option>
+                                        <option value="141.2">Section 141.2</option>
+                                        <option value="142">Section 142</option>
+                                        <option value="143">Section 143</option>
+                                        <option value="144">Section 144</option>
+                                        <option value="145.1">Section 145.1</option>
+                                        <option value="145.2">Section 145.2</option>
+                                        <option value="145.3">Section 145.3</option>
+                                        <option value="146">Section 146</option>
+                                        <option value="147">Section 147</option>
+                                        <option value="148">Section 148</option>
+                                        <option value="149">Section 149</option>
+                                        <option value="150">Section 150</option>
+                                        <option value="151">Section 151</option>
+                                        <option value="152">Section 152</option>
+                                        <option value="153">Section 153</option>
+                                        <option value="154">Section 154</option>
+                                        <option value="155">Section 155</option>
+                                        <option value="156">Section 156</option>
+                                        <option value="157">Section 157</option>
+                                        <option value="158">Section 158</option>
+                                        <option value="159">Section 159</option>
+                                        <option value="160">Section 160</option>
+                                        <option value="161">Section 161</option>
+                                        <option value="162">Section 162</option>
+                                        <option value="163">Section 163</option>
+                                        <option value="164">Section 164</option>
+                                        <option value="165">Section 165</option>
+                                        <option value="166">Section 166</option>
+                                        <option value="167">Section 167</option>
+                                        <option value="168">Section 168</option>
+                                        <option value="169">Section 169</option>
+                                        <option value="170">Section 170</option>
+                                        <option value="171">Section 171</option>
+                                        <option value="172">Section 172</option>
+                                        <option value="173">Section 173</option>
+                                        <option value="174">Section 174</option>
+                                        <option value="175">Section 175</option>
+                                        <option value="176">Section 176</option>
+                                        <option value="177">Section 177</option>
+                                        <option value="178">Section 178</option>
+                                        <option value="179">Section 179</option>
+                                        <option value="180">Section 180</option>
+                                        <option value="181">Section 181</option>
+                                        <option value="182">Section 182</option>
+                                        <option value="183">Section 183</option>
+                                        <option value="183.a">Section 183a</option>
+                                        <option value="183.b">Section 183b</option>
+                                        <option value="183.c">Section 183c</option>
+                                        <option value="184.a">Section 184a</option>
+                                        <option value="184.b">Section 184b</option>
+                                        <option value="185">Section 185</option>
+                                        <option value="186">Section 186</option>
+                                        <option value="187">Section 187</option>
+                                        <option value="188">Section 188</option>
+                                        <option value="189">Section 189</option>
+                                        <option value="190">Section 190</option>
+                                        <option value="191">Section 191</option>
+                                        <option value="191a">Section 191a</option>
+                                        <option value="191b">Section 191b</option>
+                                    </select>
+                                    <button type="button" id="generateRSBtn" class="btn btn-primary" value="Save data to file" onclick="generateRelatedSectionsBtn()" disabled>Update Section</button>
+                                </div>
+                            </div>
+
+                            <!--Related court case and page number row-->
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h4 class="card-title">Court cases</h4>
+                                </div>
+                                <div class="col-sm-12">
+                                    <button type="button" id="addCourtCaseBtn" class="btn btn-success" onclick="addCourtCase()">Add courtcase <span class="fas fa-plus"></span></button>
+                                    <button type="button" id="removeCourtCaseBtn" class="btn btn-danger" onclick="removeCourtCase()">Remove courtcase <span class="fas fa-trash"></span></button>
+                                    <button type="button" id="generateCCPNBtn" class="btn btn-primary" onclick="generateCourtCasePageNumberBtn()">Generate courtcase buttons</button>
+                                </div>
+                            </div>
+                            <br />
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card">
+                                        <div class="card-body" id="courtCaseView">
+                                            <div class="row">
+                                                <div class="col-sm-2">
+                                                    <label class="col-form-label">No.</label>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <label class="col-form-label">Related court case</label>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <label class="col-form-label">Paragraph/Page number</label>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                </div>
+                                            </div>
+                                            <div class="row" id="courtCase_1" style="margin-bottom: 10px;">
+                                                <div class="col-sm-2">
+                                                    <label class="col-form-label">#1</label>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <input type="text" class="form-control" id="relatedCourtCase_1">
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <input type="text" class="form-control" id="courtCase_Num_1">
+                                                </div>
+                                                <div class="col-sm-2">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+
+                            <!--Buttons display-->
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Highlight Texts and Tags</h5>
+
+                                            <div class="col-sm-12 m-1" id="annotationBtns">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Related Sections and Courtcase</h5>
+                                            <div class="col-sm-12 m-1" id="relatedSectionBtns"></div>
+                                            <div class="col-sm-12 m-1" id="courtCasePageNumberBtns"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div></div>
+
+                                <div class="col-sm-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Highlight Text with Relations </h5>
+                                            <div class="col-sm-12 m-1" id="annotationBtnsRelations">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Operational Relations and Reasons</h5>
+                                            <label class="col-form-label">Operational Relations</label>
+                                            <div class="col-sm-12 m-1" id="relationBtns"></div>
+                                            <label class="col-form-label">Reason</label>
+                                            <div class="col-sm-12 m-1" id="reasonBtns"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end of buttons display-->
+
+                            <div class="row">
+                                <label>Analysis</label>
+                                <textarea class="form-control" placeholder="Analysis here" id="analysisTextArea" style="height: 200px;"></textarea>
+                            </div>
+                            <br />
+
+                            <div class="row">
+                                <label for="inputText3" class="col-sm-2 col-form-label">Conclusion</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="conclusion" style="height: 100px;">
+                                </div>
+                            </div>
+                            <br />
+
+                            <br />
+
+                            <!--Add a button to save the data.-->
+                            <div>
+                                <label class="col-sm-2 col-form-label">Export File</label>
+                                <button type="button" id="bt" class="btn btn-primary" value="Save data to file" onclick="saveFile()"> EXPORT </button>
+                            </div>
+
+                            <br />
+                        </form>
+                    </div>
+                    <!-- /.container-fluid -->
+                    <!--<div class="col-sm-12">
+                        <button class="btn btn-success btn-icon-split">ADD IRAC</button>
+                    </div> -->
+                </div>
+                <!-- End of Main Content -->
+            </div>
+            <!-- End of Content Wrapper -->
+        </div>
+    </div>
+    <!-- End of Page Wrapper -->
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+</body>
+</html>
+
+<!--Script to handle annotation of scenarios and auto button creation for highlighted text.-->
+<script type="text/javascript">
+    var selectedAnnotation = [];
+    var selectedRelations = [];
+    var highlightedObject = [];
+</script>
+<script type="text/javascript">
+
+    // get declared legalConcepts.
+    // remember to update the same one in scenario.js.
+    const legalConcepts = [
+        { id: 1, name: 'Offer Date', relatedTopic: 'Offer and Acceptance', relatedSection: 'Section3', other: '' },
+        { id: 2, name: 'Communication of Acceptance', relatedTopic: 'Offer and Acceptance', relatedSection: 'Section3', other: '' }
+    ];
+
+    // Get legal concepts.
+
+    const legalConceptList = [];
+    var selectedRelations = [];
+    var annotationBtnIds = [];
+
+    $.each(legalConcepts, function (index, value) {
+        legalConceptList.push(value.name);
+    });
+
+    // Intialize Recogito.
+
+    var r = Recogito.init({
+        content: 'ScenarioContent', // Element id or DOM node to attach to.
+        locale: 'auto',
+        allowEmpty: true,
+        widgets: [
+            { widget: 'TAG', vocabulary: legalConceptList /*Set selectable vocabulary as legalConceptList.*/ }
+        ],
+        relationVocabulary: ['belongTo', 'relatedTo', 'PartOf']
+    });
+
+    // Switch annotation mode (annotation/relationships).
+
+    var annotationMode = 'ANNOTATION'; // or 'RELATIONS'.
+
+    var toggleModeBtn = document.getElementById('toggle-mode');
+    toggleModeBtn.addEventListener('click', function () {
+        if (annotationMode === 'ANNOTATION') {
+            toggleModeBtn.innerHTML = 'MODE: RELATIONS';
+            annotationMode = 'RELATIONS';
+        } else {
+            toggleModeBtn.innerHTML = 'MODE: ANNOTATION';
+            annotationMode = 'ANNOTATION';
+        }
+
+        r.setMode(annotationMode);
+    });
+
+    // Function that detectes a newly created annotation.
+
+    r.on('createAnnotation', function (annotation) {
+        // Log highlighted text as new annotation for debugging purposes.
+        console.log('annotation object created', annotation);
+        highlightedObject.push(annotation);
+
+        if (annotation.motivation == null && annotation.motivation != 'linking') {
+            selectedAnnotation.push({ selectedText: annotation.target.selector[0].exact, selectedTag: annotation.body[0].value });
+            // On created annotation add a button with selected text for IRAC Analysis processing.
+            var selectedAnnotationText = '{' + annotation.target.selector[0].exact + '[' + annotation.body[0].value + ']}';
+
+            var annotationBtnDiv = document.getElementById('annotationBtns');
+
+            // Create button element.
+            var button = document.createElement('button');
+
+            button.type = 'button';
+            button.className = 'btn btn-outline-info';
+
+            // Id will be the selectedAnnotationText + 'Btn'.
+            // Ex.Selected legal => The button id is 'legalBtn'.
+            // It is case senstive and also will take in spaces.
+            button.id = selectedAnnotationText + 'Btn';
+
+            // Save to a list of existing annotation buttons.
+            annotationBtnIds.push(button.id);
+
+            // Add text to be displayed on button.
+            button.innerHTML = selectedAnnotationText;
+
+            // Add onClick event to add the selected annotation to analysis text area at the cursor.
+            button.addEventListener('click', function (event) {
+                console.log(button.innerHTML);
+
+                // Get current position of cursor at analysis text area.
+                // If no cursor, it will append at the end of the textArea's text.
+                var analysisTxtBox = document.getElementById('analysisTextArea');
+                let curPos = analysisTxtBox.selectionStart;
+
+                // Get current text in analysisTextArea.
+                var analysisTextAreaValue = $('#analysisTextArea').val();
+
+                // Insert text at cursor position.
+                $('#analysisTextArea').val(
+                    analysisTextAreaValue.slice(0, curPos) + selectedAnnotationText + analysisTextAreaValue.slice(curPos));
+
+                // Restore cursor position to end of analysis text area after clicking on button.
+                analysisTextArea.focus();
+            });
+
+            // Append the  button to annotation div.
+            annotationBtnDiv.appendChild(button);
+
+        }
+        else {
+            //capture relation tagging
+
+            var relation = annotation.body[0].value;
+            var target1 = annotation.target[0].id;
+            var target2 = annotation.target[1].id;
+
+            var object1 = highlightedObject.find(obj => obj.id === target1);
+            word1 = object1.target.selector[0].exact + '[' + object1.body[0].value + '] ';
+
+            var object2 = highlightedObject.find(obj => obj.id === target2);
+            word2 = object2.target.selector[0].exact + '[' + object1.body[0].value + ']  ';
+
+            var finalRelation = ' {(' + word1 + ')' + ' (' + relation + ') ' + '(' + word2 + ')} ';
+
+            selectedRelations.push(finalRelation);
+
+            //console.log(finalRelation);
+
+            var annotationBtnDiv = document.getElementById('annotationBtnsRelations');
+
+            // Create button element.
+            var button = document.createElement('button');
+
+            button.type = 'button';
+            button.className = 'btn btn-outline-success';
+
+            // Id will be the selectedAnnotationText + 'Btn'.
+            // Ex.Selected legal => The button id is 'legalBtn'.
+            // It is case senstive and also will take in spaces.
+            button.id = finalRelation + 'Btn';
+
+            // Save to a list of existing annotation buttons.
+            annotationBtnIds.push(button.id);
+
+            // Add text to be displayed on button.
+            button.innerHTML = finalRelation;
+
+            // Add onClick event to add the selected annotation to analysis text area at the cursor.
+            button.addEventListener('click', function (event) {
+                console.log(button.innerHTML);
+
+                // Get current position of cursor at analysis text area.
+                // If no cursor, it will append at the end of the textArea's text.
+                var analysisTxtBox = document.getElementById('analysisTextArea');
+                let curPos = analysisTxtBox.selectionStart;
+
+                // Get current text in analysisTextArea.
+                var analysisTextAreaValue = $('#analysisTextArea').val();
+
+                // Insert text at cursor position.
+                $('#analysisTextArea').val(
+                    analysisTextAreaValue.slice(0, curPos) + finalRelation + analysisTextAreaValue.slice(curPos));
+
+                // Restore cursor position to end of analysis text area after clicking on button.
+                analysisTextArea.focus();
+            });
+
+            // Append the  button to annotation div.
+            annotationBtnDiv.appendChild(button);
+        };
+    });
+
+    // On delete annotation,
+    // Remove button from view and annotationBtnIds.
+    r.on('deleteAnnotation', function (annotation) {
+        console.log('annotation object deleted', annotation);
+
+        // If its non linking annotation.
+        if (annotation.motivation == null && annotation.motivation != 'linking') {
+            // Remove button from view.
+            let buttonId = '{' + annotation.target.selector[0].exact + '[' + annotation.body[0].value + ']}' + 'Btn';
+            let elem = document.getElementById(buttonId);
+            elem.parentNode.removeChild(elem);
+
+            // Remove buttonId(single occurance only) from annotationBtnIds list.
+            let index = annotationBtnIds.indexOf(buttonId);
+            if (index > -1) {
+                annotationBtnIds.splice(index, 1);
+            }
+        }
+        // If its linking annotation.
+        else {
+            let relation = annotation.body[0].value;
+            let target1 = annotation.target[0].id;
+            let target2 = annotation.target[1].id;
+
+            let object1 = highlightedObject.find(obj => obj.id === target1);
+            word1 = object1.target.selector[0].exact + '[' + object1.body[0].value + ']';
+
+            let object2 = highlightedObject.find(obj => obj.id === target2);
+            word2 = object2.target.selector[0].exact + '[' + object2.body[0].value + ']';
+
+            let buttonId = ' {(' + word1 + ')' + ' (' + relation + ') ' + '(' + word2 + ')} ' + 'Btn';
+            let elem = document.getElementById(buttonId);
+            elem.parentNode.removeChild(elem);
+
+            // Remove buttonId(single occurance only) from annotationBtnIds list.
+            let index = annotationBtnIds.indexOf(buttonId);
+            if (index > -1) {
+                annotationBtnIds.splice(index, 1);
+            }
+        }
+    });
+</script>
+
+<!--Script to initialize multiselect for sections.-->
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#selectedSections').multiselect({
+            enableFiltering: true,
+            maxHeight: 400,
+            dropUp: true,
+            buttonWidth: '400px'
+        });
+    });
+</script>

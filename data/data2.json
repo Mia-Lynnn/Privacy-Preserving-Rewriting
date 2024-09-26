@@ -1,0 +1,110 @@
+[
+        {
+        "ID": "FC6",
+        "Topic": "Offer & acceptance ",
+        "Scenario": "Ellie has lost her beloved cat. She puts an advertisement on her personal blog advertising a reward of RM2000 to anyone who finds her cat. Ellie\u2019s neighbour, Frank, did not see her advertisement but he went on a walk in the neighbourhood and spotted the cat. Frank recognised the cat to be Ellie\u2019s so he picked up the cat to return it to Ellie without expecting a reward. After he returned the cat to Ellie, his roommates showed him Ellie\u2019s advertisement and upon seeing the advertisement he realised he had missed out on the reward. On the next day, Frank went to see Ellie with the hope of claiming the reward but Ellie refused to pay him.  ",
+        "Issue": "whether there is a valid contract between Ellie and Frank.  ",
+        "DecomQ": "",
+        "Sections": "",
+        "CourtCase": "",
+        "Analysis": "",
+        "Flow": "",
+        "Conclusion": ""
+    },
+    {
+        "ID": "FC7",
+        "Topic": "Offer & acceptance ",
+        "Scenario": "Michelle is in need of money, she wanted to sell a vintage jewelry passed down by her grandmother. She offered to sell her vintage jewelry to her friend Alice at RM2000. Alice said that she would think about it. Michelle then told Alice that she would keep the offer open for 5 days. 2 days later, Alice learned that Michelle\u2019s vintage jewelry is actually worth up to RM5000 at market price and wishes to accept the offer. However, Michelle has already sold the jewelry off to another friend. Alice argued that Michelle is in breach of contract as she has promised to keep the offer open for 5 days.  ",
+        "Issue": "whether there is a valid contract between Michelle and Alice. ",
+        "DecomQ": "",
+        "Sections": "",
+        "CourtCase": "",
+        "Analysis": "",
+        "Flow": "",
+        "Conclusion": ""
+    },
+    {
+        "ID": "FC8",
+        "Topic": "Consideration ",
+        "Scenario": "X has been suffering from a chronic disease for a period of time, so she decided to allocate her shares and make registrations accordingly before she dies. In the written document, X intends to transfer every property that she has to her son before death. She also wishes to transfer a car to a close friend of hers, as they have been very good friends since many years ago. ",
+        "Issue": "Was the document valid as a contract? ",
+        "DecomQ": "Was there a consideration? \nWas the requirements under S.26(a) satisfied? \nWill the son receive an automatic entitlement? \nWill the close friend receive an automatic entitlement? ",
+        "Sections": "",
+        "CourtCase": "",
+        "Analysis": "",
+        "Flow": "No consideration, but falls under the first exception of S.26(a) (love and affection) > First two requirements satisfied, third and fourth requirements not satisfied > son will receive due to love + near relations > close friend will not receive even though there might be natural love and affection due to friendship, but does not satisfy the definition of near relations.\n",
+        "Conclusion": "The document is only valid as a contract regarding the transfer to the son, the transfer to close friend is invalid. "
+    },
+    {
+        "ID": "FC9",
+        "Topic": "Consideration ",
+        "Scenario": "Steve wants to buy a house from Fred. The bungalow that Steve intended to buy is at the price of $500,000. Due to past business dealings, Fred offered to sell the house to Steve at a lower price of $450,000, but Fred orally mentioned that Steve will only be eligible to this discounted price if Steve promises to clean the house. Since Steve was currently facing financial difficulties, he agreed to clean the house in order to obtain the house at a lower price. \n\nMeanwhile, Steve also approached Jane to purchase some furniture for his future house. Steve appealed to Jane to accept $200 for a couch which was originally priced at $300 as full settlement. Jane in her usual display of charity accepted the smaller sum. \n\nAfter Steve finished cleaning the house and approached Fred again to inform him that he was ready to purchase the bungalow at $450,000, Fred changed his mind and refused to transfer the house to Steve unless Steve paid the original amount of $500,000 to buy the house. Jane later thinks that Steve always takes kindness for granted and now she wants full payment of the couch. Steve now sue for specific performance. ",
+        "Issue": "Whether Steve and Jane can change their mind and demand repayment of the whole payment.",
+        "DecomQ": "Whether Fred\u2019s promise to discount the price was supported by considerations? \nDoes cleaning the house amount to sufficient considerations? \nWas Jane\u2019s promise to accept $200 supported by considerations? \nDoes $200 amount to sufficient consideration? ",
+        "Sections": "",
+        "CourtCase": "",
+        "Analysis": "",
+        "Flow": "It is supported by consideration [Steve\u2019s promise to clean the house] > It is sufficient S.24, a promise in exchange for a promise > It is supported by consideration as payment of a lesser sum is a good consideration > amounted to sufficient consideration [s.64 CA] ",
+        "Conclusion": "Steve and Jane cannot change their mind and demand repayment of the whole payment. "
+    },
+    {
+        "ID": "FC16",
+        "Topic": "Capacity ",
+        "Scenario": "Jude was a famous dancer since she was 15 years old, she had made her appearances on various reality shows. When she was 17 years old, she entered into a contract with Candy, her dance instructor, which was valid until June 2023. \n\nIn the agreement with Candy, it was upon the mutual agreement that Candy would organize and schedule all of her training, performances and dance competitions that she would participate in. In return, Jude must agree to follow Candy\u2019s instructions, and also to pay Candy \u2153 of her winnings from competitions, along with performance fees. \n\nIn December 2022, Jude refused to follow Candy\u2019s instruction to participate in an International dance recital involving world\u2019s famous dancers, where the performance fee was $300. On top of that, she also disobeyed her instruction to participate in Step Up! dance competition where the total reward for grand prize was $500,000.\n\nCandy alleged that Jude is legally bound to obey her instructions, and sought to sue for a breach of contract. ",
+        "Issue": "Was there a breach of contract? ",
+        "DecomQ": "Is Jude a competent party to the contract? \nIf she is not, would she be bound by the agreement? \nIs the agreement between Candy and Jude a contract for necessity? ",
+        "Sections": "",
+        "CourtCase": "",
+        "Analysis": "",
+        "Flow": "",
+        "Conclusion": "Jude will be liable for breach of contract. \n"
+    },
+    {
+        "ID": "FC17",
+        "Topic": "Offer and acceptance & Intention to create legal relations  ",
+        "Scenario": "Abby and Tiana are sisters who are very close. Abby owns a bakery while Tiana owns a cafe that only specializes in selling coffee. One day, over dinner, Tiana mentioned that she wants to include pastry and cakes in her menu and proposed that Abby could supply the pastry and cakes for half her usual price as a special sister discount to which Abby jokingly responded with yes. Abby and Tiana never talk about the proposal again after that day but a few weeks later Tiana shows up at Abby's office with a document saying that she needs to sign it and if she does not sign it she will sue Abby for a breach of contract. \n\nAbby's bakery has not been doing well, she wants to hire someone to do a rebrand for her bakery so she puts out an advertisement of hire stating the job scope, the salary and that anyone who is interested should send in their application. Upon seeing the advertisement, Elena applied for the job. A few weeks has passed but Elena has yet to receive any reply from Abby so she decided to apply for another job. After she was hired for the other job, she sent an email to Abby during a weekday on business hours saying that she no longer wanted the job. Abby did not check her email because she was lazy and without knowing that Elena had already sent her an email, she replied to Elena's application email stating that Elena has been accepted for the job and that she should start working on Monday. When Elena did not turn up on Monday, she called Elena to complain that she had breached their contract. ",
+        "Issue": "whether there is a breach of contract between Abby and Tiana and whether there is a breach of contract between Abby and Elena. ",
+        "DecomQ": "",
+        "Sections": "",
+        "CourtCase": "",
+        "Analysis": "",
+        "Flow": "",
+        "Conclusion": ""
+    },
+    {
+        "ID": "FC18",
+        "Topic": "Offer and acceptance & capacity to contract ",
+        "Scenario": "Lowel wants to sell her limited edition book to earn some quick money. She put up an advertisement which stated that anyone who is interested in buying the book at RM 1000 should text his number.  Upon seeing this advertisement Nina, who is 15 years old, sent a text message to Lowel's number saying that she is interested in buying the book but she is only willing to buy the book at RM500. Lowel responded by saying that 500 is too cheap, and that the lowest price she is willing to sell is RM 700. Nina accepted the price and said that she is willing to buy it at 700. Before ending the negotiation, Lowel asked about Nina's age to which she lies to say she is 20 years old. A few days later when Lowel was preparing to ship the book, Nina confessed that she does not have money to pay for the book because she is only 15 years old. ",
+        "Issue": "whether Lowel can sue Nina for a breach of contract. ",
+        "DecomQ": "",
+        "Sections": "",
+        "CourtCase": "",
+        "Analysis": "",
+        "Flow": "",
+        "Conclusion": ""
+    },
+    {
+        "ID": "FC19",
+        "Topic": "capacity & considerations ",
+        "Scenario": "Ken is a charitable rich man who owns a profitable business, he recently started a project to provide full scholarships for students who are unable to afford college tuition fees. While looking for a suitable candidate to manage the fund for the scholarships, he decided to reach out to John, who is an intern at his company. He offered to increase RM500 for John's intern salary in return for him managing the fund, John accepted this offer. John started working on management of scholarship funds but he quickly realized that the market price of the salary for scholarship fund manager is much more than RM500. He brought this up to Ken, saying that he should not be bound by their contract because there is insufficient consideration. \n \n Lila is 17 years old, she wishes to go to a college but is unable to afford it so she applied for a scholarship under Ken's programme. Lila was accepted and had received the funds for the first semester's tuition fees. Meanwhile, Ken's business has taken a turn for the worse, he wants to allocate the scholarship funds to save his business. Lila who has yet to receive the fund for the second semester decided to write an email to Ken but Ken responded that he is no longer paying for Lila's college tuition fees because he is not bound by the contract due to lack of considerations and Lila's lack of capcity. ",
+        "Issue": " whether there is a contract between Ken and John, whether there is a contract between Ken and Lila. ",
+        "DecomQ": "",
+        "Sections": "",
+        "CourtCase": "",
+        "Analysis": "",
+        "Flow": "",
+        "Conclusion": ""
+    },
+    {
+        "ID": "FC20",
+        "Topic": "Capacity & considerations & intention to create legal relations ",
+        "Scenario": "Barbara is a successful business woman, she has two daughters. Her eldest daughter, Millicent is a business graduate who is struggling to find a job so she offered to employ the daughter but instead of paying the salary at market price, she offered to pay an allowance of RM500 because Millicent still lives at home and does not pay her own bills. Barbara did not make Millicent sign any employment contract nor did she write down their agreement. Few weeks later, Barbara decided to fire Millicent because she is lazy at work but Millicent argued that that would be in breach of the contract between them. \n\nBabara's second daughter, Robert, is still studying in highschool. Robert is good at every subject except for Math, so Barbara promised to pay her an award of RM1000 if she manages to score A for her math this semester. Eventually, Robert managed to get an A for her math in the semester after studying with extra efforts but when she tried to claim for her award, Barbara said that she had forgotten about the promise. In a fit of rage, Robert went online to buy a designer item on a buy now pay later basis even though she could not afford to pay later. The designer company has threatened to take legal action against Robert if she does not pay up. ",
+        "Issue": "whether there is a contract between Barbara and Millicent, whether there is a contract between Babara and Robert, whether there is a contract between Robert and the designer company. ",
+        "DecomQ": "",
+        "Sections": "",
+        "CourtCase": "",
+        "Analysis": "",
+        "Flow": "",
+        "Conclusion": ""
+    }
+]

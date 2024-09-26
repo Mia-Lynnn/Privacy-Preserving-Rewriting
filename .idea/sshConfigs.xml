@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="fitcluster01.mpc.monash.edu" id="f9ccfd10-3413-4c6b-86ca-65f93bf2ce17" port="22" nameFormat="DESCRIPTIVE" username="xiaoxikang" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
