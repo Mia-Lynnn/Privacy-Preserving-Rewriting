@@ -94,6 +94,12 @@ function exportFacts() {
     downloadAnchorNode.remove();
 }
 
-document.getElementById('exportButton').addEventListener('click', exportFacts);
-// Initialize on page load
-document.addEventListener('DOMContentLoaded', init);
+// document.getElementById('exportButton').addEventListener('click', exportFacts);
+// // Initialize on page load
+// document.addEventListener('DOMContentLoaded', init);
+
+document.addEventListener('DOMContentLoaded', function() {
+    init();
+    document.getElementById('exportButton').addEventListener('click', exportFacts);
+});
+
