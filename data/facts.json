@@ -1,0 +1,1143 @@
+[
+    {
+        "ID": "FC1",
+        "Scenario": "Vanessa is a vinyl records store owner. She placed an advertisement on a social media platform selling a limited edition vinyl for the price of $500. On Monday, she receives a call from a customer, Niko, to reserve that vinyl. However, Niko told Vanessa that he is unable to make payment at the moment as he is facing financial difficulties, he then requested Vanessa to keep the vinyl for him for a few more days. Vanessa replied saying that \"Fine, I will reserve the vinyl for you until Wednesday 8pm. If I don?t hear from you by then, I will sell the vinyl for someone else.\"\n\nOn Tuesday, another customer, Ken, called to purchase that vinyl. He offers $700 to purchase it, which Vanessa accepts. Vanessa then immediately calls Niko to inform him that the vinyl was sold to someone else, but his phone was unreachable at the time. Vanessa then sent Niko a text message saying that she sold the vinyl to someone else. It turns out Niko went out of town, and his phone was out of service. When he came back to collect the vinyl on Wednesday at 4pm, he was annoyed to find out that the vinyl was sold. Niko now threatens to sue for breach of contract.",
+        "OriginalFacts": [
+            "Vanessa placed an advertisement selling a limited edition vinyl for $500.",
+            "Niko called Vanessa on Monday to reserve the vinyl, requesting to keep it until Wednesday 8pm due to financial difficulties.",
+            "Vanessa agreed to reserve the vinyl until Wednesday 8pm, but warned that if she didn't hear from Niko by then, she would sell it to someone else.",
+            "On Tuesday, Ken called to purchase the vinyl and offered $700, which Vanessa accepted.",
+            "Vanessa immediately notified Niko about the sale over the phone, but his line was unreachable at the time.",
+            "Vanessa sent Niko a text message stating that the vinyl was sold to someone else.",
+            "Niko went out of town and his phone was out of service until Wednesday 4pm when he returned and found out the vinyl was sold.",
+            "Niko is now threatening to sue Vanessa for breach of contract."
+        ],
+        "RewrittenFacts": [
+            "A seller placed an advertisement for a limited edition vinyl record priced at $500.",
+            "A potential buyer contacted the seller on Monday to reserve the vinyl, requesting to keep it until Wednesday 8pm due to financial reasons.",
+            "The seller agreed to reserve the vinyl until Wednesday 8pm, but warned that if there was no response by then, they would sell it to another buyer.",
+            "On Tuesday, another interested buyer offered $700 for the vinyl, which the seller accepted.",
+            "The seller immediately attempted to notify the first potential buyer about the sale by phone, but could not reach them.",
+            "The seller sent a text message to the first potential buyer informing them that the vinyl was sold to someone else.",
+            "The first potential buyer was out of town with no phone service until Wednesday 4pm when they returned and discovered the vinyl was sold.",
+            "The first potential buyer is now threatening legal action against the seller for breach of contract."
+        ]
+    },
+    {
+        "ID": "FC10",
+        "Scenario": "Kim hired a part-time maid named Fatihah, and she was under a Maid Agency called MA company. She would come to Kim's house every Wednesday for 3 hours to clean her house, and Kim would pay her $80 once she completed her work.\n\nIn her prescribed job scope, Kim wanted her to clean the 4 bedrooms in the house, trim the grass in the backyard, as well as clean the kitchen.\n\nLast Wednesday, Fatihah helped Kim wash her car and made her lunch as she had already completed her job. Since this was not in the job scope, Fatihah sought an additional $20 as she had done something over and above her prescribed job scope. Kim refused to pay the additional $20, and MA now sought to sue Kim for not paying Fatihah's extra work.",
+        "OriginalFacts": [
+            "Kim hired a part-time maid named Fatihah through a Maid Agency called MA company.",
+            "Fatihah was under contract to clean Kim's house every Wednesday for 3 hours and would be paid $80 once her work was completed.",
+            "The job scope included cleaning the 4 bedrooms, trimming the grass in the backyard, and cleaning the kitchen.",
+            "Last Wednesday, Fatihah went beyond her prescribed job scope by helping Kim wash her car and making her lunch.",
+            "Fatihah sought an additional $20 for the extra work done outside of her job scope.",
+            "Kim refused to pay the additional $20.",
+            "The MA company is seeking to sue Kim for not paying Fatihah's extra work."
+        ],
+        "RewrittenFacts": [
+            "An employer hired a part-time domestic helper through an employment agency.",
+            "The domestic helper was under contract to clean the employer",
+            ", ",
+            ", ",
+            "s car and preparing lunch.",
+            "The domestic helper sought an additional $20 for the extra work done outside of their job scope.",
+            "The employer refused to pay the additional $20.",
+            "The employment agency is seeking legal action against the employer for not paying for the extra work."
+        ]
+    },
+    {
+        "ID": "FC11",
+        "Scenario": "Henry and Willow are married. During the period where Henry and Willow were in a bad state, Henry promised to pay Willow $20 per week as weekly allowance and to take good care of their child while he was away for work. They made this agreement briefly through text message. Despite being in a bad state, they were still living together because they have a daughter to take care of. While Henry was working overseas,  he stopped transferring the money as promised to Willow after paying for the first few weeks. Willow sought to claim for her weekly allowance and sued Henry for a breach of contract. ",
+        "OriginalFacts": [
+            "Henry and Willow are married.",
+            "Henry promised Willow $20 per week as weekly allowance.",
+            "The agreement was made briefly through text message.",
+            "Henry stopped transferring money after paying for the first few weeks.",
+            "Willow sought to claim her weekly allowance and sued Henry for breach of contract."
+        ],
+        "RewrittenFacts": [
+            "A married couple had a financial arrangement.",
+            "One spouse promised the other $20 per week as weekly allowance.",
+            "The agreement was made briefly through text message.",
+            "The payments stopped after the first few weeks.",
+            "One spouse sought to claim the weekly allowance and initiated legal action for breach of contract."
+        ]
+    },
+    {
+        "ID": "FC12",
+        "Scenario": "While Penny and her friend, Tina, were having brunch together on Saturday, Penny made an agreement with Tina that, as soon as she found a new place to move in, she would transfer the property that she is currently living in to Tina. In order to ensure that Penny would fulfill her promise, Tina requested her to briefly write it down on a piece of paper, stating that: \"I, Penny, will transfer the house that I am living in to Tina as soon as I find a new place to move in.\"\n\nAfter months of finding a new place, Penny has finally found an ideal studio apartment that suits all her needs and immediately informed Tina that she would be transferring her old house to Tina. Upon hearing this news, Tina quickly packed her belongings and prepared to move into Penny?s old house. However, after thorough consideration, Penny changed her mind and decided not to move anymore. Tina wants to sue for specific performance.",
+        "OriginalFacts": [
+            "Penny made an agreement with Tina to transfer the property she's currently living in to Tina when she finds a new place to move in.",
+            "Tina asked Penny to write down the agreement on a piece of paper for assurance.",
+            "Penny finally found an ideal studio apartment that suits all her needs after months of searching.",
+            "Penny informed Tina about her decision to transfer the old house to Tina.",
+            "Tina packed her belongings and prepared to move into Penny's old house based on Penny's initial promise.",
+            "Penny changed her mind and decided not to move anymore, despite having already found a new place to live.",
+            "Tina wants to sue for specific performance, citing Penny's breach of their agreement.",
+            "s request that Penny put the agreement in writing, and Tina"
+        ],
+        "RewrittenFacts": [
+            "Two individuals made an agreement regarding property transfer, where the current resident would transfer their property to the other party upon finding a new residence.",
+            "One party requested the agreement to be documented in writing for assurance.",
+            "The current resident found an ideal studio apartment that suited their needs after months of searching.",
+            "The current resident informed the other party about their decision to transfer the property.",
+            "The second party prepared to move based on the initial promise.",
+            "The current resident changed their mind and decided not to move, despite having found a new place to live.",
+            "The second party wants to pursue legal action for specific performance, citing breach of their agreement.",
+            "The agreement was documented in writing at one party"
+        ]
+    },
+    {
+        "ID": "FC13",
+        "Scenario": "An insurance company, company X offers to pay ex gratia payment of $600 to employers who worked overtime, including Lucy and Dominic. In the offer, the company had a condition that this ex gratia payment would only be issued if a targeted number of clients was achieved in July. The offer stated: \"This ex-gratia payment is only valid if we are able to achieve 200 clients in July\"聺. The offer to Lucy does not include this statement. Both Dominic and Lucy accepted this offer by sending a letter of acceptance to company X.  \n\nIn July, company X had successfully achieved a targeted number of 200 clients. However, their business was going downhill. Hence, they decided to revoke the offer by sending a letter of revocation to every employee who worked overtime. Dominic and Lucy now seek your advice as to whether they had entered into a legally binding contract with company X. ",
+        "OriginalFacts": [
+            "Company X, an insurance company, offered an ex gratia payment of $600 to employers who worked overtime.",
+            "The offer stated that the payment would only be issued if a targeted number of clients was achieved in July.",
+            "There was no condition mentioned in Lucy's offer.",
+            "Both Dominic and Lucy accepted the offer by sending a letter of acceptance to Company X.",
+            "Company X achieved the targeted number of 200 clients in July.",
+            "Despite achieving the target, Company X decided to revoke the offer due to their business going downhill."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC14",
+        "Scenario": "James and Clarence are both seventeen years old, and their dream is to open a cafe together in the future and become a full time barista. They stumbled upon a coffee workshop advertisement on a hallway, and decided to attend it. The organizer told them that they can pay their fees of $500 through an installment of 4 months after attending it. James and Clarence attended the workshop, but they only managed to pay 芒?? of the fees in the duration of 4 months. The organizer now threatens to take legal action against both of them. \nAdvise James and Clarence as to their liabilities. ",
+        "OriginalFacts": [
+            "James and Clarence are both 17 years old.",
+            "James and Clarence attended a coffee workshop and were told they could pay $500 through an installment of 4 months after attending it.",
+            "The total fee was $500, but James and Clarence only managed to pay 芒猬︹琒 (one-quarter) of the fees in the duration of 4 months.",
+            "The organizer has threatened to take legal action against both James and Clarence for non-payment of the remaining balance."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC15",
+        "Scenario": "Amy is 21 years old, and she is a property agent. She went out for drinks with her high school friends on a Friday night. On the following day, one of her friend, Debbie, who went to drink with her called to thank her for agreeing to sell a property to Debbie for an exceptionally low price. Amy does not have any impression that she made such an agreement, she then asked Debbie how much did she offer for the property, Debbie replied: \"You offered me 10 dollars for the property! Don\"t you remember that you\"ve also written it down on a piece of paper?\"聺 Amy was speechless, asserting that she was not being serious about that agreement as she was drunk at the time. Debbie now wants to sue Amy for a breach of agreement.",
+        "OriginalFacts": [
+            "Amy is 21 years old and a property agent",
+            "Amy went out for drinks with her high school friends on a Friday night",
+            "One of her friend, Debbie, who went to drink with her, called Amy the following day",
+            "Debbie thanked Amy for agreeing to sell a property to her at an exceptionally low price",
+            "Amy did not have any impression that she made such an agreement",
+            "Amy asked Debbie how much did she offer for the property",
+            "Debbie replied that Amy offered her $10 for the property and had written it down on a piece of paper",
+            "Amy was speechless, asserting that she was not being serious about the agreement as she was drunk at the time",
+            "Amy claims to have no memory of making such an agreement"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC16",
+        "Scenario": "Jude was a famous dancer since she was 15 years old, she had made her appearances on various reality shows. When she was 17 years old, she entered into a contract with Candy, her dance instructor, which was valid until June 2023. \n\nIn the agreement with Candy, it was upon the mutual agreement that Candy would organize and schedule all of her training, performances and dance competitions that she would participate in. In return, Jude must agree to follow Candy\"s instructions, and also to pay Candy 芒?? of her winnings from competitions, along with performance fees. \n\nIn December 2022, Jude refused to follow Candy\"s instruction to participate in an International dance recital involving world\"s famous dancers, where the performance fee was $300. On top of that, she also disobeyed her instruction to participate in Step Up! dance competition where the total reward for grand prize was $500,000.\n\nCandy alleged that Jude is legally bound to obey her instructions, and sought to sue for a breach of contract. ",
+        "OriginalFacts": [
+            "Jude was a famous dancer since she was 15 years old.",
+            "She entered into a contract with Candy, her dance instructor, which was valid until June 2023.",
+            "Candy organized and scheduled all of Jude's training, performances, and dance competitions that she would participate in.",
+            "Jude agreed to follow Candy's instructions and pay Candy 1/4 of her winnings from competitions, along with performance fees.",
+            "In December 2022, Jude refused to follow Candy's instruction to participate in an International dance recital involving world-famous dancers (performance fee: $300).",
+            "Candy instructed Jude to participate in Step Up! dance competition where the total reward for grand prize was $500,000.",
+            "Jude disobeyed Candy's instruction and did not participate in the Step Up! dance competition.",
+            "Candy alleged that Jude is legally bound to obey her instructions and sought to sue Jude for a breach of contract."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC17",
+        "Scenario": "Abby and Tiana are sisters who are very close. Abby owns a bakery while Tiana owns a cafe that only specializes in selling coffee. One day, over dinner, Tiana mentioned that she wants to include pastry and cakes in her menu and proposed that Abby could supply the pastry and cakes for half her usual price as a special sister discount to which Abby jokingly responded with yes. Abby and Tiana never talk about the proposal again after that day but a few weeks later Tiana shows up at Abby's office with a document saying that she needs to sign it and if she does not sign it she will sue Abby for a breach of contract. \n\nAbby's bakery has not been doing well, she wants to hire someone to do a rebrand for her bakery so she puts out an advertisement of hire stating the job scope, the salary and that anyone who is interested should send in their application. Upon seeing the advertisement, Elena applied for the job. A few weeks has passed but Elena has yet to receive any reply from Abby so she decided to apply for another job. After she was hired for the other job, she sent an email to Abby during a weekday on business hours saying that she no longer wanted the job. Abby did not check her email because she was lazy and without knowing that Elena had already sent her an email, she replied to Elena's application email stating that Elena has been accepted for the job and that she should start working on Monday. When Elena did not turn up on Monday, she called Elena to complain that she had breached their contract. ",
+        "OriginalFacts": [
+            "Abby owns a bakery.",
+            "Tiana owns a cafe specializing in selling coffee.",
+            "Tiana proposed including pastry and cakes in her menu, with Abby supplying at half-price as a 'sister discount'., ",
+            ", ",
+            ", ",
+            "s bakery is not doing well, and she wants to hire someone for a rebranding effort.\", \"Elena applied for the job based on an advertisement listing the job scope, salary, and application process.\", \"Elena has yet to receive a response from Abby after applying, so she applies for another job.\", \"After being hired elsewhere, Elena sends an email to Abby saying she no longer wants the job at Abby",
+            ", ",
+            ", "
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC18",
+        "Scenario": "Lowel wants to sell her limited edition book to earn some quick money. She put up an advertisement which stated that anyone who is interested in buying the book at RM 1000 should text his number.  Upon seeing this advertisement Nina, who is 15 years old, sent a text message to Lowel's number saying that she is interested in buying the book but she is only willing to buy the book at RM500. Lowel responded by saying that 500 is too cheap, and that the lowest price she is willing to sell is RM 700. Nina accepted the price and said that she is willing to buy it at 700. Before ending the negotiation, Lowel asked about Nina's age to which she lies to say she is 20 years old. A few days later when Lowel was preparing to ship the book, Nina confessed that she does not have money to pay for the book because she is only 15 years old. ",
+        "OriginalFacts": [
+            "Lowel advertised a limited edition book for sale at RM 1000.",
+            "Nina, who is 15 years old, expressed interest in buying the book at RM 500.",
+            "Lowel initially rejected Nina's offer and stated that she would only sell the book at RM 700.",
+            "Nina agreed to buy the book at RM 700 without revealing her true age (15) when Lowel asked about it.",
+            "Nina lied about her age, stating she was 20 years old.",
+            "Nina revealed her true age of 15 before making payment for the book, citing lack of funds."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC19",
+        "Scenario": "Ken is a charitable rich man who owns a profitable business, he recently started a project to provide full scholarships for students who are unable to afford college tuition fees. While looking for a suitable candidate to manage the fund for the scholarships, he decided to reach out to John, who is an intern at his company. He offered to increase RM500 for John's intern salary in return for him managing the fund, John accepted this offer. John started working on management of scholarship funds but he quickly realized that the market price of the salary for scholarship fund manager is much more than RM500. He brought this up to Ken, saying that he should not be bound by their contract because there is insufficient consideration. \n \n Lila is 17 years old, she wishes to go to a college but is unable to afford it so she applied for a scholarship under Ken's programme. Lila was accepted and had received the funds for the first semester's tuition fees. Meanwhile, Ken's business has taken a turn for the worse, he wants to allocate the scholarship funds to save his business. Lila who has yet to receive the fund for the second semester decided to write an email to Ken but Ken responded that he is no longer paying for Lila's college tuition fees because he is not bound by the contract due to lack of considerations and Lila's lack of capcity. ",
+        "OriginalFacts": [
+            "Ken, a charitable rich man, started a project to provide full scholarships for students who cannot afford college tuition fees.",
+            "Ken offered John, an intern at his company, a RM500 increase in salary in return for managing the scholarship fund, and John accepted.",
+            "John realized that the market price of the salary for scholarship fund manager is much more than RM500, so he brought this to Ken's attention.",
+            "John claimed there was insufficient consideration in their contract and should not be bound by it.",
+            "Lila, 17 years old, applied for a scholarship under Ken's programme and was accepted, receiving funds for the first semester's tuition fees.",
+            "Ken's business took a turn for the worse, and he wanted to allocate the scholarship funds to save his business.",
+            "Lila had yet to receive the fund for the second semester and wrote an email to Ken about it.",
+            "Ken responded that he is no longer paying for Lila's college tuition fees because of lack of consideration in their contract and Lila's lack of capacity."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC2",
+        "Scenario": "Dean proposed to sell his skateboard for $400 during a phone call with James. James replied, saying that: \"Give me some time to consider it, if you do not hear from me by 5pm today, then you may take it as I accept your proposal.\"聺     \n\nOn the same day, Dean called another friend, Matty at 7pm asking him if he was interested in buying his skateboard for $400. Since Matty is a professional skater, he is interested in buying it. However, Dean told him that he had called James earlier and that James was also interested in purchasing the skateboard. Dean told Matty that in order for him to purchase the skateboard, he must pay a higher price than the original price of $400. Matty said he would purchase it at the price of $600, the skateboard was sold to Matty. At 7pm, Matty then informed James that he bought the skateboard from Dean. Dean did not hear from James. ",
+        "OriginalFacts": [
+            "Dean proposed to sell his skateboard to James for $400 during a phone call.",
+            "James replied saying he needed time to consider it, with an ultimatum that if Dean didn't hear from him by 5pm, the proposal was accepted.",
+            "Dean called Matty at 7pm asking if he was interested in buying the skateboard for $400.",
+            "Matty is a professional skater and expressed interest in buying the skateboard.",
+            "Dean told Matty he had earlier proposed to sell it to James and that James was also interested.",
+            "Dean told Matty that he must pay a higher price than $400 to purchase the skateboard.",
+            "Matty agreed to buy the skateboard at a price of $600, which Dean accepted.",
+            "Matty informed James at 7pm that he bought the skateboard from Dean.",
+            "Dean did not hear back from James."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC20",
+        "Scenario": "Barbara is a successful business woman, she has two daughters. Her eldest daughter, Millicent is a business graduate who is struggling to find a job so she offered to employ the daughter but instead of paying the salary at market price, she offered to pay an allowance of RM500 because Millicent still lives at home and does not pay her own bills. Barbara did not make Millicent sign any employment contract nor did she write down their agreement. Few weeks later, Barbara decided to fire Millicent because she is lazy at work but Millicent argued that that would be in breach of the contract between them. \n\nBabara's second daughter, Robert, is still studying in highschool. Robert is good at every subject except for Math, so Barbara promised to pay her an award of RM1000 if she manages to score A for her math this semester. Eventually, Robert managed to get an A for her math in the semester after studying with extra efforts but when she tried to claim for her award, Barbara said that she had forgotten about the promise. In a fit of rage, Robert went online to buy a designer item on a buy now pay later basis even though she could not afford to pay later. The designer company has threatened to take legal action against Robert if she does not pay up. ",
+        "OriginalFacts": [
+            "Barbara offered her eldest daughter, Millicent, an allowance instead of a market-rate salary for employment.",
+            "Millicent did not sign any employment contract or have a written agreement with Barbara.",
+            "Barbara fired Millicent due to laziness at work without a formal termination process.",
+            "Millicent argued that firing her would be in breach of their implied contract.",
+            "Barbara's second daughter, Robert, promised to pay her an award of RM1000 if she scored A for math this semester.",
+            "Robert worked hard and achieved an A grade for math, but Barbara forgot about the promise.",
+            "Robert bought a designer item on a buy now pay later basis without being able to afford payment later.",
+            "The designer company has threatened Robert with legal action if she does not pay up."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC21",
+        "Scenario": "Raquel owns an antique piece of furniture and she wants to sell it. She puts an advertisement on her facebook page stating that whoever is interested in buying it should message her and that she is willing to negotiate the price. Upon seeing this advertisement Chelsea, who is 15 years old , sent a text message to Lowel's number saying that she is interested in buying the book but she is only willing to buy it at RM1000. Raquel responded by saying that RM1000 is too cheap, and that the lowest price she is willing to sell is RM 7000. Although Chelsea comes from a rich background, she only receives a monthly allowance of RM2000 so she told Raquel that she will think about it and Raquel said that she will put the book on hold for her for 7 days. The next day, Raquel's best friend, Portia messaged her saying that she is willing to pay RM 7000 for the antique furniture. Raquel then responds by saying that she will sell it to Portia at a special discounted price of RM4000 because in the past Portia had helped her renovate her house for free. Portia accepted this offer. After concluding their agreement, Raquel discovered that someone had offered to buy the furniture for RM20,000 because the furniture is actually very rare on the market, so she decided not to sell the furniture to Portia anymore. Raquel then sends a message to Chelsea that she is no longer selling the furniture at RM 7000 but Chelsea argues that Raquel has promised to keep her offer open for 7 days and she would be in breach of contract if she changes her mind. \n",
+        "OriginalFacts": [
+            "Raquel posted an advertisement on her Facebook page stating she is willing to sell an antique piece of furniture and negotiate the price.",
+            "Chelsea, 15 years old, sent a text message to Raquel expressing interest in buying the book but only willing to pay RM1000.",
+            "Raquel responded that RM1000 was too cheap and offered it for RM7000.",
+            "Although Chelsea comes from a wealthy background, she only receives a monthly allowance of RM2000 and told Raquel she'll think about it.",
+            "Raquel agreed to hold the book for Chelsea for 7 days.",
+            "The next day, Portia messaged Raquel offering to buy the antique furniture at RM7000.",
+            "Raquel accepted the offer but at a discounted price of RM4000 due to past favors from Portia.",
+            "After concluding the agreement with Portia, Raquel discovered the furniture's rarity and value increased to RM20,000.",
+            "Raquel informed Chelsea that she was no longer selling the furniture for RM7000.",
+            "Chelsea argued that Raquel had promised to keep her offer open for 7 days and would be in breach of contract if she changes her mind."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC22",
+        "Scenario": "Delancy's parents bought two adjoining houses for her as a 21st birthday present. She moved into one of the houses because it is nearer to her workplace but decided to rent the second house out to Debbie, a college student who studies nearby. Delancy offered to rent the house to Debbie at a reduced rate during her college years. In reliance on Delancy's promise, Debbie decided to rent the house. 3 years later, Debbie has graduated college and Delancy now demands for the payment of rent at normal rate and also payment full rent during her college years. \n\nAs the years go by Delancy has gotten lonely in her house because she is the only one living there so she offered her childhood best friends, Blair, to move into her place. Blair is currently renting a cheap apartment and she told Delancy that she could not afford to pay her the rent for the house. However, Delancy decided that she would let Blair stay at her place rent free so Blair agreed. After deciding to move in with Delancy, Blair goes through the process of ending her lease, packing her stuff but on the day of moving in Delancy passes Blair a tenancy agreement demanding for a rent of RM1200 per month. \n\nDelancy's younger sister, Emily, studies at a secondary school near her house so she often comes over after school hours. Delancy told Emily that if she helps do the dishes every time she comes over, she will pay her RM50 for each time that she does it. Emily helps with dishes every time she comes over but Delancy has yet to pay her anything. \n",
+        "OriginalFacts": [
+            "Delancy's parents bought two adjoining houses for her as a 21st birthday present.",
+            "Delancy moved into one house and rented out the other to Debbie, a college student, at a reduced rate during her college years.",
+            "Debbie relied on Delancy's promise when she decided to rent the house.",
+            "After graduating from college, Debbie was expected to pay normal rent rates, as well as back rent during her college years.",
+            "Delancy became lonely in her house and offered her childhood best friend Blair to move in rent-free.",
+            "Blair is currently renting a cheap apartment and told Delancy she couldn't afford to pay the regular rent for the house.",
+            "Delancy demanded that Blair sign a tenancy agreement with a monthly rent of RM1200 when Blair agreed to move in.",
+            "Emily, Delancy's younger sister, studies at a secondary school near her house and often comes over after school hours.",
+            "Delancy promised Emily RM50 per time she helps do the dishes, but has yet to pay her."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC23",
+        "Scenario": "Ron wanted to sell his house and Reagan was interested in buying the house so they entered into negotiation. When Ron offered to sell the house at RM800,000, Reagan replied that the house is not worth that much so Ron should sell it to her at RM500,000 instead. Ron did not respond to this so Reagan said that if Ron does not reply to her within 2 days she will take it as Ron has accepted the offer. \\n\\nRon stopped responding to Reagan and started negotiating with Brad. Ron offered to sell it at RM800,000 to which Brad accepted. Upon acceptance, they signed the contract and Brad started his plan to renovate the house. He entered into a contract with appleton contractor ltd to renovate the house. As soon as they start the renovation, it becomes evident that there will be delay in the completion of renovation due to worker shortage. Thus, Brad offered to pay them additional money so that they could complete the renovation on time because Brad has already entered into a rent agreement with andrea. Ultimately, the renovation was completed on time but Brad now refused to pay the additional money to appleton contractor ltd, claiming that they provided no consideration for his promise. \\n\\nAfter selling the house to Brad, Ron went out for a drink with his brother, Mic. While they were drinking, mic brought up that he has been eyeing Ron's collection of cd albums which was signed by various artists. Mic said that Ron should give him the collection for free but Ron got so drunk that his words started to slur and he could not understand what Mic was saying so he nodded. Taking this as Ron agreeing, Mic took the collection with him after sending Ron home. The next day Ron woke up and saw that his collection was missing and he received a call from Reagan saying that Ron had breached their contract by selling the house to brad.",
+        "OriginalFacts": [
+            "Ron offered to sell the house to Reagan for RM800,000",
+            "Reagan replied that the house was not worth that much and suggested a price of RM500,000",
+            "Ron did not respond to this, so Reagan said she would take it as an acceptance of her offer if Ron didn't reply within 2 days",
+            "Ron stopped responding to Reagan and started negotiating with Brad",
+            "Ron offered to sell the house to Brad for RM800,000, which Brad accepted",
+            "Brad entered into a contract with Appleton Contractor Ltd to renovate the house",
+            "The renovation was delayed due to worker shortage, but was completed on time",
+            "Brad refused to pay additional money to Appleton Contractor Ltd, claiming they provided no consideration for his promise",
+            "Mic asked Ron for his signed CD album collection and Ron agreed (apparently)",
+            "Ron became drunk and unable to understand Mic's words",
+            "Ron woke up the next day to find his CD album collection was missing",
+            "Reagan called Ron saying he had breached their contract by selling the house to Brad"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC24",
+        "Scenario": "Klaus owns a bakery that is famous for their fancy cake and their Christmas special is an exceptional bestseller during every December. For this year, their shop has received even more order than before for the Christmas special due to a social media post made by Klaus' daughter, Allison which has attracted many new customers. One of the worker, Diego, has been complaining non-stop about the heavy work load due to high demand for the cake. Klaus then make a promise to pay Diego extra so that he stops complaining so much and Klaus also promise to give Allison extra allowance to reward her for the social media post that she made. \\n\\nTo keep up with the high demand, Klaus also decided to hire more workers so he put out a hiring advertisement. Ben, a 14 years old boy who has always wanted to work in a bakery applied for the job so that he could learn something. Although Klaus is hesitant about hiring a young child, he really needs more workers to help out so he decided to hire Ben. However, after the first day of working, Ben decided to quit. \\n\\nAside from hiring more workers, Klaus also decided to buy bigger machinery to speed up the production process, he emailed Vikmachine Sdn Bhd to ask them about the price of their machine. Vikmachine Sdn Bhd responded that the machine is priced at RM4000. Klaus then emailed them to ask if the purchase price of RM4000 includes the repair fees if the machine becomes faulty within a year. Since Klaus needed the machine as soon as possible so without waiting for a response, he emailed Vikmachine Sdn Bhd saying that he would accept to buy the machine at RM4000. However, Vikmachine Sdn Bhd forgot to read the email even though they had received it.",
+        "OriginalFacts": [
+            "Klaus owns a bakery famous for their fancy cake and exceptional Christmas special.",
+            "Allison's social media post attracted many new customers, increasing demand for the Christmas special.",
+            "Diego has been complaining about the heavy workload due to high demand.",
+            "Klaus promised Diego extra pay to stop complaining and promised Allison extra allowance for her social media post.",
+            "To keep up with demand, Klaus hired more workers, including 14-year-old Ben, who applied for a job in the bakery.",
+            "Bene quit after his first day of work.",
+            "Klaus decided to buy bigger machinery from Vikmachine Sdn Bhd to speed up production process.",
+            "Vikmachine Sdn Bhd quoted a price of RM4000 for the machine.",
+            "Klaus asked if repair fees were included in the purchase price, but did not wait for response before agreeing to buy at RM4000."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC25",
+        "Scenario": "Robin owns a lot of property and she wishes to sell some of her property as she wants to start a business. Among the property that she wants to sell include a land in Klang and a house in Rawang. She entered into negotiation with Nancy to sell the land in Klang. On 1st of May, she wrote a letter to Nancy which states she is willing to sell the land at the lowest price of 1.5 million, subject to contract. They further negotiate on the price and eventually on 23rd of May, Robin wrote to confirm the sale with Nancy. All the essential terms of the contract are included in the letter and the letter does not mention \"萝subject to contract\". \\n\\nAfter Robin has sent the letter to Nancy, she receives a call from her uncle who is suffering from a delusion episode. In the phone call, her uncle claims that he is a rich man due to the gold that has been falling from the sky and into his garden and suggests that Robin should sell the land to him instead of Nancy. Knowing that her uncle has a history of mental illness, she said yes to her uncle's offer just to go along with her uncle\"s delusion. \\n\\nRobin knows that Steve has always liked her house in Rawang so on 4th of June Robin wrote a letter to Steve saying that she would sell the house at half the market price to him since they are best friends. Upon receiving the letter on 7th of June, Steve immediately sent his acceptance letter on the day itself. On 8th of June, Rebecca sent a message to Robin saying that she would like to buy the house at a price much higher than the market price. Robin\"s sister saw the message and helped her accept the offer as it is a good deal and she is unaware that Robin has already decided to sell the house to her best friend Steve. ",
+        "OriginalFacts": [
+            "Robin owns a lot of property",
+            "Robin wants to sell some property to start a business",
+            "Property includes a land in Klang and a house in Rawang",
+            "Robin negotiated with Nancy to sell the land in Klang",
+            "Letter from Robin to Nancy on 1st May sets lowest price at 1.5 million, subject to contract",
+            "Negotiation with Nancy ends with confirmation letter from Robin on 23rd May",
+            "Confirmation letter does not mention 'subject to contract'",
+            "Robin receives a call from her uncle claiming he is a rich man due to gold falling from the sky and offers to buy the land in Klang",
+            "Robin agrees to sell the land to her uncle despite knowing his history of mental illness",
+            "Robin writes to Steve on 4th June saying she will sell the house in Rawang at half market price",
+            "Steve accepts offer on 7th June",
+            "Rebecca sends message to Robin on 8th June wanting to buy the house at a higher price than market rate",
+            "Robin's sister helps her accept Rebecca's offer without knowing about Steve's acceptance"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC26",
+        "Scenario": "Alex is a software developer who has been working on a revolutionary app that has the potential to change the way people manage their finances. He believes his app's features could greatly benefit users by providing real-time budget tracking and personalized financial advice. One evening, he meets his friend Emma at a coffee shop and excitedly tells her about his app idea. Alex explains that he is looking for a financial partner to invest in the development and launch of the app. Emma, intrigued by the idea, says she's willing to invest $10,000 in the project.\n \n Later that week, Alex drafts an email outlining the details of their agreement. He writes that Emma will provide $10,000 as an investment for the app's development, and in return, she will receive 20% of the app's net profits for the first three years after its launch. Emma receives the email but doesn't respond immediately. A week goes by without any communication from her.\n \n Feeling uncertain about Emma's commitment, Alex starts to explore other potential investors. Just as he is about to finalize an agreement with a different investor, Emma replies to his email. She states that she is still interested in investing, but she has some concerns about the financial projections Alex provided and the 20% profit share. Emma proposes that she will invest the $10,000 only if Alex agrees to lower her profit share to 15% for the first two years and provide a more detailed financial forecast.\n \n Alex is taken aback by Emma's response. He believes that they had a clear agreement and is unsure whether Emma's counterproposal constitutes a valid offer or if her initial silence amounted to acceptance of his original terms. Additionally, he wonders if Emma's request for a change in profit share is a consideration for the contract.",
+        "OriginalFacts": [
+            "Alex shares his app idea with Emma at a coffee shop and discusses seeking a financial partner to invest $10,000.",
+            "Alex drafts an email outlining the agreement details, stating Emma will receive 20% of net profits for three years after launch in return for her investment.",
+            "Emma receives the email but doesn't respond immediately, leaving Alex uncertain about her commitment.",
+            "Alex starts exploring other investors before receiving a response from Emma.",
+            "Emma replies to the email, expressing concerns about financial projections and profit share, proposing changes to the original agreement.",
+            "Alex believes they had a clear agreement and is unsure if Emma's counterproposal constitutes a valid offer or if her initial silence amounted to acceptance of his original terms.",
+            "s initial silence an acceptance of Alex"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC27",
+        "Scenario": "Sophie, a talented artist, is excited about showcasing her artwork in a prestigious art gallery. She has been working on a series of paintings that she believes will captivate art enthusiasts. One evening, at a gallery opening, she meets Max, a wealthy art collector known for supporting emerging artists. Sophie and Max strike up a conversation about her art, and Max expresses his interest in purchasing her entire collection once it's complete, he offer to pay a hefty amount for her art once it is complete. Sophie enthusiastically accept this offer and put all her effort into preparing the art. However, when Sophie present the finished art to Max, he said that he has changed his mind and will no longer be purchasing from Sophie.",
+        "OriginalFacts": [
+            "Sophie is an artist who has been working on a series of paintings.",
+            "Sophie has been showcasing her artwork at a prestigious art gallery.",
+            "Max, a wealthy art collector, expresses interest in purchasing Sophie's entire collection once it's complete.",
+            "Max offers to pay a hefty amount for Sophie's art once it's finished.",
+            "Sophie accepts Max's offer and puts all her effort into preparing the art.",
+            "Sophie presents the finished art to Max.",
+            "Max changes his mind and decides not to purchase Sophie's art after seeing the finished collection."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC28",
+        "Scenario": "Ethan is an avid art collector and has been searching for a specific rare painting to add to his collection. He learns about an upcoming art auction organized by a renowned auction house. The auction catalog mentions a painting that matches his desired artwork, and he's determined to acquire it.\n \n At the auction house, Ethan carefully examines the painting and decides that he's willing to pay up to $50,000 for it. The auctioneer starts the bidding, and Ethan eagerly raises his paddle when the painting is presented. Bidding escalates quickly as multiple bidders compete for the artwork. Ethan remains active in the bidding until the price reaches $45,000. At that point, he hesitates, unsure if he should continue due to budget constraints.\n \n The auctioneer senses the hesitation and points at Ethan, saying, \"\"Are you in or out at $45,000?\"\" Encouraged by the opportunity to secure the painting, Ethan nods and says, \"\"I'm in.\"\" The auctioneer acknowledges his response and proceeds with the bidding. Ultimately, the price rises to $55,000, and another bidder wins the artwork.\n \n Ethan is disappointed but relieved that he didn't overspend. As he walks away from the auction, he encounters his friend Olivia, who is familiar with his passion for art. Olivia tells Ethan that she recently came into possession of the exact painting he was bidding on and offers to sell it to him for $50,000.\n \n Ethan is excited about the prospect of finally obtaining the painting and agrees to Olivia's offer. They discuss payment and logistics, and Olivia provides her bank account details for the transfer. However, a few days later, Ethan decides to back out of the deal, explaining that he found another painting he prefers. Olivia is frustrated by his change of heart and insists that they had a binding contract at the auction where he promised to buy the painting for $50,000.",
+        "OriginalFacts": [
+            "Ethan learned about an upcoming art auction organized by a renowned auction house.",
+            "The auction catalog mentioned a painting that matches Ethan's desired artwork.",
+            "Ethan was willing to pay up to $50,000 for the painting.",
+            "The bidding escalated quickly, and Ethan remained active until the price reached $45,000.",
+            "At $45,000, Ethan hesitated due to budget constraints.",
+            "The auctioneer asked Ethan if he was in or out at $45,000, and Ethan nodded and said 'I'm in'.",
+            "Ethan did not continue bidding when the price rose to $55,000.",
+            "Olivia offered to sell the exact painting Ethan bid on for $50,000.",
+            "Ethan agreed to Olivia's offer and discussed payment and logistics.",
+            "Olivia provided her bank account details for the transfer.",
+            "A few days later, Ethan decided to back out of the deal, citing finding another painting he prefers."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC29",
+        "Scenario": "A local government agency, GreenCity Municipality, is seeking to renovate and modernize a historic city park. They decide to put out a tender for the project, inviting construction companies to submit their bids for consideration. The tender document explicitly states that all submitted bids will be considered offers and not invitations to treat.\n \n Several construction companies express interest and gather information about the project requirements. Among them is ModernBuild Constructions, a reputable firm known for completing similar projects. After careful consideration, ModernBuild prepares a comprehensive bid and submits it to GreenCity Municipality within the specified deadline.\n \n The bid includes detailed plans, cost breakdowns, and a proposed timeline for the renovation project. ModernBuild's bid also includes a provision stating that the company will contribute 5% of the project cost to a local environmental charity upon completion of the renovation. GreenCity Municipality acknowledges the receipt of the bid and informs ModernBuild that they will review all submitted bids before making a decision.\n \n A few days later, GreenCity Municipality announces that they have accepted the bid from ModernBuild Constructions. Ecstatic, ModernBuild Constructions begun their work. Half way into the construction, Green City Minicipality offered to pay them extra RM100,000 if ModernBuild Constructions could finish the constructions three months earlier than the originally agreed date, ModernBuild Constructions accepted and managed to finish three months earlier but GreenCity Minicipality now refused to the pay the extra RM100,000.",
+        "OriginalFacts": [
+            "GreenCity Municipality put out a tender for the renovation of a historic city park, stating that all submitted bids will be considered offers and not invitations to treat.",
+            "Several construction companies, including ModernBuild Constructions, expressed interest and gathered information about the project requirements.",
+            "ModernBuild prepared a comprehensive bid and submitted it within the specified deadline, including detailed plans, cost breakdowns, and a proposed timeline.",
+            "The bid included a provision stating that ModernBuild would contribute 5% of the project cost to a local environmental charity upon completion of the renovation.",
+            "GreenCity Municipality acknowledged receipt of the bid and informed ModernBuild that they would review all submitted bids before making a decision.",
+            "ModernBuild's bid was accepted, and they began work on the construction project.",
+            "Halfway through the construction, GreenCity Municipality offered to pay ModernBuild an additional RM100,000 if they could finish three months earlier than the originally agreed date.",
+            "ModernBuild accepted the offer and managed to complete the construction three months early.",
+            "GreenCity Municipality refused to pay the additional RM100,000 when it was due."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC3",
+        "Scenario": "Emma advertised a reward of $100 to whoever found her lost cat. Her friend Danny found the cat, but he had no knowledge of the advertisement and the reward. It was only after Danny returned the cat to Emma, then only he found out that he should be entitled to a reward of $100 because Danny\"s friend, Gillian told him about Emma\"s advertisement. He sought to claim the reward, but Emma refused to make payment. ",
+        "OriginalFacts": [
+            "Emma advertised a reward of $100 for the return of her lost cat.",
+            "Danny found the cat without knowledge of Emma's advertisement or the reward.",
+            "Danny only learned about the advertisement and reward after returning the cat to Emma.",
+            "Gillian told Danny about Emma's advertisement after he had already returned the cat.",
+            "Danny sought compensation from Emma, claiming entitlement to the $100 reward.",
+            "Emma refused to pay the reward to Danny."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC30",
+        "Scenario": "Annie, who is 16 years old, had lied about her age and signed a contract to follow the dance project with ST Entertainment, an entertainment company owned by Darren, who is 25 years old. This project was designed for young adults who are above 21. In ST Entertainment, all trainees have to undergo training for a year, and anyone who succeeds in the training, will be given a certificate of completion and an opportunity to debut in Korea. During training, Annie met Darren and became good friends. One day, Annie needed a dress to perform on stage and so she approached Darren as he has another company, selling tailored dresses. Darren declared that the special price for the transaction was RM100,000. Annie paid a deposit of RM5,000 and the remainder was to be paid after delivery. However, when the dress was delivered, Annie refused to make the subsequent payment. In addition, ST Entertainment had also withdrawn the certificate of completion and cancelled her opportunity to debut in Korea on the excuse that she was not of legal age yet, and there was no contract between them. Explain and elaborate on whether Annie has a valid contract with Darren.",
+        "OriginalFacts": [
+            "Annie signed a contract with ST Entertainment when she was 16 years old.",
+            "Annie lied about her age to sign the contract, as it was designed for young adults above 21.",
+            "The contract required trainees to undergo training for a year, after which successful trainees would receive a certificate of completion and an opportunity to debut in Korea.",
+            "Daren has another company selling tailored dresses and Annie approached him to buy a dress for her performance on stage.",
+            "The special price for the transaction was RM100,000, with a deposit of RM5,000 paid upfront and the remainder due after delivery.",
+            "Annie refused to make subsequent payments after receiving the dress.",
+            "ST Entertainment withdrew the certificate of completion and cancelled Annie's opportunity to debut in Korea on the grounds that she was not yet of legal age and there was no contract between them."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC31",
+        "Scenario": "Max is a talented musician who has gained popularity in his local community. He is known for his unique compositions and exceptional guitar skills. One day, he decides to sell one of his prized guitars, a vintage instrument that holds sentimental value to him. Max puts up an advertisement on an online platform, offering to sell the guitar for RM3000. Lena, a passionate guitar collector, comes across Max's advertisement and immediately contacts him expressing her interest in purchasing the guitar. She asks for more details and inquires if Max would be willing to negotiate the price. Max responds promptly, providing additional information about the guitar's history and agreeing to negotiate the price. Lena proposed to buy at RM2000 to which Max respond that it is too low and that the lowest he is willing to sell is at RM2500. Lena said she wants to inspect the guitar in person before making her decision whether or not she would be willing to purchase the guitar at 2500. Lena is excited about the prospect of owning such a unique instrument and proposes to meet Max in person to inspect the guitar before finalizing the purchase. Max agrees to the meeting and they schedule it for the following weekend. However, a few days before the scheduled meeting, Max's family contacts Lena to inform her that Max had unexpectedly passed away due to a tragic accident. Lena is shocked and saddened by the news. She had been looking forward to the meeting and potential purchase of the guitar. Lena is unsure about the legal implications of the situation. She wonders whether Max's death would automatically terminate the proposal to sell the guitar and if she has any rights to claim the guitar from Max's family. Lena contacts a legal advisor to seek guidance on the matter.",
+        "OriginalFacts": [
+            "Max, a musician, puts up an advertisement to sell his vintage guitar for RM3000.",
+            "Lena expresses interest in purchasing the guitar and negotiates the price with Max.",
+            "The lowest price Max is willing to sell the guitar for is RM2500.",
+            "Lena requests to inspect the guitar in person before making her decision.",
+            "Max agrees to let Lena inspect the guitar in person.",
+            "Max passes away unexpectedly due to a tragic accident.",
+            "Lena had been looking forward to meeting with Max to inspect and potentially purchase the guitar.",
+            "Lena is unsure about the legal implications of the situation."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC32",
+        "Scenario": "Jennie had to reach the airport for an early morning flight from Korea to Japan. All local taxis were fully booked so she asked her friend, Diana if she could give her a lift to the airport. Diana agreed and gave her a lift to the airport. After completing the trip, Jennie promised Diana that she would pay her an appropriate amount to cover her petrol expenses and to also buy her a gift for her favour. Explain Diana\"s position if Jennie fails to pay her an appropriate amount to cover her petrol expenses and to also buy her a gift for her favour.",
+        "OriginalFacts": [
+            "Jennie needed transportation to the airport from Korea to Japan.",
+            "Diana was fully booked with local taxis, so Jennie asked for a lift.",
+            "Diana agreed to give Jennie a ride to the airport.",
+            "The trip from Korea to Japan required petrol expenses.",
+            "Jennie promised Diana that she would pay her an appropriate amount to cover her petrol expenses and buy her a gift.",
+            "Diana's favour of giving Jennie a lift was not compensated in any way initially.",
+            "Jennie failed to follow through on her promise to compensate Diana."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC33",
+        "Scenario": "\"Emma, a talented graphic designer, runs her own freelance design business. She often receives requests from clients to design logos, websites, and promotional materials. One day, she receives an email from a potential client, Alex, who is looking for a designer to create a logo for his new startup company.\n \n In the email, Alex outlines the project requirements, including the desired style, color scheme, and concept for the logo. He asks Emma if she is available to take on the project and requests a quote for her services. Excited about the opportunity, Emma reviews the project details and responds to Alex's email promptly, expressing her interest in the project and providing a quote for the design work.\n \n Alex receives Emma's email and is pleased with her proposal. He decides to discuss the project further with his business partners before finalizing the decision. A week goes by without any communication between Alex and Emma. During this time, Emma receives several other project requests and starts working on those assignments.\n \n Two weeks after sending the initial email, Alex contacts Emma again to inform her that his business partners have agreed to proceed with her proposal. He expresses his eagerness to collaborate and asks Emma to start working on the logo design. However, Emma has since taken on new projects and allocated her time to other clients.\n \n Emma replies to Alex's email, apologizing for any inconvenience and informing him that she is unable to take on the project due to her current workload. She explains that her availability has changed since his initial inquiry and suggests that they might collaborate on future projects instead.\n \n Alex is disappointed by Emma's response and argues that they had a verbal agreement when she initially expressed her interest in the project. He believes that she should honor her commitment and fulfill the design work as initially proposed.\"",
+        "OriginalFacts": [
+            "Emma runs her own freelance design business",
+            "Alex requests a logo design from Emma via email",
+            "Alex outlines project requirements, including style, color scheme, and concept for the logo",
+            "Emma expresses interest in the project and provides a quote for the design work",
+            "No communication between Alex and Emma for a week",
+            "Alex contacts Emma two weeks after initial email to finalize the decision",
+            "Emma has taken on new projects and allocated her time to other clients",
+            "Emma informs Alex she is unable to take on the project due to current workload",
+            "Emma suggests collaborating on future projects instead",
+            "Alex argues that there was a verbal agreement when Emma initially expressed interest",
+            "ve excluded facts that are not directly related to the legal issues, such as Emma",
+            "s business partners"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC34",
+        "Scenario": "Sarah, the owner of a small boutique, receives an email from a supplier named Mark. In the email, Mark presents a list of clothing items along with their corresponding prices and offers to provide the items to Sarah's boutique at a wholesale price. Mark mentions that if Sarah agrees to purchase the items listed, she should respond with her acceptance by the end of the week.\n \n Interested in expanding her boutique's inventory, Sarah reviews the list of clothing items provided by Mark. She finds several items that she believes would complement her collection so  she replies to Mark's email, expressing that she is interested to buy some but not sll clothing items in the list for the same wholesale price which Mark offered. \n \n Before Mark receives Sarah's  email, he receives another inquiry from a different boutique owner, Lisa, who is interested in a similar wholesale purchase. Mark replies to Lisa's email, providing her with a revised list of clothing items and their prices based on her preferences.\n \n Shortly after sending the revised list to Lisa, Mark receives Sarah's  email. Mark reviews Sarah's order and realizes that some of the items she requested are no longer available due to his interaction with Lisa and the revised list he provided her. Mark contacts Sarah, informing her that some of the items she requested are unavailable and offers her an alternative selection.\n \n Upon receiving Mark's email, Sarah is disappointed and argues that they had a binding contract based on the initial proposal and her  subsequent email. She believes that Mark should fulfill her original order as specified in the email correspondence.",
+        "OriginalFacts": [
+            "Sarah owns a small boutique.",
+            "Mark sends Sarah an email with a list of clothing items and their prices, offering them to her at a wholesale price.",
+            "The email from Mark requests that Sarah respond with her acceptance by the end of the week.",
+            "Sarah reviews the list and finds several items she believes would complement her collection.",
+            "Sarah replies to Mark's email, expressing interest in buying some but not all clothing items listed for the same wholesale price.",
+            "Before Mark receives Sarah's email, he receives another inquiry from Lisa, a different boutique owner, interested in a similar wholesale purchase.",
+            "Mark responds to Lisa's email, providing her with a revised list of clothing items and their prices based on her preferences.",
+            "Mark reviews Sarah's order after receiving her email and realizes that some items are no longer available due to his interaction with Lisa.",
+            "Mark contacts Sarah, informing her that some requested items are unavailable and offers an alternative selection.",
+            "Sarah is disappointed and argues that a binding contract exists between them, citing the initial proposal and her subsequent email.",
+            "Sarah believes Mark should fulfill her original order as specified in the email correspondence."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC35",
+        "Scenario": "Alice, the owner of a vintage bookstore, is friends with Bella, who often visits the store to browse through the collection. During one of Bella's visits, Alice mentioned that she has a valuable first edition of a classic novel that she's considering selling. Bella expressed her interest in purchasing the book and asked Alice to let her know if she decides to sell it.\n \n A few weeks later, Alice decided to sell the first edition book and contacted Bella, informing her of the decision. Bella was excited and asked Alice to reserve the book for her, as she needed a couple of days to gather the funds. Alice agreed to reserve the book and assured Bella that she won't sell it to anyone else during this time. In return, Bella paid a small amount of deposit. \n \n However, after reserving the book, Alice received an offer from another customer who was willing to pay a higher price for the first edition book. Tempted by the higher offer, Alice sold the book to the other customer and later informed Bella about her decision. Bella felt betrayed and argued that Alice had promised to reserve the book for her, and she was relying on that promise to secure the funds for the purchase.",
+        "OriginalFacts": [
+            "Alice owns a vintage bookstore where Bella frequently visits and browses through the collection.",
+            "Alice mentions having a valuable first edition of a classic novel that she's considering selling, and Bella expresses interest in purchasing it.",
+            "Bella asks Alice to let her know if she decides to sell the book, indicating her desire to buy it.",
+            "A few weeks later, Alice decides to sell the first edition book and contacts Bella, informing her of the decision.",
+            "Bella asks Alice to reserve the book for her, stating that she needs a couple of days to gather funds.",
+            "Alice agrees to reserve the book and assures Bella that she won't sell it to anyone else during this time.",
+            "Bella pays a small deposit as part of the reservation agreement.",
+            "After reserving the book, Alice receives an offer from another customer willing to pay a higher price for the first edition book.",
+            "Alice sells the book to the other customer, tempted by the higher offer, and later informs Bella about her decision.",
+            "Bella feels betrayed, claiming that Alice promised to reserve the book for her and she was relying on that promise to secure funds for the purchase."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC36",
+        "Scenario": "Sophia owns a boutique that sells handmade jewelry. She put up an advertisement on her website offering a limited edition necklace for $300. On Monday, she receives an email from a customer, Lily, who expresses her interest in purchasing the necklace. Lily mentions that she needs a day to confirm her decision and asks Sophia not to sell the necklace to anyone else in the meantime. In response, Sophia sends an email to Lily stating, \"Sure, I'll hold the necklace for you until tomorrow. If I don't hear from you by then, I might consider selling it to another customer.\"\n \n Feeling unsure about her finances, Lily doesn't respond to Sophia's email on Tuesday. In the meantime, another customer, Emma, visits the boutique and falls in love with the necklace. She decides to buy it and pays the $300 for the necklace. Sophia hands over the necklace to Emma and sends an email to Lily, informing her that the necklace has been sold to someone else.\n \n Lily checks her email later that day and discovers Sophia's message. Upset, she contacts Sophia and claims that they had a contract based on the email exchange, and Sophia breached the contract by selling the necklace to someone else. Sophia argues that Lily's email only expressed an intention to purchase and wasn't a formal acceptance. Moreover, she points out that Lily didn't respond within the agreed time frame, leading her to believe that Lily had changed her mind.",
+        "OriginalFacts": [
+            "Sophia posted an advertisement for a limited edition necklace on her website.",
+            "Lily expressed interest in purchasing the necklace and asked Sophia not to sell it to anyone else until she confirmed her decision.",
+            "Sophia agreed to hold the necklace for Lily until the next day, but warned that if she didn't hear from Lily by then, she might consider selling it to another customer.",
+            "Lily didn't respond to Sophia's email on Tuesday, despite having been given a deadline.",
+            "Emma visited the boutique and purchased the necklace from Sophia for $300.",
+            "Sophia sold the necklace to Emma without contacting Lily again.",
+            "Lily discovered that the necklace had been sold when she checked her email later that day.",
+            "Lily claimed that she and Sophia had a contract based on their email exchange, and that Sophia breached it by selling the necklace to someone else.",
+            "Sophia argued that Lily's email only expressed an intention to purchase and wasn't a formal acceptance of the offer."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC37",
+        "Scenario": "Alex is the owner of a small graphic design company. He has been working with his long-term client, Blake, for several years, providing various design services for Blake's business. Over time, they have developed a strong working relationship and have exchanged numerous contracts and invoices for their projects.\n \n One day, during a casual conversation over lunch, Blake tells Alex that he's been considering expanding his business and opening a new branch in a different city. He mentions that he'll need some design work done for the new branch, including branding, logo design, and marketing materials. Blake suggests that they could work together on this project and proposes a profit-sharing arrangement where Alex would receive a percentage of the profits from the new branch in addition to his regular fees.\n \n Alex is excited about the opportunity and agrees to the profit-sharing arrangement, even though they didn't discuss specific terms at that moment. Blake seems pleased with the agreement and mentions that he'll provide more details about the project soon.\n \n A few weeks later, Blake informs Alex that he has decided not to proceed with the new branch expansion due to changes in his business strategy. Alex is disappointed because he was looking forward to the new project and the potential for additional income from the profit-sharing arrangement.\n \n Feeling aggrieved, Alex considers whether he can enforce the profit-sharing arrangement based on Blake's promise. He consults with his attorney and learns about the principle of promissory estoppel. However, his attorney advises him that promissory estoppel can only be used if there is a pre-existing contractual relationship between the parties. Since the profit-sharing arrangement was a new proposal without a formal contract, it may not meet the requirements for promissory estoppel to apply.",
+        "OriginalFacts": [
+            "Alex owns a small graphic design company",
+            "Alex has been working with long-term client Blake for several years",
+            "Blake considers expanding his business and opening a new branch",
+            "Blake proposes a profit-sharing arrangement with Alex for the new branch project",
+            "Alex agrees to the proposal without discussing specific terms",
+            "Blake later informs Alex that he will not proceed with the new branch expansion due to changes in his business strategy",
+            "Alex is disappointed and considers enforcing the profit-sharing arrangement based on Blake's promise",
+            "Alex consults with his attorney and learns about promissory estoppel"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC38",
+        "Scenario": "Lila, a talented musician, has been pursuing her passion for playing the piano since childhood. She recently met her childhood friend, Max, at a local cafe. They started reminiscing about their school days and Max praised Lila's exceptional piano skills, mentioning that he would love to hear her play at a private event he's planning in exchange for $500 payment.\n\n Encouraged by Max's appreciation, Lila excitedly agrees to play the piano at Max's event. Max expresses his gratitude and mentions that he will be in touch to discuss the details. Lila takes Max's words as a sign of commitment and begins to prepare for the performance, selecting her repertoire and practicing diligently.\n\n A few weeks later, Lila contacts Max to inquire about the event's date and time. To her surprise, Max responds vaguely, saying that he hasn't finalized the event's details yet and that he'll let her know when everything is confirmed. Lila becomes concerned about the lack of information and clarity, as the event is supposed to take place in a month.\n\n As the event date approaches, Lila reaches out to Max once more, seeking confirmation and specific details. Max responds apologetically, stating that he had other arrangements and couldn't secure a venue for the event. He expresses his regret and explains that he won't be able to have Lila perform at the event anymore.\n\nLila is disappointed and frustrated, as she had prepared for the performance and even turned down other opportunities in anticipation of Max's event. She consults a legal expert to understand her options. The expert advises Lila that Max's initial expression of interest in having Lila perform may constitutes promise and the act of Lila accepting it turned the agreement into a contract . Notwithstanding such, the uncertainty in respect of the date and time of the event may renders the contract void ab intitio茫卢?",
+        "OriginalFacts": [
+            "Lila agreed to play piano at Max's private event in exchange for $500 payment.",
+            "Lila began preparing for the performance, selecting repertoire and practicing diligently.",
+            "Max responded vaguely when Lila asked about event date and time, saying details were not finalized.",
+            "Lila became concerned about lack of information and clarity as event approached.",
+            "Lila reached out to Max again seeking confirmation and specific details.",
+            "Max apologized, stating he had other arrangements and couldn't secure a venue for the event.",
+            "Lila was disappointed and frustrated due to cancelled performance and lost opportunities.",
+            "Lila prepared for performance based on initial agreement with Max.",
+            "The legal expert advised Lila that Max's initial expression of interest may constitute a promise.",
+            "The legal expert advised Lila that the uncertainty in respect of the date and time of the event may render the contract void ab initio."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC39",
+        "Scenario": "Ethan, a skilled graphic designer, had been friends with Lily since college. Lily, an aspiring writer, was struggling to design an eye-catching book cover for her upcoming novel. Knowing Ethan's talent, Lily approached him and explained her dilemma. Ethan, wanting to help his friend, offered to design the book cover for Lily free of charge as a gesture of friendship.\n \n Eager to make the book cover stand out, Ethan worked tirelessly for days, creating a visually stunning design that he believed would greatly enhance Lily's novel. He presented the finished design to Lily, who was overjoyed and expressed her deep gratitude. Lily was impressed by Ethan's dedication and the quality of his work.\n \n Several months later, Lily's novel was published and received rave reviews from readers and critics alike. The book's success led to an increase in Lily's popularity as an author. As a token of appreciation, Lily promised to buy Ethan a high-end computer that he had been eyeing for months.\n \n Excited to receive the gift, Ethan thanked Lily  and sold his old computer for a low price to make space for the new computer. However, a few weeks later, Lily faced financial difficulties due to unexpected circumstances so she informed Ethan she would no longer be buying the high end computer for him. Ethan is upset as he depends on a computer to carry out his work as a graphic designer. He hoped to enforce Lily's promise of the gift. ",
+        "OriginalFacts": [],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC4",
+        "Scenario": "Alan owned an original 1886 edition of Kidnapped by Robert Louis Stevenson, he told his friends that he intended to sell the book. Knowing that Cate is interested to buy, he offered to sell it at RM1000, he told her that if she is interested in accepting his offer she should message his phone number directly. However, instead of messaging Alan, Cate decided to post her letter of acceptance on 11/4/2023. While the letter was in transmission, Alan decided to sell the book to Davis who offered to buy it at a much higher price. After selling the book, Alan received Cate\"s letter of acceptance. ",
+        "OriginalFacts": [
+            "Alan owns an original 1886 edition of Kidnapped by Robert Louis Stevenson.",
+            "Alan told his friends he intended to sell the book.",
+            "Cate expressed interest in buying the book from Alan.",
+            "Alan offered to sell the book to Cate for RM1000.",
+            "Alan instructed Cate to message him directly if she was interested.",
+            "Cate decided not to message Alan, but instead posted a letter of acceptance on 11/4/2023.",
+            "The letter was still in transmission when Alan sold the book to Davis.",
+            "Davis offered to buy the book at a higher price than Alan's initial offer.",
+            "Alan received Cate's letter of acceptance after selling the book to Davis."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC40",
+        "Scenario": "Sophia, a talented pianist and a minor, was approached by her friend Alex to perform at a charity concert organized by Alex's non-profit organization. Alex explained that the concert was aimed at raising funds for a local animal shelter. Due to consideration of the friendship between them, Sophia agreed to perform at the concert as a gesture of support for her friend. Alex also agreed to treat Sophia lunch as a gesture of gratitude. As the concert date approached, Sophia began preparing for her performance by practicing rigorously. She also declined other performance opportunities during that time to ensure she could give her best at the charity concert. Alex was grateful for Sophia's commitment and dedication. However, a few days before the concert, Sophia received an invitation to perform at a prestigious music festival that would take place on the same day as the charity concert. This was an incredible opportunity for Sophia's career advancement, and she was torn between her commitment to the charity concert and the potential benefits of performing at the music festival. Sophia approached Alex and explained the situation, expressing her gratitude for the charity concert invitation but also her desire to seize the festival opportunity. Alex was understanding and proposed a solution: Sophia would perform at the charity concert as planned, and in return, Alex's organization would promote Sophia's participation in the festival to boost her profile. Sophia, recognizing the value of both opportunities, agreed to Alex's proposal. She performed exceptionally well at the charity concert, receiving praise from the audience and fellow musicians. As promised, Alex's organization actively promoted Sophia's upcoming performance at the music festival. After the charity concert, Sophia prepared for the music festival with enthusiasm. However, on the day of the festival, she received a call from the event organizers informing her that due to unforeseen circumstances, the festival had been canceled. Sophia was devastated, as she had turned down other opportunities to focus on this festival. Realizing the gravity of the situation, Sophia reached out to Alex and explained the turn of events. Alex was sympathetic and expressed regret over the festival's cancellation Sophia was aggrieved by the festival\"s cancellation and places all the blame on Alex solely. Alex understood Sophia's frustration and suggested that they collaborate on future events to make up for the missed opportunities. However, Sophia was seeking a more immediate remedy for the losses she had incurred due to the missed festival performance. Sophia consulted a legal advisor, who explained that the main issues in her case are both parties\" intention to create legal relation and her capacity to enter into any contract at the first place.",
+        "OriginalFacts": [
+            "Sophia, a minor, was approached by her friend Alex to perform at a charity concert.",
+            "Alex explained that the concert was aimed at raising funds for a local animal shelter.",
+            "Sophia agreed to perform at the concert as a gesture of support for her friend Alex.",
+            "Alex agreed to treat Sophia lunch as a gesture of gratitude after the concert.",
+            "Sophia began preparing for her performance by practicing rigorously and declined other performance opportunities during that time.",
+            "Alex was grateful for Sophia's commitment and dedication to the charity concert.",
+            "Sophia received an invitation to perform at a prestigious music festival on the same day as the charity concert.",
+            "Sophia approached Alex about the situation, expressing her gratitude for the charity concert invitation but also her desire to seize the festival opportunity.",
+            "Alex proposed a solution: Sophia would perform at the charity concert and in return, Alex's organization would promote Sophia's participation in the festival.",
+            "Sophia agreed to Alex's proposal and performed exceptionally well at the charity concert.",
+            "As promised, Alex's organization actively promoted Sophia's upcoming performance at the music festival.",
+            "The music festival was canceled due to unforeseen circumstances on the day of the event.",
+            "Sophia reached out to Alex about the festival's cancellation and placed all the blame on Alex solely.",
+            "Alex suggested that they collaborate on future events to make up for the missed opportunities, but Sophia was seeking a more immediate remedy for her losses."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC41",
+        "Scenario": "Sarah, a vintage jewelry enthusiast, attended a local flea market where she came across a beautiful antique necklace displayed at a vendor's booth. The necklace had a price tag of $500, and Sarah was immediately captivated by its intricate design and historical significance. She engaged in a conversation with the vendor, Alex, who informed her that the necklace was a rare piece from the 19th century.\n \n Curious about the necklace's history, Sarah asked Alex whether the necklace had ever been appraised by an expert to determine its authenticity and value. Alex replied that he had not yet sought professional appraisal but believed the necklace to be valuable due to its age and unique craftsmanship. Sarah expressed her interest in the necklace but also her hesitation to purchase it without more information about its authenticity and value.\n \n To address Sarah's concerns, Alex suggested that he would consult an antique jewelry appraiser to assess the necklace's authenticity and provide an estimated value. He assured Sarah that once he received the appraisal report, he would share the findings with her before finalizing the sale. Sarah appreciated Alex's willingness to address her concerns and provide additional information.\n \n A few days later, Alex received the appraisal report from the jewelry appraiser. The report confirmed that the necklace was indeed an authentic piece from the 19th century and estimated its value to be around $800 to $1000 due to its historical significance and craftsmanship. Satisfied with the results, Alex contacted Sarah to inform her about the positive appraisal outcome and the estimated value of the necklace.\n \n Upon receiving the news, Sarah felt excited and ready to make the purchase. She messaged Alex, offering to buy for $500. Alex  confirmed that the necklace was still available for purchase and that he is willimg to sell to Sarah. \n \n However, before Sarah could finalize the transaction, another buyer, Emma, who has recently been discharged from the mental hospital, visited the booth and showed interest in the same necklace. Emma offered to buy the necklace for $600, which was higher than the initial price. Feeling tempted by the higher offer, Alex messaged Sarah to explain the situation and offered her the opportunity to match Emma's offer.\n \n Unfortunately, Sarah was unable to match Emma's offer due to budget constraints. Alex then proceeded to sell the necklace to Emma for $600. When Sarah learned about this, she was disappointed and felt that Alex had breached their agreement.  ",
+        "OriginalFacts": [
+            "Sarah attended a local flea market and found an antique necklace at a vendor's booth with a price tag of $500.",
+            "Alex, the vendor, claimed the necklace was rare and valuable due to its age and unique craftsmanship.",
+            "Sarah expressed hesitation to purchase without more information about authenticity and value.",
+            "Alex agreed to consult an antique jewelry appraiser to assess the necklace's authenticity and provide an estimated value.",
+            "The appraisal report confirmed the necklace was authentic from the 19th century and valued between $800-$1000.",
+            "Sarah offered to buy at the original price of $500, which Alex accepted.",
+            "Before finalizing the transaction, another buyer, Emma, showed interest in the necklace and offered $600.",
+            "Alex offered Sarah the opportunity to match Emma's offer, but Sarah was unable to do so.",
+            "Alex sold the necklace to Emma for $600, despite the original agreement with Sarah."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC42",
+        "Scenario": "Oakwood Construction Company is a reputable construction firm that specializes in building residential properties. The company recently acquired a contract to develop a housing project in a suburban area. To complete the project, Oakwood Construction Company is in need of various construction materials, including timber for framing, bricks for the walls, and tiles for the flooring. In order to source these materials, Oakwood Construction Company decides to issue a public tender inviting suppliers to submit their offers. The tender document outlines the specifications, quantities, and quality requirements for each type of material needed. The document also specifies the deadline for submitting the bids and the contact person for inquiries. Several companies, including TimberCraft Suppliers and Plateau Consultancy, express interest in participating in the tender. They carefully review the tender document and gather the necessary information to prepare their bids. TimberCraft Suppliers specializes in timber products and decides to offer a competitive bid for the timber materials required. Conversely, Plateau Consultancy engages in the business or trade to to carry on the business as provide marketing consultants, business consultants, management, human resources, bookkeeping, and other services which can conveniently be dealt with the company in connection with any of its activities and services. However, the Constitution of the Plateaus Consultancy expressly prohibits any of its business activity which involves the construction sector. On the day of the deadline, both TimberCraft Suppliers and Plateau Consultancy submit their bids to Oakwood Construction Company's procurement department. The bids include detailed information about the proposed materials, quantities, prices, and delivery schedules. Oakwood's procurement team receives the bids and acknowledges their receipt. After evaluating the bids, Oakwood Construction Company's procurement team decides to accept TimberCraft Suppliers' bid for the timber materials and Plateau Consultancy' bid for the bricks. The company sends official acceptance letters to both suppliers, confirming their selection for the respective materials. However, before the contracts are finalized and signed, TimberCraft Suppliers and Plateau Consultancy discover that Oakwood Construction Company has sourced tiles from a different supplier for the flooring, rendering their bids for those materials unsuccessful. Feeling aggrieved, both suppliers seek legal advice to understand their rights and potential claims against Oakwood Construction Company.",
+        "OriginalFacts": [
+            "Oakwood Construction Company acquired a contract to develop a housing project.",
+            "Oakwood issued a public tender for construction materials, including timber, bricks, and tiles.",
+            "The tender document outlined specifications, quantities, quality requirements, deadline for submitting bids, and contact person for inquiries.",
+            "TimberCraft Suppliers and Plateau Consultancy expressed interest in participating in the tender.",
+            "Both suppliers reviewed the tender document and gathered necessary information to prepare their bids.",
+            "TimberCraft Specialists offered a competitive bid for timber materials required.",
+            "Plateau Consultancy did not have a construction-related business activity, as prohibited by its Constitution.",
+            "On the day of the deadline, both TimberCraft Suppliers and Plateau Consultancy submitted their bids to Oakwood's procurement department.",
+            "The bids included detailed information about proposed materials, quantities, prices, and delivery schedules.",
+            "Oakwood's procurement team received and acknowledged receipt of the bids.",
+            "After evaluating the bids, Oakwood accepted TimberCraft Suppliers' bid for timber materials and Plateau Consultancy's bid for bricks.",
+            "Oakwood sent official acceptance letters to both suppliers, confirming their selection for respective materials.",
+            "Before contracts were finalized and signed, TimberCraft Suppliers and Plateau Consultancy discovered that Oakwood sourced tiles from a different supplier, rendering their bids unsuccessful."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC43",
+        "Scenario": "\"Lila, an art collector, has a rare and highly sought-after painting in her possession. She decides to sell the painting and places an advertisement on an online art marketplace with a price tag of $10,000. Shortly after posting the ad, she receives a message from a potential buyer, Max, who expresses keen interest in purchasing the painting.\n \n In their conversation, Max makes an offer to buy the painting for $9,000. Lila is intrigued by Max's offer and sees it as a reasonable price. She responds to Max's offer by saying, \"\"I appreciate your offer of $9,000 for the painting. I'm inclined to accept. Let's proceed with the sale.\"\"\n \n Excited about acquiring the painting at a slightly lower price, Max informs Lila that he will transfer the payment within the next 24 hours. However, before Max can make the payment, Lila receives another message from a different potential buyer, Sam. Sam expresses a strong desire to purchase the painting for the full asking price of $10,000.\n \n Lila is now faced with a dilemma. She believes she can sell the painting for a higher price to Sam. In light of this, she sends a message to Max saying, \"\"I'm sorry, but I've reconsidered my earlier acceptance. I've received another offer for the full price, and I think I'll have to go with that. I hope you understand.\"\"\n \n Upon receiving Lila's message, Max is disappointed and upset. He believes that he had a valid contract with Lila and that she cannot back out of their agreement. Max threatens to take legal action against Lila for breach of contract.\n \n Meanwhile, Sam is eagerly waiting to hear back from Lila regarding the purchase of the painting. He has already made arrangements to display the painting in an upcoming art exhibition and is excited about the potential sale.\"",
+        "OriginalFacts": [
+            "Lila places an advertisement on an online art marketplace for a rare and highly sought-after painting with a price tag of $10,000.",
+            "Max expresses interest in purchasing the painting and makes an offer of $9,000.",
+            "Lila accepts Max's offer and indicates her willingness to proceed with the sale.",
+            "Before payment is made, Lila receives another message from Sam expressing interest in purchasing the painting at the full asking price of $10,000.",
+            "Lila changes her mind and decides to sell the painting to Sam for the full price, despite having previously accepted Max's offer.",
+            "Max believes he had a valid contract with Lila and that she cannot back out of their agreement.",
+            "Max threatens to take legal action against Lila for breach of contract.",
+            "Sam is waiting to hear back from Lila regarding the purchase of the painting and has made arrangements to display it in an upcoming art exhibition."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC44",
+        "Scenario": "Alex, a talented musician, aspires to pursue his music career full-time. He dreams of recording his debut album but lacks the necessary funds for studio time and production. His friend, Mia, is a successful music producer who believes in Alex's talent and wants to help him realize his dream.\n \n One day, over a casual lunch, Alex and Mia have a conversation about his music career. Mia tells Alex, \"I'm willing to produce your debut album for free. You're a gifted musician, and I see great potential in your music. However, in exchange for my production services, I want 50% of the album's future profits.\" Alex is thrilled by Mia's offer and agrees to the terms without hesitation. They later put their agreement into writing. \n \n In the following weeks, Mia dedicates significant time and resources to produce the album. She arranges recording sessions, hires session musicians, engineers, and invests in high-quality production equipment. The album turns out to be a success, garnering attention from music enthusiasts and receiving positive reviews from critics.\n \n As the album gains popularity and starts generating profits, Mia reminds Alex of their agreement. She requests her share of the album's profits as per their initial agreement. However, Alex hesitates and claims that their agreement lacked consideration because Mia did not provide anything of value in exchange for his promise. He argues that since Mia offered her production services for free, there was no consideration to support the contract.\n \n Mia is taken aback by Alex's response. She explains that her production services, which she would normally charge for, should be seen as valuable consideration. Mia contends that her investment of time, expertise, and resources constituted consideration, and she is entitled to her share of the album's profits.",
+        "OriginalFacts": [
+            "Alex is a talented musician who wants to record his debut album but lacks funds for studio time and production.",
+            "Mia, a successful music producer, offers to produce Alex's album for free in exchange for 50% of future profits.",
+            "The agreement is put into writing after Alex accepts Mia's offer.",
+            "Mia dedicates significant time and resources to produce the album, including arranging recording sessions, hiring session musicians, engineers, and investing in production equipment.",
+            "The album turns out to be a success, garnering attention from music enthusiasts and receiving positive reviews from critics.",
+            "As the album generates profits, Mia reminds Alex of their agreement and requests her share of the profits as per their initial agreement.",
+            "Alex hesitates, claiming that there was no consideration to support the contract because Mia's production services were offered for free.",
+            "Mia argues that her investment of time, expertise, and resources constitutes valuable consideration and she is entitled to her share of the album's profits."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC45",
+        "Scenario": "Mark and Sarah have been close friends for years and often engage in friendly competitions. One day, they decided to race each other in their respective cars on a public road. During the race, Mark's car inadvertently bumped into the side of Sarah's car, causing minor damage to both vehicles. Although there was no serious injury, Sarah was upset about the incident and believed that Mark's reckless driving was the cause.\n \n A few days after the incident, Mark and Sarah meet to discuss the matter. Mark acknowledges that he was at fault for the collision and offers to pay for the repairs to Sarah's car. He also expresses his sincere apologies and tells Sarah that he doesn't want their friendship to be strained because of this accident. In response, Sarah tells Mark that she appreciates his willingness to cover the repair costs, but she also wants an additional payment of $500 as compensation for the distress she experienced due to the accident.\n \n Mark, eager to mend their friendship and avoid any legal complications, agrees to pay Sarah the additional $500 she requested. They both shake hands and part ways, with Mark promising to transfer the payment to Sarah within a week.\n \n A week goes by, and Mark fails to transfer the additional $500 to Sarah. Feeling frustrated, Sarah consults a lawyer to explore her options. The lawyer advises her that their agreement to settle the matter could potentially be legally enforceable as a contract, given that Mark agreed to pay her $500 in exchange for her forbearance to sue him for the accident.",
+        "OriginalFacts": [
+            "Mark and Sarah are friends who have engaged in friendly competitions before.",
+            "Mark and Sarah had a car race on a public road, which resulted in minor damage to both vehicles.",
+            "Sarah was upset about the incident and believed Mark's reckless driving caused it.",
+            "Mark acknowledged fault for the collision, offered to pay for repairs, and apologized.",
+            "Sarah requested an additional $500 payment as compensation for distress.",
+            "Mark agreed to the additional payment to maintain their friendship.",
+            "Mark promised to transfer the payment within a week.",
+            "Mark failed to transfer the additional $500 to Sarah after one week.",
+            "Sarah sought legal advice due to Mark's failure to pay.",
+            "Sarah's lawyer advised that the agreement could be legally enforceable as a contract."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC46",
+        "Scenario": "Eva, the owner of a small art gallery, is hosting an art exhibition to showcase local artists' work. She invites various artists to display their pieces and sends out personalized invitations. One of the artists, Mia, receives an invitation and immediately starts preparing her artwork for the exhibition.\n \n A week before the exhibition's opening, Mia contacts Eva to discuss the terms of participation. Mia mentions that she's been working tirelessly on her artwork, spending long hours and using expensive materials. She explains that she expects to gain recognition and possibly make sales through this event. In response, Eva assures Mia that participating in the exhibition will provide her with exposure to a wide audience and a chance to connect with art enthusiasts. \n \n During the exhibition, Mia's artwork receives positive feedback and attention from visitors, critics, and other artists. Mia is thrilled with the response and believes her participation has been a success. After the exhibition concludes, Eva contacts Mia and expresses her appreciation for Mia's contribution. She also mentions that she had not anticipated the overwhelmingly positive response to Mia's artwork and believes that Mia has greatly benefited from the exposure and recognition.\n \n Mia, feeling content with her participation and the exposure she gained, is surprised when Eva offers to pay her an additional amount as a token of gratitude for her outstanding artwork. Mia is delighted by the unexpected offer and accepts it graciously.\n \n However, several weeks later, Mia receives a letter from Eva's lawyer stating that Eva has decided not to pay the additional amount as initially offered. The lawyer argues that Mia's participation was a past consideration and therefore not enforceable as a contract. Mia is disappointed by this turn of events and decides to seek legal advice.",
+        "OriginalFacts": [
+            "Eva invited various artists, including Mia, to display their artwork at an art exhibition.",
+            "Mia prepared her artwork for the exhibition after receiving the invitation.",
+            "A week before the exhibition, Mia contacted Eva to discuss the terms of participation.",
+            "Eva assured Mia that participating would provide exposure and a chance to connect with art enthusiasts.",
+            "During the exhibition, Mia's artwork received positive feedback and attention from visitors, critics, and other artists.",
+            "After the exhibition, Eva expressed her appreciation for Mia's contribution and acknowledged the overwhelmingly positive response to her artwork.",
+            "Eva offered to pay Mia an additional amount as a token of gratitude for her outstanding artwork.",
+            "Mia accepted the offer graciously.",
+            "Several weeks later, Eva's lawyer informed Mia that the initial offer was being withdrawn.",
+            "The lawyer argued that Mia's participation was only a past consideration and not enforceable as a contract."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC47",
+        "Scenario": "Emily, a renowned graphic designer, was invited to speak at a design conference organized by Creative Minds Co. The company reached out to Emily with an offer to be the keynote speaker for the conference and to share her insights on the latest design trends. In exchange, they promised to cover her travel expenses, accommodation, and provide an honorarium of RM5,000.\n \n Excited about the opportunity to share her expertise with fellow designers, Emily agreed to be the keynote speaker and promptly confirmed her participation with the event organizers. As the conference date approached, Emily prepared extensively for her presentation, spending countless hours researching and refining her slides.\n \n On the day of the conference, Emily delivered a captivating speech that resonated with the audience. She received enthusiastic feedback from attendees and fellow speakers alike, who praised her for her innovative ideas and engaging delivery.\n \n After the conference concluded, Creative Minds Co held a small celebration dinner with Emily where they had all consumed some alcohol but had remained sober. During the dinner, Creative Minds Co offered to pay Emily an additional of RM1000 as a token of appreciation for her outstanding contribution. \n \n Emily was pleasantly surprised by the unexpected bonus offer and expressed her gratitude to Creative Minds Co. However, a few weeks later, Emily received another email from the company, stating that they had reconsidered the bonus offer and would not be able to provide the additional RM1,000. They argued that Emily's participation as a keynote speaker was already agreed upon and her speech was a past consideration, making the additional payment unenforceable.\n \n Feeling disappointed by the company's change of stance, Emily consulted with legal counsel to understand her rights and potential remedies.",
+        "OriginalFacts": [
+            "Emily was invited to be the keynote speaker at a design conference organized by Creative Minds Co. and agreed to participate.",
+            "Creative Minds Co. promised to cover Emily's travel expenses, accommodation, and pay her an honorarium of RM5,000.",
+            "Emily prepared extensively for her presentation, spending countless hours researching and refining her slides.",
+            "Emily delivered a captivating speech that received enthusiastic feedback from attendees and fellow speakers.",
+            "Creative Minds Co. offered to pay Emily an additional RM1,000 as a token of appreciation for her outstanding contribution during the conference dinner.",
+            "Creative Minds Co. later retracted their offer of the additional RM1,000 payment, citing that Emily's participation was already agreed upon and the speech was a past consideration.",
+            "Emily received the initial honorarium of RM5,000 from Creative Minds Co., but not the additional RM1,000."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC48",
+        "Scenario": "Sophia, a dedicated and talented high school student, had dreamt of pursuing higher education in a prestigious university to study astrophysics. However, the cost of tuition and living expenses was a significant barrier for her. Learning about Sophia's potential, Dr. Mitchell, a renowned astrophysicist and philanthropist, decided to establish a scholarship program to support promising students like Sophia in pursuing their educational aspirations.\n \n Dr. Mitchell announced the scholarship program through a press release, specifying that the chosen students would receive full tuition coverage, living stipends, and research opportunities. Sophia, along with many other students, applied for the scholarship. After a thorough evaluation process, Sophia received a congratulatory letter from Dr. Mitchell, formally offering her the scholarship for her desired astrophysics program at the university.\n \n Overjoyed by the opportunity, Sophia promptly accepted the scholarship offer in writing, expressing her sincere gratitude. Dr. Mitchell replied with an email confirming Sophia's acceptance and detailing the terms of the scholarship, including the duration of support, academic expectations, and stipend disbursement schedules. The email concluded with the assurance that Sophia's dedication to her studies and contribution to the field of astrophysics would be greatly valued.\n \n Sophia commenced her studies with zeal, excelling in her courses and engaging actively in research projects. Throughout her academic journey, she maintained a strong connection with Dr. Mitchell, updating him on her progress and seeking guidance in her astrophysics pursuits.\n \n However, halfway through her program, Sophia received an unexpected email from Dr. Mitchell's foundation. The email informed her that due to unforeseen financial constraints, they would be unable to continue providing the scholarship stipends for the remaining duration of her program. Sophia was devastated by the news, as she had relied on the scholarship to cover her expenses and focus on her studies.\n \n Faced with financial uncertainty and unable to secure alternative funding sources immediately, Sophia sought legal advice to understand her options and potential courses of action.",
+        "OriginalFacts": [
+            "Sophia applied for Dr. Mitchell's scholarship program.",
+            "Dr. Mitchell formally offered Sophia the scholarship after a thorough evaluation process.",
+            "Sophia accepted the scholarship offer in writing, expressing gratitude.",
+            "Dr. Mitchell replied with an email confirming Sophia's acceptance and detailing the terms of the scholarship.",
+            "The email assured Sophia that her dedication to her studies and contribution to astrophysics would be valued.",
+            "Sophia commenced her studies with zeal, excelling in courses and engaging actively in research projects.",
+            "Sophia maintained a strong connection with Dr. Mitchell, updating him on her progress and seeking guidance.",
+            "Dr. Mitchell's foundation informed Sophia that they could no longer provide scholarship stipends due to financial constraints.",
+            "Sophia was devastated by the news, as she had relied on the scholarship to cover expenses and focus on studies."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC49",
+        "Scenario": "Mia was an avid collector of antique jewelry, and she had been looking for a particular vintage diamond ring to add to her collection. She discovered that her best friend Liam who is a local antique dealer had the ring she desired. Mia visited Liam's shop and expressed her interest in purchasing the ring.\n \n Upon seeing Mia's enthusiasm, Liam mentioned, \"I have the perfect ring for you. It's a beautiful vintage diamond ring that I think you'll adore. I'm willing to sell it to you for a discounted price of $5,000 since we are friends .\" Mia's eyes lit up with excitement, and she asked to see the ring. Liam brought out the ring and show it to Mia. Upon seeing it, she instantly accepted to buy at $5,000. \n\nLiam was pleased with Mia's eagerness and  immediately prepare the necessary paperwork for Mia to sign. After that, Liam said that 'he will have the ring ready for you to pick up by tomorrow.\" As Mia was about to leave the shop, she clarified, \"Just to confirm, I'll be purchasing the vintage diamond ring for $5,000, right?\" Liam smiled and nodded, assuring her that the ring would indeed be sold to her for that price. \n \n The next day, Mia returned to Liam's shop to collect the vintage diamond ring. However, to her surprise, Liam informed her that he had sold the ring to another collector for a higher price because he was drinking so much the night prior that he had forgotten that he had promised to sell it to her. Mia was shocked and disappointed, feeling that Liam had breached their agreement.\n \n In response, Mia consulted a legal professional to determine whether there was a legally binding contract between her and Liam based on their conversation and exchange of statements. She provided the details of their interaction, including Liam's offer, her acceptance, and their discussion confirming the price of the ring.",
+        "OriginalFacts": [
+            "Mia visited Liam's shop",
+            "Liam mentioned he had a vintage diamond ring for sale at a discounted price of $5,000",
+            "Mia expressed interest and asked to see the ring",
+            "Liam showed Mia the ring and she accepted to buy it at $5,000",
+            "Liam prepared paperwork for Mia to sign",
+            "Liam assured Mia that the ring would be sold to her at $5,000",
+            "Mia returned to Liam's shop to collect the ring the next day",
+            "Liam informed Mia that he had sold the ring to another collector for a higher price",
+            "Mia was shocked and disappointed by this revelation"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC5",
+        "Scenario": "Ellie has lost her beloved cat. She puts an advertisement on her personal blog advertising a reward of RM2000 to anyone who finds her cat. Ellie\"s neighbour, Frank who saw her advertisement went out to their neighbourhood to search for the cat and managed to find Ellie\"s cat. Frank return the cat to Ellie to claim his reward, but Ellie refused to pay him, arguing that the offer had already been withdrawn. However, there is no notice on Ellie\"s blog regarding the withdrawal of advertisement.  ",
+        "OriginalFacts": [
+            "Ellie lost her beloved cat.",
+            "Ellie put an advertisement on her personal blog offering a reward of RM2000 for anyone who finds her cat.",
+            "There is no notice on Ellie's blog regarding the withdrawal of the advertisement.",
+            "Frank saw Ellie's advertisement and went out to search for the cat, successfully finding it.",
+            "Frank returned the cat to Ellie to claim his reward.",
+            "Ellie refused to pay Frank, citing that the offer had already been withdrawn."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC50",
+        "Scenario": "Ella is a 16 years old talented musician, had been dreaming of performing at a prestigious music festival for years. She had been practicing tirelessly, and her dedication caught the attention of a local music producer, Max. Impressed by Ella's skills, Max approached her after a concert to have a casual conversation and said  \"Ella, your performance was incredible. I believe you have what it takes to shine on a bigger stage. I promise to help you secure a slot at the upcoming Serenade Music Festival. Just keep practicing, and I'll make sure you get noticed.\"\n \n Ella was thrilled by Max's offer and took his words to heart even though Max did not send any details of the upcoming festival nor any update. She continued honing her musical abilities and eagerly anticipated her performance at the festival. As the festival approached, Ella started making preparations, including collaborating with other musicians, rehearsing extensively, and even designing her stage outfit. \n \n A week before the festival, Ella received a call from Max. He sounded distressed as he explained, \"Ella, I'm really sorry, but there has been a mix-up in the scheduling. I won't be able to secure you a slot at the Serenade Music Festival this year.\" Ella was devastated, feeling betrayed and let down by Max's broken promise.\n \n Ella reached out to a legal professional to discuss her situation. She explained the details of her interaction with Max, including his promise to help her secure a performance at the festival, her reliance on his promise by investing time, effort, and resources, and the subsequent breach of that promise.",
+        "OriginalFacts": [
+            "Ella is 16 years old",
+            "Max approached Ella after a concert and praised her performance",
+            "'I'll make sure you get noticed' was Max's promise to Ella",
+            "Ella took Max's words to heart and continued practicing without receiving any details or updates about the festival",
+            "A week before the festival, Max called Ella to break his promise and cancel her performance"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC51",
+        "Scenario": "In the bustling city of Malaysia, a unique situation unfolds involving two close friends, Alex and Jordan. Alex is an aspiring entrepreneur who has been working on developing a revolutionary mobile app for fitness enthusiasts. Jordan, a seasoned software developer, has been advising and assisting Alex throughout the app's development.\n \n One evening, while they're relaxing at a local cafe, Alex turns to Jordan and says, \"Jordan, your guidance and support have been invaluable in creating this app. I promise that once the app generates substantial revenue, I'll give you 20% of the profits as a token of appreciation for your efforts.\"\n \n Jordan appreciates the gesture and continues to contribute his technical expertise to the app's development. Months pass, and the app is finally launched, becoming an instant hit in the fitness community. As users flock to download the app, the revenue starts pouring in.\n \n Encouraged by the app's success, Alex reaches out to Jordan to discuss the promised 20% share of the profits. However, Jordan seems hesitant and unsure about the promise, stating that they never formalized the agreement in writing and that the promise lacked sufficient clarity. Jordan argues that the promise was made in the context of a casual conversation and does not meet the necessary criteria for enforceability.\n \n Frustrated by Jordan's response, Alex seeks legal advice to determine the viability of holding Jordan accountable for their informal agreement. The legal professional examines the circumstances surrounding the promise, including the nature of the relationship between Alex and Jordan, the context in which the promise was made, and the subsequent reliance on the promise in developing and launching the app.",
+        "OriginalFacts": [
+            "Alex and Jordan have a close friendship.",
+            "Alex has been working on developing a revolutionary mobile app for fitness enthusiasts.",
+            "Jordan is a seasoned software developer who has been advising and assisting Alex throughout the app's development.",
+            "The promise of 20% profits was made verbally, during a casual conversation at a local cafe.",
+            "The promise lacked sufficient clarity and was not formalized in writing.",
+            "Alex and Jordan continued to work together on the app's development for months after the promise was made.",
+            "The app is launched and becomes an instant hit, generating substantial revenue.",
+            "Alex reaches out to Jordan to discuss the promised 20% share of profits, but Jordan seems hesitant and unsure about the agreement.",
+            "Jordan argues that the promise is not enforceable because it was made in a casual conversation without written documentation.",
+            "Alex seeks legal advice to determine the viability of holding Jordan accountable for their informal agreement."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC52",
+        "Scenario": "In the heart of Kuala Lumpur, Malaysia, a complex legal situation emerges involving two business partners, Alice and Benjamin. Alice is a successful interior designer, while Benjamin is a skilled furniture craftsman. Together, they have been collaborating on various home improvement projects for several years, sharing both profits and responsibilities.\n \n During a business discussion at their office , Alice turned to Benjamin and said, \"Benjamin, your craftsmanship adds immense value to my interior design projects. In recognition of your skills, I promise that if we secure a high-profile client and the project's profit exceeds ?拢50,000, I will ensure you receive a substantial bonus.\"\n \n Encouraged by Alice's promise, Benjamin continues to contribute his craftsmanship to their collaborative projects, dedicating extra time and effort to achieve outstanding results. Their collaborative efforts prove successful, and they secure a contract with a high-profile client, resulting in a project profit of ?拢60,000.\n \n Following the successful project, Benjamin approaches Alice to discuss the promised bonus. However, Alice expresses doubts about the promise, arguing that it lacks the necessary level of clarity and certainty required for enforceability. Alice contends that their promise was made in the context of a casual conversation and that the exact terms of the bonus were never specified.\n \n Dismayed by Alice's response, Benjamin seeks legal advice to ascertain whether Alice's informal promise can be upheld as a binding agreement. The legal professional examines the circumstances surrounding the promise, including the collaborative nature of their business relationship, the context in which the promise was made, and the reliance on the promise in securing the high-profile project.",
+        "OriginalFacts": [
+            "Alice and Benjamin have been collaborating on various home improvement projects for several years, sharing both profits and responsibilities.",
+            "During a business discussion at their office, Alice turned to Benjamin and said, 'Benjamin, your craftsmanship adds immense value to my interior design projects. In recognition of your skills, I promise that if we secure a high-profile client and the project's profit exceeds 拢50,000, I will ensure you receive a substantial bonus.'",
+            "Encouraged by Alice's promise, Benjamin continues to contribute his craftsmanship to their collaborative projects, dedicating extra time and effort to achieve outstanding results.",
+            "Their collaborative efforts prove successful, and they secure a contract with a high-profile client, resulting in a project profit of 拢60,000.",
+            "After the successful project, Benjamin approaches Alice to discuss the promised bonus. However, Alice expresses doubts about the promise, arguing that it lacks the necessary level of clarity and certainty required for enforceability.",
+            "Alice contends that their promise was made in the context of a casual conversation and that the exact terms of the bonus were never specified."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC53",
+        "Scenario": "In the bustling city of Kuala Lumpur, Malaysia, a unique legal scenario unfolds involving two business partners, Amir and Zara. Amir owns a successful event planning company, while Zara is a talented and sought-after photographer. Over the years, they have collaborated on numerous events, bringing their respective skills together to create unforgettable experiences for their clients.\n \n During a casual conversation at a local cafe, Amir turned to Zara and said, \"Zara, your photography skills have added an extra layer of magic to our events. In recognition of your contribution, I promise that if we secure a contract for a high-profile wedding and our combined earnings exceed RM50,000, I will ensure you receive a special bonus of RM20,000.\"\n \n Inspired by Amir's promise, Zara adjusted her finance accordng to the promised bonus and spend money on buying better equipment  to provide her exceptional photography services for their collaborative projects, going above and beyond to capture the perfect moments. Their collaborations lead to them securing a prestigious contract for a celebrity wedding, resulting in combined earnings of RM60,000. \n \n After the successful wedding, Amir told Zara that he will pay her the RM20,000 once he finish preparing the paperwork, latest by March 2023.  After a few months, Zara has yet to receive the bonus so he approaches Amir to discuss the promised bonus. However, Amir expresses hesitation about the promise, arguing that it lacks the necessary clarity and certainty for enforceability under Malaysian contract law. Amir contends that their promise was made in an informal setting and that the exact terms of the bonus were never explicitly defined.\n \n Dismayed by Amir's response, Zara seeks legal advice to determine whether Amir's informal promise can be upheld as a legally binding agreement. The legal professional examines the circumstances surrounding the promise, including the collaborative nature of their business relationship, the context of the promise, and the reliance placed on the promise in securing the high-profile wedding contract.",
+        "OriginalFacts": [
+            "Amir and Zara are business partners who have collaborated on numerous events over the years.",
+            "Amir made a promise to Zara that if they secure a high-profile wedding and their combined earnings exceed RM50,000, he will give her a special bonus of RM20,000.",
+            "Zara adjusted her finances and spent money on better equipment in reliance on Amir's promise.",
+            "Their collaboration leads to them securing a prestigious contract for a celebrity wedding, resulting in combined earnings of RM60,000.",
+            "Amir promised Zara that she would receive the RM20,000 bonus once he finishes preparing the paperwork, latest by March 2023.",
+            "Zara has yet to receive the bonus and Amir expresses hesitation about honoring the promise, citing lack of clarity and certainty for enforceability under Malaysian contract law.",
+            "The promise was made in an informal setting without explicit definition of the bonus terms.",
+            "Zara relied on the promise when securing the high-profile wedding contract and made financial adjustments accordingly.",
+            "Their business relationship is collaborative, with Zara providing photography services that add value to Amir's event planning company."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC54",
+        "Scenario": "In the bustling city of Metropolis, a peculiar situation arises between two friends, Alex and Morgan. Alex is an avid collector of rare comic books, while Morgan is a talented artist who often creates custom comic book covers. One day, Morgan has a brilliant idea and decides to propose a unique offer to Alex.\n \n Morgan sends a text message to Alex, saying, \"Hey Alex, I have an exciting proposition for you! I can create a custom comic book cover featuring your favorite superhero. If you're interested, let me know and we can discuss the details.\" Alex receives the text message but gets caught up in a busy workday and forgets to respond.\n \n Unbeknownst to Alex, Morgan had also sent a follow-up email the next day with more details about the proposed custom comic book cover. In the email, Morgan outlines the superhero, the design concept, and even provides an estimated price for the project. However, Alex, due to work commitments, fails to check his email for several days.\n \n After a week, Alex finally gets a chance to check his emails and sees Morgan's message. Excited about the offer, Alex immediately replies to the email, expressing his enthusiasm for the custom comic book cover and asking for further information. Unfortunately, Morgan, who had been eagerly waiting for a response, had taken on another art project during the time of Alex's delayed reply.\n \n Feeling disappointed, Alex calls Morgan to discuss the custom comic book cover offer. Morgan explains the situation and apologizes for taking on another project in the absence of a timely response. Alex insists that Morgan fulfill the original proposal, arguing that the communication was not instantaneous and that the offer was still open when Alex finally responded.",
+        "OriginalFacts": [
+            "Alex received a text message from Morgan proposing a custom comic book cover featuring Alex's favorite superhero.",
+            "Morgan sent a follow-up email the next day with details about the project, but Alex didn't check his emails for several days.",
+            "When Alex finally checked his emails, he was excited about the offer and replied immediately to the email.",
+            "Alex's delayed response caused Morgan to take on another art project in the meantime.",
+            "Morgan apologized to Alex for taking on the other project and explained that the original proposal was no longer feasible.",
+            "Alex insisted that Morgan fulfill the original proposal, citing the lack of instantaneous communication."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC6",
+        "Scenario": "Ellie has lost her beloved cat. She puts an advertisement on her personal blog advertising a reward of RM2000 to anyone who finds her cat. Ellie\"s neighbour, Frank, did not see her advertisement but he went on a walk in the neighbourhood and spotted the cat. Frank recognised the cat to be Ellie\"s so he picked up the cat to return it to Ellie without expecting a reward. After he returned the cat to Ellie, his roommates showed him Ellie\"s advertisement and upon seeing the advertisement he realised he had missed out on the reward. On the next day, Frank went to see Ellie with the hope of claiming the reward but Ellie refused to pay him.  ",
+        "OriginalFacts": [
+            "Ellie has lost her beloved cat.",
+            "Ellie puts an advertisement on her personal blog advertising a reward of RM2000 to anyone who finds her cat.",
+            "Frank did not see Ellie's advertisement.",
+            "Frank goes for a walk in the neighbourhood and spots the cat.",
+            "Frank recognises the cat to be Ellie's and picks it up to return it to Ellie without expecting a reward.",
+            "Frank returns the cat to Ellie without asking for anything in return.",
+            "Frank's roommates show him Ellie's advertisement after he returns the cat.",
+            "Frank sees the advertisement and realises he missed out on the reward.",
+            "Frank goes to see Ellie the next day hoping to claim the RM2000 reward.",
+            "Ellie refuses to pay Frank the RM2000 reward when he shows up."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC7",
+        "Scenario": "Michelle is in need of money, she wanted to sell a vintage jewelry passed down by her grandmother. She offered to sell her vintage jewelry to her friend Alice at RM2000. Alice said that she would think about it. Michelle then told Alice that she would keep the offer open for 5 days. 2 days later, Alice learned that Michelle\"s vintage jewelry is actually worth up to RM5000 at market price and wishes to accept the offer. However, Michelle has already sold the jewelry off to another friend. Alice argued that Michelle is in breach of contract as she has promised to keep the offer open for 5 days.  ",
+        "OriginalFacts": [
+            "Michelle wants to sell a vintage jewelry passed down by her grandmother and offers it to Alice at RM2000.",
+            "Alice says she'll think about it, but Michelle keeps the offer open for 5 days.",
+            "Two days later, Alice learns that the vintage jewelry is worth up to RM5000 at market price.",
+            "Alice decides to accept the offer, but Michelle has already sold the jewelry to another friend.",
+            "Michelle promised to keep the offer open for 5 days."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC8",
+        "Scenario": "X has been suffering from a chronic disease for a period of time, so she decided to allocate her shares and make registrations accordingly before she dies. In the written document, X intends to transfer every property that she has to her son before death. She also wishes to transfer a car to a close friend of hers, as they have been very good friends since many years ago. ",
+        "OriginalFacts": [
+            "X has been suffering from a chronic disease for a period of time",
+            "X decided to allocate her shares and make registrations accordingly before she dies",
+            "The written document intends to transfer every property that X has to her son before death",
+            "X wishes to transfer a car to a close friend of hers",
+            "The close friend has been very good friends with X since many years ago"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "FC9",
+        "Scenario": "Steve wants to buy a house from Fred. The bungalow that Steve intended to buy is at the price of $500,000. Due to past business dealings, Fred offered to sell the house to Steve at a lower price of $450,000, but Fred orally mentioned that Steve will only be eligible to this discounted price if Steve promises to clean the house. Since Steve was currently facing financial difficulties, he agreed to clean the house in order to obtain the house at a lower price. \n\nMeanwhile, Steve also approached Jane to purchase some furniture for his future house. Steve appealed to Jane to accept $200 for a couch which was originally priced at $300 as full settlement. Jane in her usual display of charity accepted the smaller sum. \n\nAfter Steve finished cleaning the house and approached Fred again to inform him that he was ready to purchase the bungalow at $450,000, Fred changed his mind and refused to transfer the house to Steve unless Steve paid the original amount of $500,000 to buy the house. Jane later thinks that Steve always takes kindness for granted and now she wants full payment of the couch. Steve now sue for specific performance. ",
+        "OriginalFacts": [
+            "Steve intends to purchase a house from Fred at $500,000.",
+            "Fred offers to sell the house to Steve at a discounted price of $450,000, contingent on Steve cleaning the house.",
+            "Steve agrees to clean the house in order to obtain the house at the lower price.",
+            "Steve is currently facing financial difficulties.",
+            "Steve purchases furniture from Jane for $200, originally priced at $300.",
+            "Jane accepts the smaller sum as full settlement.",
+            "Steve finishes cleaning the house and approaches Fred to complete the purchase at $450,000.",
+            "Fred refuses to transfer the house to Steve unless he pays the original price of $500,000.",
+            "Jane later demands full payment for the couch from Steve.",
+            "Steve sues for specific performance."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s01",
+        "Scenario": "Alan needed money quickly. He owned an original 1886 edition of Kidnapped by Robert Louis Stevenson, a book which he advertised in the newspaper for sale for $1000. Cate saw the advertisement. She telephoned Alan, saying that she would buy the book for $1000. Alan, however, replied that he had reconsidered the matter and that he could not sell the book for less than $2000.Cate replied that she would give him $1500. Alan replied that he would only sell the book for $2000 but that he would keep his offer open for seven days.He also said that Cate could fax her acceptance to him if she wanted.The next day Alan sold the book to his friend David because David loved the book so much and because he paid $7000 for it. Two days later Cate decided to purchase the book for Alan's price of $2000.She posted her acceptance to Alan.The next day David told Cate that he had bought a copy of Kidnapped from Alan for $7, 000. Cate rang Alan to confirm that she had accepted his offer.Later that day Alan received Cate's acceptance.",
+        "OriginalFacts": [
+            "Alan advertised an original 1886 edition of Kidnapped by Robert Louis Stevenson for sale at $1000.",
+            "Cate saw the advertisement and telephoned Alan, agreeing to buy the book for $1000.",
+            "Alan replied that he had reconsidered and would only sell the book for $2000.",
+            "Cate offered $1500, which was rejected by Alan.",
+            "Alan kept his offer open for seven days and gave Cate an option to fax her acceptance.",
+            "Alan sold the book to David for $7000 the next day.",
+            "Two days later, Cate decided to buy the book from Alan at his price of $2000.",
+            "Cate posted her acceptance to Alan two days after deciding to buy the book.",
+            "David told Cate that he had bought a copy of Kidnapped from Alan for $7,000.",
+            "Cate rang Alan to confirm she had accepted his offer later that day.",
+            "Alan received Cate's acceptance later that day."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s02",
+        "Scenario": "Ellie's Montblanc pen with her name engraved on it was stolen. She puts an advertisement on her personal blog advertising a reward of RM1,000 to anyone who finds it. Frank, who has not seen the advertisement, discovers the pen in a library locker and takes it home. His course mate, Galvin, on seeing the pen, recognizes it as the one for which the reward has been offered, and shows Frank the advertisement in Ellie's blog. Frank returns the pen to Ellie, but she refuses to pay RM 1,000, saying that the offer has been withdrawn. Frank knows that Galvin has been keen to buy his vintage Vespa scooter.On Sunday he tells Galvin that he has decided to sell at RM 5, 000.Galvin says that he is very interested but would like to think about it.Frank says 'I will assume that you want it, unless you tell me otherwise by Friday'.On Thursday, Galvin meets Hassan who tells him that Frank has just agreed to sell the scooter to Jaya for RM6, 000.Galvin immediately texted Frank accepting his offer.Later that day, however, Galvin changes his mind and calls on Frank to tell him to ignore the text message.Frank tells him that his deal with Jaya has fallen through, and he is still keen to sell it to Galvin.",
+        "OriginalFacts": [
+            "Ellie's Montblanc pen was stolen.",
+            "Frank found the pen in a library locker and took it home.",
+            "Galvin recognized the pen as the one for which Ellie offered a reward.",
+            "Ellie withdrew her offer of RM1,000 after Frank returned the pen.",
+            "Frank decided to sell his vintage Vespa scooter at RM5,000.",
+            "Galvin expressed interest but wanted to think about it.",
+            "Frank gave Galvin an ultimatum: accept or decline by Friday.",
+            "Galvin accepted the offer via text message on Thursday evening.",
+            "Galvin later changed his mind and asked Frank to ignore the text message.",
+            "Frank's deal with Jaya for RM6,000 fell through."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s03",
+        "Scenario": "Andrew used to work for Peter. His job primarily consisted of collecting debts from Peter\"s clients. One of Peter\"s clients, Trevor, who did not know that Andrew had been dismissed, paid Andrew RM 200 which he owed Peter. Andrew disappeared with the money. Peter wants to know whether he can compel Trevor to pay him again.",
+        "OriginalFacts": [
+            "Andrew was formerly employed by Peter",
+            "Andrew's job was primarily collecting debts from Peter's clients",
+            "One of those clients, Trevor, did not know that Andrew had been dismissed",
+            "Trevor paid Andrew RM 200, which he owed to Peter",
+            "Andrew disappeared with the money"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s04",
+        "Scenario": "Sam, the Accountant of XYZ Bhd, often acted as the Acting Manager of the company while the Managing Director and other senior staff were absent. His normal duties when in such a position involved overseeing internal company matters and ensuring that his own Accounting Department operated well. While acting as Acting Manager, Sam purchased land at auction from TP on behalf of the company for RM 1 million. ",
+        "OriginalFacts": [
+            "Sam is an Accountant of XYZ Bhd and often acts as Acting Manager while the Managing Director and other senior staff are absent.",
+            "Sam's normal duties when acting as Acting Manager involve overseeing internal company matters and ensuring his Accounting Department operates well.",
+            "Sam purchased land at auction from TP on behalf of XYZ Bhd for RM 1 million while acting as Acting Manager.",
+            "No details provided about Sam's authority to make the purchase, or whether the transaction was properly recorded in the company's books."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s05",
+        "Scenario": "Jennifer is a young and very talented squash player. She is sixteen years old and in February 2016, she entered into an agreement in Malaysia with Lawrence (who is a prominent coach) whereby he undertook to train her and also decides which tournament she should play in. In return, Jennifer agreed to follow Lawrence's instructions and to pay him 25% of her winnings from all future tournaments for 2 years. In August 2017, Jennifer disobeyed Lavwrence's instruction to play in European open whereby the total prize money was US 1.2 million and instead prefers to defend her title in the Malaysian open tournament, where the total prize money was only RM350, 000. ",
+        "OriginalFacts": [
+            "Jennifer is a minor (16 years old) at the time of entering into the agreement with Lawrence.",
+            "The agreement requires Jennifer to follow Lawrence's instructions and pay him 25% of her winnings from all future tournaments for 2 years.",
+            "Lawrence had the right to decide which tournament Jennifer should play in, as per the agreement.",
+            "Jennifer disobeyed Lawrence's instruction to play in the European Open in August 2017.",
+            "The total prize money for the European Open was US$1.2 million, while the Malaysian Open had a much lower prize money of RM350,000.",
+            "The breach of contract occurred when Jennifer chose not to follow Lawrence's instructions and instead played in the Malaysian Open.",
+            "s age, whether Lawrence has the right to decide which tournaments she plays in, and whether Jennifer"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s06",
+        "Scenario": "Jennifer is sixteen years old and in February 2016, she entered into an agreement in Malaysia with Lawrence to buy a luxury item. Jennifer received the item but later refused to pay.\n",
+        "OriginalFacts": [
+            "Jennifer is sixteen years old",
+            "The agreement was made in February 2016 in Malaysia",
+            "Jennifer received the luxury item",
+            "Jennifer refused to pay for the item"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s07",
+        "Scenario": "X has several outstanding debts, including: RM 10,000 owing to B RM 5,000 owing to C Y, X\"s father, offers to pay B the sum of RM2,500 on the understanding that B will not make any claims against X for the balance of the RM10,000 debt. B agrees but later changes his mind and claims the balance of the debt owed by X. C agrees to accept a sweepstake ticket in the Melbourne Cup in settlement of the debt. Later C thinks that the ticket was not sufficient and wants repayment of half the RM5,000 debt in addition to the ticket. ",
+        "OriginalFacts": [
+            "X has several outstanding debts, including one for RM 10,000 owed to B and another for RM 5,000 owed to C.",
+            "Y is X's father and offers to pay B a portion of the debt.",
+            "B agrees to accept the payment in exchange for not pursuing X for the remaining balance of the debt.",
+            "C agrees to accept a sweepstake ticket as settlement for the RM 5,000 debt.",
+            "B later reconsiders and claims the remaining balance of the debt from X.",
+            "C is dissatisfied with the ticket settlement and demands repayment of half the RM 5,000 debt, in addition to the ticket."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s08",
+        "Scenario": "Debbie is going overseas for two months. She asks Michael who is a police officer, and who happened to live in the same neighbourhood to keep an eye on her house while she is away. Debbie promised to pay Michael RM2,000 when she returns. After returning from overseas, Debbie realizes that she doesn't need to pay anything to Michael because Michael is just doing his duty as a police officer. ",
+        "OriginalFacts": [
+            "Debbie asked Michael, a police officer, to keep an eye on her house while she was away for two months.",
+            "Michael lived in the same neighborhood as Debbie.",
+            "Debbie promised to pay Michael RM2,000 when she returns from overseas.",
+            "Debbie returned from overseas and decided not to pay Michael anything because he's just doing his job as a police officer."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s09",
+        "Scenario": "Annie takes her expensive coat to Simon\"s Dry Cleaning. She is handed a ticket, the face of which contains a number, her name, a description of the coat and an annotation to the effect that the coat will be available for collection the following Friday. On the reverse side in small print are the words: \"萝Conditions apply\". On the rear wall facing the counter is a sign written in even smaller print which reads: \"萝Simon\"s Dry Cleaning will not be liable for any stains or other damage to any clothing whatsoever\". On Annie\"s return she discovers the coat has bad stain marks on it. \n",
+        "OriginalFacts": [
+            "Annie takes her expensive coat to Simon's Dry Cleaning.",
+            "Simon's staff hands her a ticket with a number, her name, and a description of the coat.",
+            "The ticket includes an annotation stating the coat will be available for collection the following Friday.",
+            "The reverse side of the ticket has small print that reads 'Conditions apply'.",
+            "A sign on the rear wall facing the counter states 'Simon's Dry Cleaning will not be liable for any stains or other damage to any clothing whatsoever'.",
+            "On Annie's return, she discovers the coat has bad stain marks on it."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s10",
+        "Scenario": "Jim runs a small cartage operation in Kuala Lumpur. One of his best customers is ABC Bhd, which operates a chain of retail stores throughout the metropolitan area. ABC uses Jim to transfer goods from one store to another as the situation requires. The agreed procedure is always the same. ABC telephones Jim and gives him the collection point and the destination. Jim picks up the goods. An employee of ABC and Jim fill in and sign a collection docket. ABC keeps the duplicate. Jim takes the goods directly to the drop off point and has the docket countersigned by another employee of ABC. At 12.30 pm on June 5th Jim collects a quantity of expensive goods from one of ABC\"s shops. The usual procedure on collection is followed. The docket is filled in, signed and a duplicate kept by ABC. As it is nearly lunch time Jim decides to have lunch before delivering the goods. He travels a number of kilometres off the direct route to another suburb to collect a friend. Together they then go to a hotel which has a great counter lunch. Jim parks on a steep hill. Unfortunately Jim hasn\"t checked his brakes lately. They slip and the vehicle races down the hill smashing into a number of obstacles on the way. The goods belonging to ABC are totally destroyed. ABC maintains that Jim must pay for the goods. Jim denies liability on the basis of the exclusion clause. Ticket Terms: This receipt is an acknowledgment that the goods were delivered to Jim in reasonable condition. Consignor must arrange own insurance. Under no circumstances is Jim to be regarded as a common carrier. Jim will use best endeavours to ensure goods delivered safely. Jim does not accept any responsibility for any loss or damage to any goods carried pursuant to this contract however such loss or damage may arise or be caused whether by negligence or otherwise. ",
+        "OriginalFacts": [
+            "Jim runs a small cartage operation in Kuala Lumpur.",
+            "ABC Bhd is one of Jim's best customers and uses his services to transfer goods between their retail stores.",
+            "The agreed procedure for transporting goods involves ABC telephoning Jim with the collection point and destination, Jim picking up the goods, an employee of ABC and Jim filling out and signing a collection docket, and ABC keeping the duplicate.",
+            "On June 5th at 12:30 pm, Jim collects a quantity of expensive goods from one of ABC's shops following the usual procedure.",
+            "After collecting the goods, Jim decides to have lunch before delivering them and travels off the direct route to collect a friend.",
+            "Jim parks his vehicle on a steep hill and it slips, causing damage to the goods belonging to ABC.",
+            "The Ticket Terms exclude liability for loss or damage to goods carried by Jim, regardless of the cause, whether due to negligence or otherwise."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s11",
+        "Scenario": "On 1 March 2017, the Monash Soccer Team booked a flight to London to participate in the World Universities Football Cup from 21 to 26 March 2017. Their travel agents, Freedom Flight Sdn Bhd, gave a discount fare of RM 2,000 per person, 50% of the price was paid upon booking and the balance of the price was to be paid on 19 March 2017 upon collecting the tickets. On 18 March 2017, the air traffic controllers of KLIA declared a strike when the airport management refused to reduce their retirement age to 45 years old. When the Monash Soccer Team went to Freedom Flight Sdn Bhd on 19 March 2015, he refused to pay the balance unless it is confirmed that the team can fly out of Kuala Lumpur on 19 March 2015. The strike lasted for three days. By that time it was too late for the team to compete in the competition. The Monash Soccer Team claims for the return of the sum paid to Freedom Flight Sdn Bhd. Freedom Flight Sdn Bhd refused to return it and instead sued for the balance 50% to be paid by the Monash Soccer Team. \n",
+        "OriginalFacts": [
+            "On 1 March 2017, the Monash Soccer Team booked a flight with Freedom Flight Sdn Bhd.",
+            "On booking, the team paid 50% of the fare (RM 2,000 per person) and was supposed to pay the balance on 19 March 2017.",
+            "Freedom Flight Sdn Bhd gave a discount fare of RM 2,000 per person for participating in the World Universities Football Cup.",
+            "The balance payment of RM 2,000 per person was due on 19 March 2017.",
+            "On 18 March 2017, air traffic controllers at KLIA declared a strike due to a dispute with airport management over retirement age.",
+            "Monash Soccer Team went to Freedom Flight Sdn Bhd on 19 March 2017 but refused to pay the balance until they confirmed that their flight could depart from Kuala Lumpur on the same day.",
+            "The strike lasted for three days, making it too late for the team to participate in the World Universities Football Cup.",
+            "Monash Soccer Team claims a refund of the sum paid to Freedom Flight Sdn Bhd.",
+            "Freedom Flight Sdn Bhd refused to return the payment and instead sued the Monash Soccer Team for the remaining balance (50%)."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s12",
+        "Scenario": "On 30 February 2016, Mr. Ritz signed a contract for the purchase of a house with a housing developer, Ron Realty Sdn Bhd. The contract stipulated the date for the completion and giving of possession of the house on 30 January 2017. Immediately thereafter, the economy in China started to slow down due to international trade restrictions and as a consequence the cost of steel in China doubled. The main supplier of steel to Ron Realty Sdn Bhd was in China and as a result the whole housing project became uneconomical. On December 2016, Ron Realty sent a letter to Mr. Ritz terminating the sale and purchase agreement for reason of frustration caused by the economic crisis in China. Mr. Ritz refused to accept the termination arquing that economic down turn was not a frustrating event. ",
+        "OriginalFacts": [
+            "On 30 February 2016, Mr. Ritz signed a contract for the purchase of a house with Ron Realty Sdn Bhd.",
+            "On 30 January 2017, the contract stipulated the date for the completion and giving of possession of the house.",
+            "The economy in China started to slow down due to international trade restrictions by 30 January 2017.",
+            "The cost of steel in China doubled as a consequence of the economic slowdown.",
+            "Ron Realty Sdn Bhd's main supplier of steel was in China.",
+            "As a result, the whole housing project became uneconomical.",
+            "Ron Realty sent a letter to Mr. Ritz terminating the sale and purchase agreement on 12 December 2016.",
+            "The termination was due to frustration caused by the economic crisis in China.",
+            "Mr. Ritz refused to accept the termination, arguing that the economic downturn was not a frustrating event."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s13",
+        "Scenario": "Cathy\"s son, Dave, aged 21, was studying for a diploma in computer science at a University in Kuala Lumpur. He lived in a student residence. It was a city council legislative requirement that it was illegal to smoke in student residence, offices, shops, or any enclosed place where someone else is residing, studying or working within the campus. Dave gave up smoking due to this requirement. However, Cathy was worried that under the pressure of preparing for the examination Dave would start smoking again, and so she promised to pay Dave RM500 if he did not smoke at all until he had completed the course. She also promised to buy him a car if he passed the examinations. Cathy run an online bookstore, and asked Dave to maintain and update the website from time to time. She was pleased with the result, and said she would give him RM1,000 \"萝for all his hard work\". Dave passed his examinations, obtained his diploma and moved to live in Johor Bahru where there was no legal requirement on banning of smoking in public enclosed areas. He has not started to smoke again after he left Kuala Lumpur. Cathy has not made either of the promised payments, or bought the car. \n",
+        "OriginalFacts": [
+            "Cathy's son Dave was studying at a University in Kuala Lumpur and lived in a student residence.",
+            "Smoking is illegal in student residences, offices, shops, or any enclosed place where someone else is residing, studying, or working within the campus.",
+            "Dave gave up smoking due to this requirement.",
+            "Cathy promised to pay Dave RM500 if he did not smoke at all until he had completed his course.",
+            "Cathy promised to buy Dave a car if he passed his examinations.",
+            "Cathy asked Dave to maintain and update her online bookstore's website from time to time.",
+            "Dave maintained the website and Cathy was pleased with the result, promising to give him RM1,000 'for all his hard work'.",
+            "Dave passed his examinations, obtained his diploma, and moved to Johor Bahru.",
+            "Cathy has not made either of the promised payments or bought the car."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s14",
+        "Scenario": "Lilian runs a small tailor shop in Putrajaya specialising in batik wear for women. Her husband Mike owns a factory manufacturing clothes and is able to purchase his fabric much more cheaply than Lilian. On Friday night, after cooking Mike\"s favourite meal, Lilian asked Mike if he would supply her shop with fabric at his cost price. Mike said, \" Of course darling.\"聺 Lilian then decides to expand her business to include batik wear for men and children. On Monday she rings her dye supplier in Kuantan and talks to Neil. She discusses her plans to expand her tailoring business and her need to order additional fabric dye colours suitable for silk, synthetic and cotton fabrics. Neil tells Lilian that all the dye they supply is of the highest quality. Lilian orders 2 dozen of red dye at the price of RM50 each, to be delivered next Friday. She also inquires about gold and silver dyes, and is told by Neil that gold dyes are available for RM150 each, and silver for RM100. Lilian tells Neil that she is prepared to pay RM130 for the gold dye and RM80 for the silver. Lilian also tells Neil that if she doesn\"t hear to the contrary, she will take 5 gold and 5 silver boxes of dye, to be delivered with the red dye on Friday. On Friday morning, Lilian receives a delivery from Neil of 24 boxes of red dye. Lilian rings Neil and told him there are no gold or silver dyes. Neil told Lilian he has decided not to supply them at Lilian\"s price. Lilian later calls Mike and asks him to send over some fabric she needs at cost price as agreed. Mike replies that he will only provide her with fabric at market price. She protests and reminds him of last Friday evening. He replies, \" That was dinner, this is business.\"聺 After Lilian hangs up, her assistant Olivia shows her an order for silk scarves on which she has been working using the red dye supplied by Neil. The dye is pale and streaky. She tells Lilian there is a problem with the dye as it is not suitable for silk.",
+        "OriginalFacts": [
+            "Lilian runs a small tailor shop specialising in batik wear for women.",
+            "Mike owns a factory manufacturing clothes and can purchase fabric much cheaper than Lilian.",
+            "Lilian asked Mike if he would supply her with fabric at his cost price, and he agreed.",
+            "Lilian decides to expand her business to include batik wear for men and children.",
+            "Lilian orders 2 dozen red dye from Neil's supplier in Kuantan, agreeing on a price of RM50 each.",
+            "Lilian asks about gold and silver dyes and is told they are available at RM150 and RM100 per box respectively.",
+            "Lilian agrees to pay RM130 for the gold dye and RM80 for the silver dye.",
+            "Lilian orders 5 gold and 5 silver boxes of dye, assuming they will be delivered with the red dye on Friday.",
+            "Neil delivers 24 boxes of red dye on Friday morning, but not the gold or silver dyes.",
+            "Lilian complains to Neil about the lack of gold and silver dyes, and he tells her he won't supply them at her agreed price.",
+            "Lilian asks Mike for fabric at cost price as agreed, but Mike replies that he'll only provide it at market price.",
+            "Mike's response is 'That was dinner, this is business'.",
+            "Lilian's assistant Olivia shows her an order using the red dye supplied by Neil and points out a problem with its quality (pale and streaky).",
+            "s agreement with Mike regarding fabric prices, her order from Neil"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s15",
+        "Scenario": "Amatjit who intends to buy a cow went to 7akariah's farm house. Alter a walk through and having liked a particular cow, Amarjit asked for assurance whether or not this cow was suffering from any particular illness because he wants to buy for breeding purposes. Zakarlan said \"萝the cow is perfectly healthy; you need not worry about anythung\". Feeling assured, Amarjit immediately bought the cow. Zakariah knew that this cow have been suffering from illness lately and a recent visit by a vet doctor confirmed that the cow was ill and could only survive for another couple of weeks. After the purchase and less than two weeks later, the cow died from illness. ",
+        "OriginalFacts": [
+            "Amatjit visited 7akariah's farm house to buy a cow.",
+            "Amatjit asked Zakarlan if the cow was suffering from any particular illness and received assurance that it was 'perfectly healthy'",
+            "Zakarlan knew the cow had been suffering from illness lately",
+            "A recent vet doctor visit confirmed the cow was ill and could only survive for another couple of weeks",
+            "Amatjit bought the cow feeling assured it was healthy",
+            "The cow died less than two weeks after purchase due to illness"
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s16",
+        "Scenario": "In December 2008, Doctor Raju offered to sell his medical practice for RM150,000. Doctor Pritam having gone through the medical practice's income statement accepted the take over. The duration for the entire sale and purchase transaction was determined to be 4 months. During this time, Dr Raju fell ill and was unable to wok most of the time and due to this, his regular patients started going to other doctors. By the time Dr Pritam took over the medical practice, the income derived from it has fallen dramatically, and Dr Raju didn't thought it was necessary to inform Dr Pritam and therefore did not disclose this fact. Dr Pritam who now runs the practice feel's that he has been cheated and wishes to rescind the contract. (misrepresentation) ",
+        "OriginalFacts": [],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s17",
+        "Scenario": "Ali owns a padi harvesting tractor. In January he entered into a contract with Bakar in which he agreed to lease the machine to Bakar for two weeks at the beginning of March for RM3,000. Bakar paid Ali a deposit of RM500. In February, Ali realzes that it will be better to sell his tractor due to lack of storage at his premise. Ali than sold it to Chong who is aware of Ali's existing contract with Bakar. In March, Bakar realizes what has happened and calls Chong hoping that Chong will be able to allow him to use the tractor but Chong refuses. Bakar cannot obtain the machine anywhere else at such short notice and taces losing his entire crop if he is unable to harvest it within the next two weeks. ",
+        "OriginalFacts": [
+            "Ali owns a padi harvesting tractor.",
+            "Ali agreed to lease the machine to Bakar for two weeks at the beginning of March for RM3,000.",
+            "Bakar paid Ali a deposit of RM500.",
+            "Ali realized it would be better to sell his tractor due to lack of storage at his premise in February.",
+            "Ali sold the tractor to Chong who was aware of Ali's existing contract with Bakar.",
+            "In March, Bakar realized what had happened and called Chong hoping to use the tractor.",
+            "Chong refused to allow Bakar to use the tractor.",
+            "Bakar cannot obtain the machine anywhere else at such short notice.",
+            "Bakar will lose his entire crop if he is unable to harvest it within the next two weeks."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s18",
+        "Scenario": "Alpha Pty Ltd hires a machine from Beta Machines Ltd. The machine has been negligently maintained by Beta. It breaks down, and it will take Beta three weeks to repair the machine. A replacement can be hired, but none is available for a week. Normal losses amount to RM1,000 a day. [Alpha\"s factory operates 7 days a week.] Alpha Pty Ltd has also lost a lucrative government contract worth a further RM50,000. The hire of the replacement machine is RM5,000 in total. What damages can Alpha Pty Ltd claim? a) $21,000 b) $71,000 c) $5,000 d) $12,000 e) $62,000 (remedies) \n",
+        "OriginalFacts": [
+            "Alpha Pty Ltd hires a machine from Beta Machines Ltd.",
+            "The machine has been negligently maintained by Beta.",
+            "It breaks down.",
+            "It will take Beta three weeks to repair the machine.",
+            "A replacement can be hired, but none is available for a week.",
+            "Normal losses amount to RM1,000 a day.",
+            "Alpha's factory operates 7 days a week.",
+            "Alpha has lost a lucrative government contract worth a further RM50,000.",
+            "The hire of the replacement machine is RM5,000 in total."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s19",
+        "Scenario": "You are the legal compliance team who work for The Southern Cross Hospital which is in conflict with Zapit Ltd and wants your help resolving the following problem. The hospital hired an X-ray machine from Zapit Ltd. At the time of hiring, the hospital manager enquired about maintenance of the X-ray and was told that all maintenance was the responsibility of the hospital during the period of hire. At the same time the hospital manager was presented with a three page pre-typed document for signature. The manager only read parts of the document. One clause that the manager did not read said: \" Any maintenance must be carried out by Zapit Ltd. Strict compliance with this condition is of the essence of the contract.\"聺 The hospital repaired the X-ray using its own hospital maintenance staff. The staff are highly skilled and able to carry out such repairs. When Zapit heard of the hospital\"s actions it notified the hospital that the contract was terminated and the machine had to be returned immediately. The hospital is unable to replace the machine at short notice and wants to know if it has to return the X-ray \n",
+        "OriginalFacts": [
+            "The Southern Cross Hospital hired an X-ray machine from Zapit Ltd.",
+            "The hospital manager was told that all maintenance was the responsibility of the hospital during the period of hire.",
+            "A three-page pre-typed document was presented to the hospital manager for signature, but not fully read by the manager.",
+            "One clause in the document stated: 'Any maintenance must be carried out by Zapit Ltd. Strict compliance with this condition is of the essence of the contract.'",
+            "The hospital repaired the X-ray using its own hospital maintenance staff.",
+            "The hospital's maintenance staff are highly skilled and able to carry out such repairs.",
+            "Zapit Ltd notified the hospital that the contract was terminated and the machine had to be returned immediately.",
+            "The hospital is unable to replace the X-ray machine at short notice."
+        ],
+        "RewrittenFacts": []
+    },
+    {
+        "ID": "s20",
+        "Scenario": "Bachhi Bhd (BB) purchased three earthmovers from Whitewash Sdn Bhd (WB) and used them on its worksite. After two and a half months, the former requested the latter to take back the said equipment on the basis that the said equipment were not suitable for the purpose for which they were bought. BB did this on the basis of a purported oral promise made by WSB when the sale was made. The alleged oral promise was to the effect that if the earthmovers were inappropriate, BB could return them without incurring any financial liability. WSB complied with BB's request and removed the earthmovers but remain adamant to the fact that BB should pay compensation for breach of contract. ",
+        "OriginalFacts": [
+            "Bachhi Bhd (BB) purchased three earthmovers from Whitewash Sdn Bhd (WB).",
+            "The equipment was used on BB's worksite.",
+            "After two and a half months, BB requested WB to take back the equipment.",
+            "The reason for the return was that the equipment were not suitable for their purpose.",
+            "BB based its request on an alleged oral promise made by WB at the time of sale.",
+            "The alleged oral promise was that if the equipment were inappropriate, BB could return them without financial liability.",
+            "WB complied with BB's request and removed the earthmovers.",
+            "However, WB remains adamant that BB should pay compensation for breach of contract."
+        ],
+        "RewrittenFacts": []
+    }
+]

@@ -1,0 +1,601 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Include bootstrap multiselect js and css -->
+    <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css" />
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="css/recogito.min.css" rel="stylesheet">
+
+    <!-- Functions-->
+    <script type="text/javascript" src="js/scenario.js"></script>
+    <script type="text/javascript" src="js/rewrite.js"></script>
+    <script type="text/javascript" src="js/recogito.min.js"></script>
+
+    <!-- Multiselect Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Include the plugin's CSS and JS: -->
+    <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.1/papaparse.min.js"></script>
+
+    <title>Annotation</title>
+</head>
+
+<body id="page-top" onload=init()>
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar navigtion area-->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Legal Text Annotation</div>
+            </a>
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="dashboard.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="rewrite.html">
+                    <i class="fas fa-fw fa-edit"></i>
+                    <span>Rewrite </span>
+                </a>
+            </li>
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="scenario.html">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Scenarios </span>
+                </a>
+            </li>
+
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link" href="review.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Review</span>
+                </a>
+            </li>
+
+
+             <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link" href="Example.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Example of annotation</span>
+                </a>
+            </li>
+
+                           <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link" href="Demo.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Demo</span>
+                </a>
+            </li>
+
+
+                        <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link" href="index_book.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>index of book </span>
+                </a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+        </ul>
+        <!-- End of Sidebar -->
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="mr-2 d-none d-lg-inline text-gray-600 small">
+                                    <label id="userDisplay" class="mr-2 d-none d-lg-inline text-gray-600 small"></label>
+                                </div>
+                                <img class="img-profile rounded-circle"
+                                     src="img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                 aria-labelledby="userDropdown">
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End of Topbar -->
+                <!-- End of Topbar -->
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-4 text-gray-800"> Annotation </h1>
+                    <div class="card shadow mb-4">
+                    </div>
+                    <!-- Basic Card Example -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Scenario Select </h6>
+                        </div>
+                        <div class="card-header py-3">
+                            <select id="scenarioSelect" onchange="getScenario()" class="form-select" aria-label="Default select example">
+                                <option value="0" selected>Select scenario</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <div>
+                                <button id="toggle-mode" class="btn btn-primary">CHANGE MODE: ANNOTATION</button>
+                            </div>
+                            <h6 class="m-0 font-weight-bold text-primary">Scenario Text </h6>
+                        </div>
+
+                        <div class="card-body">
+                            <div id="ScenarioContent" class="plaintext" style="margin-top: 1em; margin-bottom: 1em;">
+                                <br />
+                                <p id="ScenarioText"></p>
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Facts part -- Mia -->
+                <div class="container-fluid mt-5 mb-5">
+                    <div class="row">
+                        <h1 class="h3 mb-4 text-gray-800">Facts</h1>
+                        <div class="mt-2 mb-2">
+                            <button id="importButton" class="btn btn-primary me-2">Import Facts</button>
+                            <button type="submit" class="btn btn-primary me-2">Export Facts</button>
+                        </div>
+                        <table class="table" style="table-layout: fixed;">
+                            <colgroup>
+                                <col span="1" style="width: 5%;">
+                                <col span="1" style="width: 47.5%;">
+                                <col span="1" style="width: 47.5%;">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Original Fact</th>
+                                    <th>Rewritten Fact</th>
+                                </tr>
+                            </thead>
+                            <tbody id="factTableBody">
+                                <!-- Rows will be inserted here by JavaScript -->
+                            </tbody>
+                        </table>
+
+                        <!-- <div class="mt-2">
+                            <button type="submit" class="btn btn-primary me-2">Export Facts</button>
+                        </div> -->
+                        <!-- </div> -->
+                    </div>
+                </div>
+
+                <!-- End of Main Content -->
+            </div>
+            <!-- End of Content Wrapper -->
+        </div>
+    </div>
+    <!-- End of Page Wrapper -->
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+</body>
+</html>
+
+<!--Script to handle annotation of scenarios and auto button creation for highlighted text.-->
+<script type="text/javascript">
+    var selectedAnnotation = [];
+    var selectedRelations = [];
+    var highlightedObject = [];
+</script>
+<script type="text/javascript">
+//Mia - import facts csv
+document.getElementById('importButton').addEventListener('click', function() {
+    const fileInput = document.createElement('input'); // Create a file input programmatically
+    fileInput.type = 'file';
+    fileInput.accept = '.csv'; // Accept only CSV files
+    fileInput.onchange = function(event) {
+        const file = event.target.files[0]; // Get the selected file
+
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                const csvData = event.target.result;
+                const rows = csvData.split('\n');
+
+                if (rows.length > 1) { // Check if there is a second row
+                    const cols = rows[1].split(','); // Split the second row by comma
+                    if (cols.length > 2) { // Check if there are enough columns
+                        let finalResultFact = cols[2].trim(); // Trim the third column to remove extra spaces
+                        finalResultFact = finalResultFact.slice(1, -1); // Remove surrounding square brackets
+
+                        // Split the cleaned data by comma to get individual facts
+                        const factsArray = finalResultFact.split(/,\s*(?=(?:[^'"]|'[^']*'|"[^"]*")*$)/);
+
+                        // Populate the table
+                        const tbody = document.getElementById('factTableBody');
+                        tbody.innerHTML = ''; // Clear existing rows
+                        factsArray.forEach((fact, index) => {
+                            fact = fact.replace(/^['"]|['"]$/g, '').trim(); // Remove surrounding quotes and trim
+                            const row = `<tr>
+                                            <td>${index + 1}</td>
+                                            <td>${fact}</td>
+                                            <td><!-- Rewritten Fact can be added here --></td>
+                                         </tr>`;
+                            tbody.innerHTML += row; // Add new row to the table body
+                        });
+                    }
+                }
+            };
+            reader.readAsText(file); // Read the file as text
+        } else {
+            alert('Please select a CSV file to import.');
+        }
+    };
+    fileInput.click(); // Programmatically click the file input to open the file dialog
+});
+
+
+
+
+    // get declared legalConcepts.
+    // remember to update the same one in scenario.js.
+    const legalConcepts = [
+        { id: 1, name: 'Offer Date', relatedTopic: 'Offer and Acceptance', relatedSection: 'Section3', other: '' },
+        { id: 2, name: 'Communication of Acceptance', relatedTopic: 'Offer and Acceptance', relatedSection: 'Section3', other: '' }
+    ];
+
+    // Get legal concepts.
+
+    const legalConceptList = [];
+    var selectedRelations = [];
+    var annotationBtnIds = [];
+
+    $.each(legalConcepts, function (index, value) {
+        legalConceptList.push(value.name);
+    });
+
+    // Intialize Recogito.
+
+    var r = Recogito.init({
+        content: 'ScenarioContent', // Element id or DOM node to attach to.
+        locale: 'auto',
+        allowEmpty: true,
+        widgets: [
+            { widget: 'TAG', vocabulary: legalConceptList /*Set selectable vocabulary as legalConceptList.*/ }
+        ],
+        relationVocabulary: ['belongTo', 'relatedTo', 'PartOf']
+    });
+
+    // Switch annotation mode (annotation/relationships).
+
+    var annotationMode = 'ANNOTATION'; // or 'RELATIONS'.
+
+    var toggleModeBtn = document.getElementById('toggle-mode');
+    toggleModeBtn.addEventListener('click', function () {
+        if (annotationMode === 'ANNOTATION') {
+            toggleModeBtn.innerHTML = 'MODE: RELATIONS';
+            annotationMode = 'RELATIONS';
+        } else {
+            toggleModeBtn.innerHTML = 'MODE: ANNOTATION';
+            annotationMode = 'ANNOTATION';
+        }
+
+        r.setMode(annotationMode);
+    });
+
+    // Function that detectes a newly created annotation.
+
+    r.on('createAnnotation', function (annotation) {
+        // Log highlighted text as new annotation for debugging purposes.
+        console.log('annotation object created', annotation);
+        highlightedObject.push(annotation);
+
+        if (annotation.motivation == null && annotation.motivation != 'linking') {
+            selectedAnnotation.push({ selectedText: annotation.target.selector[0].exact, selectedTag: annotation.body[0].value });
+            // On created annotation add a button with selected text for IRAC Analysis processing.
+            var selectedAnnotationText = '{' + annotation.target.selector[0].exact + '[' + annotation.body[0].value + ']}';
+
+            var annotationBtnDiv = document.getElementById('annotationBtns');
+
+            // Create button element.
+            var button = document.createElement('button');
+
+            button.type = 'button';
+            button.className = 'btn btn-outline-info';
+
+            // Id will be the selectedAnnotationText + 'Btn'.
+            // Ex.Selected legal => The button id is 'legalBtn'.
+            // It is case senstive and also will take in spaces.
+            button.id = selectedAnnotationText + 'Btn';
+
+            // Save to a list of existing annotation buttons.
+            annotationBtnIds.push(button.id);
+
+            // Add text to be displayed on button.
+            button.innerHTML = selectedAnnotationText;
+
+            // Add onClick event to add the selected annotation to analysis text area at the cursor.
+            button.addEventListener('click', function (event) {
+                console.log(button.innerHTML);
+
+                // Get current position of cursor at analysis text area.
+                // If no cursor, it will append at the end of the textArea's text.
+                var analysisTxtBox = document.getElementById('analysisTextArea');
+                let curPos = analysisTxtBox.selectionStart;
+
+                // Get current text in analysisTextArea.
+                var analysisTextAreaValue = $('#analysisTextArea').val();
+
+                // Insert text at cursor position.
+                $('#analysisTextArea').val(
+                    analysisTextAreaValue.slice(0, curPos) + selectedAnnotationText + analysisTextAreaValue.slice(curPos));
+
+                // Restore cursor position to end of analysis text area after clicking on button.
+                analysisTextArea.focus();
+            });
+
+            // Append the  button to annotation div.
+            annotationBtnDiv.appendChild(button);
+
+        }
+        else {
+            //capture relation tagging
+
+            var relation = annotation.body[0].value;
+            var target1 = annotation.target[0].id;
+            var target2 = annotation.target[1].id;
+
+            var object1 = highlightedObject.find(obj => obj.id === target1);
+            word1 = object1.target.selector[0].exact + '[' + object1.body[0].value + '] ';
+
+            var object2 = highlightedObject.find(obj => obj.id === target2);
+            word2 = object2.target.selector[0].exact + '[' + object1.body[0].value + ']  ';
+
+            var finalRelation = ' {(' + word1 + ')' + ' (' + relation + ') ' + '(' + word2 + ')} ';
+
+            selectedRelations.push(finalRelation);
+
+            //console.log(finalRelation);
+
+            var annotationBtnDiv = document.getElementById('annotationBtnsRelations');
+
+            // Create button element.
+            var button = document.createElement('button');
+
+            button.type = 'button';
+            button.className = 'btn btn-outline-success';
+
+            // Id will be the selectedAnnotationText + 'Btn'.
+            // Ex.Selected legal => The button id is 'legalBtn'.
+            // It is case senstive and also will take in spaces.
+            button.id = finalRelation + 'Btn';
+
+            // Save to a list of existing annotation buttons.
+            annotationBtnIds.push(button.id);
+
+            // Add text to be displayed on button.
+            button.innerHTML = finalRelation;
+
+            // Add onClick event to add the selected annotation to analysis text area at the cursor.
+            button.addEventListener('click', function (event) {
+                console.log(button.innerHTML);
+
+                // Get current position of cursor at analysis text area.
+                // If no cursor, it will append at the end of the textArea's text.
+                var analysisTxtBox = document.getElementById('analysisTextArea');
+                let curPos = analysisTxtBox.selectionStart;
+
+                // Get current text in analysisTextArea.
+                var analysisTextAreaValue = $('#analysisTextArea').val();
+
+                // Insert text at cursor position.
+                $('#analysisTextArea').val(
+                    analysisTextAreaValue.slice(0, curPos) + finalRelation + analysisTextAreaValue.slice(curPos));
+
+                // Restore cursor position to end of analysis text area after clicking on button.
+                analysisTextArea.focus();
+            });
+
+            // Append the  button to annotation div.
+            annotationBtnDiv.appendChild(button);
+        };
+    });
+
+    // On delete annotation,
+    // Remove button from view and annotationBtnIds.
+    r.on('deleteAnnotation', function (annotation) {
+        console.log('annotation object deleted', annotation);
+
+        // If its non linking annotation.
+        if (annotation.motivation == null && annotation.motivation != 'linking') {
+            // Remove button from view.
+            let buttonId = '{' + annotation.target.selector[0].exact + '[' + annotation.body[0].value + ']}' + 'Btn';
+            let elem = document.getElementById(buttonId);
+            elem.parentNode.removeChild(elem);
+
+            // Remove buttonId(single occurance only) from annotationBtnIds list.
+            let index = annotationBtnIds.indexOf(buttonId);
+            if (index > -1) {
+                annotationBtnIds.splice(index, 1);
+            }
+
+            selectedAnnotation = selectedAnnotation.filter(function(item){
+                return item.selectedText != annotation.target.selector[0].exact && item.selectedTag != annotation.body[0].value;
+            });
+
+            highlightedObject = highlightedObject.filter(function(item){
+                return item.target.selector[0].exact != annotation.target.selector[0].exact && item.body[0].value != annotation.body[0].value;
+            });
+
+        }
+        // If its linking annotation.
+        else {
+            let relation = annotation.body[0].value;
+            let target1 = annotation.target[0].id;
+            let target2 = annotation.target[1].id;
+
+            let object1 = highlightedObject.find(obj => obj.id === target1);
+            word1 = object1.target.selector[0].exact + '[' + object1.body[0].value + ']';
+
+            let object2 = highlightedObject.find(obj => obj.id === target2);
+            word2 = object2.target.selector[0].exact + '[' + object2.body[0].value + ']';
+
+            let buttonId = ' {(' + word1 + ')' + ' (' + relation + ') ' + '(' + word2 + ')} ' + 'Btn';
+            let elem = document.getElementById(buttonId);
+            elem.parentNode.removeChild(elem);
+
+            // Remove buttonId(single occurance only) from annotationBtnIds list.
+            let index = annotationBtnIds.indexOf(buttonId);
+            if (index > -1) {
+                annotationBtnIds.splice(index, 1);
+            }
+
+            selectedAnnotation = selectedAnnotation.filter(function(item){
+                return item.selectedText != annotation.target.selector[0].exact && item.selectedTag != annotation.body[0].value;
+            });
+
+            highlightedObject = highlightedObject.filter(function(item){
+                return item.target.selector[0].exact != annotation.target.selector[0].exact && item.body[0].value != annotation.body[0].value;
+            });
+        }
+    });
+
+
+
+
+    // Mia show facts table
+    document.addEventListener('DOMContentLoaded', function () {
+            const facts = [
+                "An advertisement was placed for a limited edition vinyl record priced at $500.",
+                "A caller requested to reserve a vinyl record until mid-week evening due to financial constraints.",
+                "The seller agreed to hold the vinyl until mid-week evening, noting it would be sold if not confirmed by the reservation time.",
+                "A prospective buyer offered $700 for the vinyl on the second day of the week, which was accepted by the seller.",
+                "The seller attempted to notify the initial interested party about the sale via phone, but the call could not be connected.",
+                "A text message was sent to the initial interested party stating that the vinyl had been sold to another buyer.",
+                "The initial interested party was out of town and unavailable by phone until mid-week afternoon, at which time they learned the vinyl had been sold.",
+                "The initial interested party is considering legal action for breach of contract."
+            ];
+
+            const tableBody = document.getElementById('factTableBody');
+            facts.forEach((fact, index) => {
+                const row = `<tr>
+                    <td>${index + 1}</td>
+                    <td style="word-wrap: break-word;">${fact}</td>
+                    <td><input type="text" class="form-control" value="${fact}" placeholder="Rewrite fact here" style="word-wrap: break-word;"></td>
+                </tr>`;
+                tableBody.innerHTML += row;
+            });
+        });
+
+    function exportCSV() {
+        let csvContent = "data:text/csv;charset=utf-8,ID,Original Fact,Rewritten Fact\r\n";
+        const rows = document.querySelectorAll('#factTableBody tr');
+        rows.forEach((row) => {
+            const id = row.cells[0].innerText;
+            const original = row.cells[1].innerText;
+            const rewritten = row.cells[2].querySelector('input').value;
+            const csvRow = `${id},"${original.replace(/"/g, '""')}","${rewritten.replace(/"/g, '""')}"\r\n`;
+            csvContent += csvRow;
+        });
+
+        const encodedUri = encodeURI(csvContent);
+        const link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", "rewritten_facts.csv");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+</script>
+
+<!--Script to initialize multiselect for sections.-->
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#selectedSections').multiselect({
+            enableFiltering: true,
+            maxHeight: 400,
+            dropUp: true,
+            buttonWidth: '400px'
+        });
+    });
+</script>
