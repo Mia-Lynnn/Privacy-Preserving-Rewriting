@@ -1,5 +1,6 @@
 // Scenario list variable.
 var sceList= [];
+var factList = {}; // To store facts by scenario ID for quick lookup Mia
 
 // Store the courtCasePageNumber button Ids.
 var courtCasePageNumberIds = [];
@@ -33,6 +34,13 @@ function getSceData(){
      getScenarioList();
    });
    console.log("scelist ",sceList);
+
+   // Fetch facts
+   $.getJSON('./data/facts.json', function(data) {
+    data.forEach(fact => {
+        factList[fact.ID] = fact.RewrittenFacts; 
+    });
+   });
 }
 
 
@@ -42,7 +50,6 @@ function getScenarioList() {
     // get all declared scenarios.
 
     var scenarioSelect = document.getElementById("scenarioSelect");
-    console.log(sceList);
 
     $.each(sceList, function (index, value) {
         //console.log("valud ID ",value.ID);
@@ -80,6 +87,8 @@ function getScenario() {
     // Clear all annotation buttons and reset the annotation button array.
     removeAllAnnotationBtnIds();
     annotationBtnIds = [];
+
+    displayFacts(selectedId);//Mia get facts when choose
 }
 
 // Change the scenario text based on retrieved scenario text from db.
@@ -93,7 +102,20 @@ function changeScenarioText(scenario) {
     document.getElementById("decompositions").value = scenario.DecomQ;
 
 }
+// Display rewritten facts for the selected scenario ID
+function displayFacts(scenarioId) {
+    const rewrittenFacts = factList[scenarioId] || [];
+    const factTableBody = document.getElementById("factTableBody");
+    factTableBody.innerHTML = ""; // Clear previous entries
 
+    rewrittenFacts.forEach((fact, index) => {
+        const row = factTableBody.insertRow();
+        const cell1 = row.insertCell(0);
+        const cell2 = row.insertCell(1);
+        cell1.innerHTML = index + 1;
+        cell2.innerHTML = fact;
+    });
+}
 
 function createRelationButtons() {
     // Const relation.
