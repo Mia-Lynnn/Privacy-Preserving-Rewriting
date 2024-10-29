@@ -219,6 +219,7 @@
                     <div class="row">
                         <h1 class="h3 mb-4 text-gray-800">Facts</h1>
                         <div class="mt-2 mb-2">
+                            <input type="file" id="fileInput" style="display:none;" accept=".txt">
                             <button id="importButton" class="btn btn-primary me-2">Import Facts</button>
                             <button id="exportButton" class="btn btn-primary me-2">Export Facts</button>
                         </div>
@@ -270,50 +271,106 @@
 <script type="text/javascript">
     
 //Mia - import facts csv
-document.getElementById('importButton').addEventListener('click', function() {
-    const fileInput = document.createElement('input'); // Create a file input programmatically
-    fileInput.type = 'file';
-    fileInput.accept = '.csv'; // Accept only CSV files
-    fileInput.onchange = function(event) {
-        const file = event.target.files[0]; // Get the selected file
+document.addEventListener('DOMContentLoaded', function() {
+    // Event listener for exporting facts
+    document.getElementById('exportButton').addEventListener('click', function() {
+        var data = sceList.map(scenario => {
+            var originalFacts = scenario.OriginalFacts;
+            var rewrittenFacts = originalFacts.map((_, index) => document.getElementById(`rewriteFact${index}`).value.trim());
+            return {
+                ID: scenario.ID,
+                Scenario: scenario.Scenario,
+                OriginalFacts: originalFacts,
+                RewrittenFacts: rewrittenFacts
+            };
+        });
+        var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data, null, 4));
+        var downloadAnchorNode = document.createElement('a');
+        downloadAnchorNode.setAttribute("href", dataStr);
+        downloadAnchorNode.setAttribute("download", "exported_facts.json");
+        document.body.appendChild(downloadAnchorNode); // Required for Firefox
+        downloadAnchorNode.click();
+        downloadAnchorNode.remove();
+    });
 
+    // Setup for file input and handling file uploads for import
+    document.getElementById('importButton').addEventListener('click', function() {
+        document.getElementById('fileInput').click(); // Trigger file input when button is clicked
+    });
+
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+        const file = event.target.files[0];
         if (file) {
             const reader = new FileReader();
-            reader.onload = function(event) {
-                const csvData = event.target.result;
-                const rows = csvData.split('\n');
-
-                if (rows.length > 1) { // Check if there is a second row
-                    const cols = rows[1].split(','); // Split the second row by comma
-                    if (cols.length > 2) { // Check if there are enough columns
-                        let finalResultFact = cols[2].trim(); // Trim the third column to remove extra spaces
-                        finalResultFact = finalResultFact.slice(1, -1); // Remove surrounding square brackets
-
-                        // Split the cleaned data by comma to get individual facts
-                        const factsArray = finalResultFact.split(/,\s*(?=(?:[^'"]|'[^']*'|"[^"]*")*$)/);
-
-                        // Populate the table
-                        const tbody = document.getElementById('factTableBody');
-                        tbody.innerHTML = ''; // Clear existing rows
-                        factsArray.forEach((fact, index) => {
-                            fact = fact.replace(/^['"]|['"]$/g, '').trim(); // Remove surrounding quotes and trim
-                            const row = `<tr>
-                                            <td>${index + 1}</td>
-                                            <td>${fact}</td>
-                                            <td><!-- Rewritten Fact can be added here --></td>
-                                         </tr>`;
-                            tbody.innerHTML += row; // Add new row to the table body
-                        });
-                    }
-                }
+            reader.onload = function(e) {
+                const lines = e.target.result.split('\n');
+                populateTableWithLines(lines);
             };
-            reader.readAsText(file); // Read the file as text
-        } else {
-            alert('Please select a CSV file to import.');
+            reader.readAsText(file);
         }
-    };
-    fileInput.click(); // Programmatically click the file input to open the file dialog
+    });
+
+    function populateTableWithLines(lines) {
+        var factTableBody = document.getElementById("factTableBody");
+        factTableBody.innerHTML = ""; // Clear existing content
+        lines.forEach(function(line, index) {
+            if (line.trim().length > 0) { // Only add non-empty lines
+                const row = factTableBody.insertRow();
+                const cell1 = row.insertCell(0);
+                const cell2 = row.insertCell(1);
+                const cell3 = row.insertCell(2);
+                cell1.innerHTML = index + 1;
+                cell2.innerHTML = line.trim();
+                cell3.innerHTML = `<textarea class="form-control"></textarea>`; // Add empty textarea for rewritten facts
+            }
+        });
+    }
 });
+// // 10.17 version Mia
+// document.getElementById('importButton').addEventListener('click', function() {
+//     const fileInput = document.createElement('input'); // Create a file input programmatically
+//     fileInput.type = 'file';
+//     fileInput.accept = '.csv'; // Accept only CSV files
+//     fileInput.onchange = function(event) {
+//         const file = event.target.files[0]; // Get the selected file
+
+//         if (file) {
+//             const reader = new FileReader();
+//             reader.onload = function(event) {
+//                 const csvData = event.target.result;
+//                 const rows = csvData.split('\n');
+
+//                 if (rows.length > 1) { // Check if there is a second row
+//                     const cols = rows[1].split(','); // Split the second row by comma
+//                     if (cols.length > 2) { // Check if there are enough columns
+//                         let finalResultFact = cols[2].trim(); // Trim the third column to remove extra spaces
+//                         finalResultFact = finalResultFact.slice(1, -1); // Remove surrounding square brackets
+
+//                         // Split the cleaned data by comma to get individual facts
+//                         const factsArray = finalResultFact.split(/,\s*(?=(?:[^'"]|'[^']*'|"[^"]*")*$)/);
+
+//                         // Populate the table
+//                         const tbody = document.getElementById('factTableBody');
+//                         tbody.innerHTML = ''; // Clear existing rows
+//                         factsArray.forEach((fact, index) => {
+//                             fact = fact.replace(/^['"]|['"]$/g, '').trim(); // Remove surrounding quotes and trim
+//                             const row = `<tr>
+//                                             <td>${index + 1}</td>
+//                                             <td>${fact}</td>
+//                                             <td><!-- Rewritten Fact can be added here --></td>
+//                                          </tr>`;
+//                             tbody.innerHTML += row; // Add new row to the table body
+//                         });
+//                     }
+//                 }
+//             };
+//             reader.readAsText(file); // Read the file as text
+//         } else {
+//             alert('Please select a CSV file to import.');
+//         }
+//     };
+//     fileInput.click(); // Programmatically click the file input to open the file dialog
+// });
 
 
 

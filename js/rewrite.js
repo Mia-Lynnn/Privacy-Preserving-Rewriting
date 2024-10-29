@@ -74,41 +74,6 @@ function fillFactsTable(originalFacts, rewrittenFacts) {
 
 
 // Export facts to a local file
-function exportFacts() {
-    console.log('Export function called'); // Debug log
-    
-    if (!sceList || sceList.length === 0) {
-        console.error('No data to export');
-        return;
-    }
-
-    var data = sceList.map(scenario => {
-        var originalFacts = scenario.OriginalFacts;
-        var rewrittenFacts = originalFacts.map((_, index) => {
-            const element = document.getElementById(`rewriteFact${index}`);
-            return element ? element.value.trim() : "";
-        });
-        
-        return {
-            ID: scenario.ID,
-            Scenario: scenario.Scenario,
-            OriginalFacts: originalFacts,
-            RewrittenFacts: rewrittenFacts
-        };
-    });
-
-    try {
-        var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data, null, 4));
-        var downloadAnchorNode = document.createElement('a');
-        downloadAnchorNode.setAttribute("href", dataStr);
-        downloadAnchorNode.setAttribute("download", "exported_facts.json");
-        document.body.appendChild(downloadAnchorNode);
-        downloadAnchorNode.click();
-        downloadAnchorNode.remove();
-    } catch (error) {
-        console.error('Error exporting facts:', error);
-    }
-}
 // function exportFacts() {
 //     var data = sceList.map(scenario => {
 //         var originalFacts = scenario.OriginalFacts;
