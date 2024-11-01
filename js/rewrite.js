@@ -67,7 +67,7 @@ function exportFacts() {
 
     if (scenario) {
         // Collect the data
-        var ScenarioID = scenario.ID;
+        var ID = scenario.ID;
         var ScenarioText = scenario.Scenario;
         var OriginalFacts = scenario.OriginalFacts;
         var RewrittenFacts = [];
@@ -79,21 +79,22 @@ function exportFacts() {
             RewrittenFacts.push(rewrittenFact);
         });
 
-        // Prepare the data object
+        // Prepare the data object with the desired field names
         var data_json = {
-            "ScenarioID": ScenarioID,
+            "ID": ID,
             "Scenario": ScenarioText,
             "OriginalFacts": OriginalFacts,
             "RewrittenFacts": RewrittenFacts
         };
 
-        var data = JSON.stringify(data_json);
+        // Convert data to a pretty-printed JSON string
+        var data = JSON.stringify(data_json, null, 4);
 
         // Prepare filename with timestamp
         var currentdate = new Date();
         var date = currentdate.getDate() + "_" + (currentdate.getMonth() + 1) + "_" +
             currentdate.getHours() + currentdate.getMinutes();
-        var filename = 'ExportedFacts_' + ScenarioID + '_' + date + '.json';
+        var filename = 'ExportedFacts_' + ID + '_' + date + '.json';
 
         // Create a Blob and initiate download
         let blob = new Blob([data], { type: 'application/json' });
@@ -109,6 +110,7 @@ function exportFacts() {
         alert("No scenario selected or scenario not found.");
     }
 }
+
  document.addEventListener('DOMContentLoaded', init);
 
 
