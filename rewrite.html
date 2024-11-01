@@ -326,51 +326,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-// // 10.17 version Mia
-// document.getElementById('importButton').addEventListener('click', function() {
-//     const fileInput = document.createElement('input'); // Create a file input programmatically
-//     fileInput.type = 'file';
-//     fileInput.accept = '.csv'; // Accept only CSV files
-//     fileInput.onchange = function(event) {
-//         const file = event.target.files[0]; // Get the selected file
-
-//         if (file) {
-//             const reader = new FileReader();
-//             reader.onload = function(event) {
-//                 const csvData = event.target.result;
-//                 const rows = csvData.split('\n');
-
-//                 if (rows.length > 1) { // Check if there is a second row
-//                     const cols = rows[1].split(','); // Split the second row by comma
-//                     if (cols.length > 2) { // Check if there are enough columns
-//                         let finalResultFact = cols[2].trim(); // Trim the third column to remove extra spaces
-//                         finalResultFact = finalResultFact.slice(1, -1); // Remove surrounding square brackets
-
-//                         // Split the cleaned data by comma to get individual facts
-//                         const factsArray = finalResultFact.split(/,\s*(?=(?:[^'"]|'[^']*'|"[^"]*")*$)/);
-
-//                         // Populate the table
-//                         const tbody = document.getElementById('factTableBody');
-//                         tbody.innerHTML = ''; // Clear existing rows
-//                         factsArray.forEach((fact, index) => {
-//                             fact = fact.replace(/^['"]|['"]$/g, '').trim(); // Remove surrounding quotes and trim
-//                             const row = `<tr>
-//                                             <td>${index + 1}</td>
-//                                             <td>${fact}</td>
-//                                             <td><!-- Rewritten Fact can be added here --></td>
-//                                          </tr>`;
-//                             tbody.innerHTML += row; // Add new row to the table body
-//                         });
-//                     }
-//                 }
-//             };
-//             reader.readAsText(file); // Read the file as text
-//         } else {
-//             alert('Please select a CSV file to import.');
-//         }
-//     };
-//     fileInput.click(); // Programmatically click the file input to open the file dialog
-// });
 
 
 
@@ -602,28 +557,28 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     // Mia show facts table
-    document.addEventListener('DOMContentLoaded', function () {
-            const facts = [
-                "An advertisement was placed for a limited edition vinyl record priced at $500.",
-                "A caller requested to reserve a vinyl record until mid-week evening due to financial constraints.",
-                "The seller agreed to hold the vinyl until mid-week evening, noting it would be sold if not confirmed by the reservation time.",
-                "A prospective buyer offered $700 for the vinyl on the second day of the week, which was accepted by the seller.",
-                "The seller attempted to notify the initial interested party about the sale via phone, but the call could not be connected.",
-                "A text message was sent to the initial interested party stating that the vinyl had been sold to another buyer.",
-                "The initial interested party was out of town and unavailable by phone until mid-week afternoon, at which time they learned the vinyl had been sold.",
-                "The initial interested party is considering legal action for breach of contract."
-            ];
+    // document.addEventListener('DOMContentLoaded', function () {
+    //         const facts = [
+    //             "An advertisement was placed for a limited edition vinyl record priced at $500.",
+    //             "A caller requested to reserve a vinyl record until mid-week evening due to financial constraints.",
+    //             "The seller agreed to hold the vinyl until mid-week evening, noting it would be sold if not confirmed by the reservation time.",
+    //             "A prospective buyer offered $700 for the vinyl on the second day of the week, which was accepted by the seller.",
+    //             "The seller attempted to notify the initial interested party about the sale via phone, but the call could not be connected.",
+    //             "A text message was sent to the initial interested party stating that the vinyl had been sold to another buyer.",
+    //             "The initial interested party was out of town and unavailable by phone until mid-week afternoon, at which time they learned the vinyl had been sold.",
+    //             "The initial interested party is considering legal action for breach of contract."
+    //         ];
 
-            const tableBody = document.getElementById('factTableBody');
-            facts.forEach((fact, index) => {
-                const row = `<tr>
-                    <td>${index + 1}</td>
-                    <td style="word-wrap: break-word;">${fact}</td>
-                    <td><input type="text" class="form-control" value="${fact}" placeholder="Rewrite fact here" style="word-wrap: break-word;"></td>
-                </tr>`;
-                tableBody.innerHTML += row;
-            });
-        });
+    //         const tableBody = document.getElementById('factTableBody');
+    //         facts.forEach((fact, index) => {
+    //             const row = `<tr>
+    //                 <td>${index + 1}</td>
+    //                 <td style="word-wrap: break-word;">${fact}</td>
+    //                 <td><input type="text" class="form-control" value="${fact}" placeholder="Rewrite fact here" style="word-wrap: break-word;"></td>
+    //             </tr>`;
+    //             tableBody.innerHTML += row;
+    //         });
+    //     });
 
     function exportCSV() {
         let csvContent = "data:text/csv;charset=utf-8,ID,Original Fact,Rewritten Fact\r\n";

@@ -13,7 +13,7 @@
             "Niko is now threatening to sue Vanessa for breach of contract."
         ],
         "RewrittenFacts": [
-            "A seller placed an advertisement for a limited edition vinyl record priced at $500.",
+            "A seller placed an advertisement for a vinyl record priced at a price.",
             "A potential buyer contacted the seller on Monday to reserve the vinyl, requesting to keep it until Wednesday 8pm due to financial reasons.",
             "The seller agreed to reserve the vinyl until Wednesday 8pm, but warned that if there was no response by then, they would sell it to another buyer.",
             "On Tuesday, another interested buyer offered $700 for the vinyl, which the seller accepted.",
@@ -40,8 +40,8 @@
             "The domestic helper was under contract to clean the employer's house every Wednesday for 3 hours and would be paid $80 once the work was completed.",
             "The job scope included cleaning multiple bedrooms, trimming the grass in the backyard, and cleaning the kitchen.",
             "Last Wednesday, the domestic helper went beyond their prescribed job scope by helping wash the employer's car and preparing lunch.",
-            "The domestic helper sought an additional $20 for the extra work done outside of their job scope.",
-            "The employer refused to pay the additional $20.",
+            "The domestic helper sought an additional compensation for tasks performed beyond the agreed job responsibilities.",
+            "The employer refused to pay the additional compensation.",
             "The employment agency is seeking legal action against the employer for not paying for the extra work."
         ]
     },
