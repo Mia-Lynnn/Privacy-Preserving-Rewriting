@@ -169,6 +169,8 @@ function createRelationButtons() {
     });
 }
 
+
+
 function createReasonButtons() {
     // Const relation.
     const relationData = [

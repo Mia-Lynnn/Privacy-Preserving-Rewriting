@@ -240,7 +240,7 @@
                         </table>
 
                         <div class="mt-2">
-                            <button type="submit" class="btn btn-primary me-2">Export Facts</button>
+                            <button type="submit" class="btn btn-primary me-2"onclick="exportFacts()">Export Facts</button>
                         </div>
                     </div>
                 </div>
@@ -804,7 +804,58 @@
 
         r.setMode(annotationMode);
     });
+// Mia 
+function exportFacts() {
+    // Get the selected scenario ID
+    var scenarioSelect = document.getElementById('scenarioSelect');
+    var selectedId = scenarioSelect.value;
+    var scenario = sceList.find(s => s.ID === selectedId);
 
+    if (scenario) {
+        // Collect the data
+        var ID = scenario.ID;
+        var ScenarioText = scenario.Scenario;
+        var OriginalFacts = scenario.OriginalFacts;
+        var RewrittenFacts = [];
+
+        // Loop through the facts and collect rewritten facts
+        OriginalFacts.forEach(function(originalFact, index) {
+            var rewrittenFactElement = document.getElementById(`rewriteFact${index}`);
+            var rewrittenFact = rewrittenFactElement ? rewrittenFactElement.value.trim() : "";
+            RewrittenFacts.push(rewrittenFact);
+        });
+
+        // Prepare the data object with the desired field names
+        var data_json = {
+            "ID": ID,
+            "Scenario": ScenarioText,
+            "OriginalFacts": OriginalFacts,
+            "RewrittenFacts": RewrittenFacts
+        };
+
+        // Convert data to a pretty-printed JSON string
+        var data = JSON.stringify(data_json, null, 4);
+
+        // Prepare filename with timestamp
+        var currentdate = new Date();
+        var date = currentdate.getDate() + "_" + (currentdate.getMonth() + 1) + "_" +
+            currentdate.getHours() + currentdate.getMinutes();
+        var filename = 'ExportedFacts_' + ID + '_' + date + '.json';
+
+        // Create a Blob and initiate download
+        let blob = new Blob([data], { type: 'application/json' });
+        let url = URL.createObjectURL(blob);
+        let file = document.createElement('a');
+        file.download = filename;
+        file.href = url;
+        document.body.appendChild(file);
+        file.click();
+        file.remove();
+        URL.revokeObjectURL(url);
+    } else {
+        alert("No scenario selected or scenario not found.");
+    }
+}
     // Function that detectes a newly created annotation.
 
     r.on('createAnnotation', function (annotation) {
