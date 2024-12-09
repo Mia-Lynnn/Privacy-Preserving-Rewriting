@@ -35,15 +35,7 @@
             "Kim refused to pay the additional $20.",
             "The MA company is seeking to sue Kim for not paying Fatihah's extra work."
         ],
-        "RewrittenFacts": [
-            "An employer hired a part-time domestic helper through an employment agency.",
-            "The domestic helper was under contract to clean the employer's house every Wednesday for 3 hours and would be paid $80 once the work was completed.",
-            "The job scope included cleaning multiple bedrooms, trimming the grass in the backyard, and cleaning the kitchen.",
-            "Last Wednesday, the domestic helper went beyond their prescribed job scope by helping wash the employer's car and preparing lunch.",
-            "The domestic helper sought an additional $20 for the extra work done outside of their job scope.",
-            "The employer refused to pay the additional $20.",
-            "The employment agency is seeking legal action against the employer for not paying for the extra work."
-        ]
+        "RewrittenFacts": []
     },
     {
         "ID": "FC11",
@@ -55,13 +47,7 @@
             "Henry stopped transferring money after paying for the first few weeks.",
             "Willow sought to claim her weekly allowance and sued Henry for breach of contract."
         ],
-        "RewrittenFacts": [
-            "A married couple had a financial arrangement.",
-            "One spouse promised the other $20 per week as weekly allowance.",
-            "The agreement was made briefly through text message.",
-            "The payments stopped after the first few weeks.",
-            "One spouse sought to claim the weekly allowance and initiated legal action for breach of contract."
-        ]
+        "RewrittenFacts": []
     },
     {
         "ID": "FC12",
