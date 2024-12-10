@@ -125,12 +125,10 @@
         "OriginalFacts": [
             "Abby owns a bakery.",
             "Tiana owns a cafe specializing in selling coffee.",
-            "Tiana proposed including pastry and cakes in her menu, with Abby supplying at half-price as a 'sister discount'., ",
-            ", ",
-            ", ",
-            "s bakery is not doing well, and she wants to hire someone for a rebranding effort.\", \"Elena applied for the job based on an advertisement listing the job scope, salary, and application process.\", \"Elena has yet to receive a response from Abby after applying, so she applies for another job.\", \"After being hired elsewhere, Elena sends an email to Abby saying she no longer wants the job at Abby",
-            ", ",
-            ", "
+            "Tiana proposed including pastry and cakes in her menu, with Abby supplying at half-price as a 'sister discount's bakery is not doing well, and she wants to hire someone for a rebranding effort.",
+            "Elena applied for the job based on an advertisement listing the job scope, salary, and application process.",
+            "Elena has yet to receive a response from Abby after applying, so she applies for another job.", 
+            "After being hired elsewhere, Elena sends an email to Abby saying she no longer wants the job at Abby"
         ],
         "RewrittenFacts": []
     },
