@@ -23,7 +23,7 @@ function init() {
 }
 
 function getSceData(){
-     $.getJSON('./data/data.json', function(data) {
+     $.getJSON('./data/dataRewrite.json', function(data) {
        $.each(data, function(i, f) {
           //console.log(f.ID,f.Scenario)
           //console.log("f",f.ID);
