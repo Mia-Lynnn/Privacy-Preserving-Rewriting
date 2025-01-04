@@ -1062,7 +1062,15 @@
     {
         "ID": "s16",
         "Scenario": "In December 2008, Doctor Raju offered to sell his medical practice for RM150,000. Doctor Pritam having gone through the medical practice's income statement accepted the take over. The duration for the entire sale and purchase transaction was determined to be 4 months. During this time, Dr Raju fell ill and was unable to wok most of the time and due to this, his regular patients started going to other doctors. By the time Dr Pritam took over the medical practice, the income derived from it has fallen dramatically, and Dr Raju didn't thought it was necessary to inform Dr Pritam and therefore did not disclose this fact. Dr Pritam who now runs the practice feel's that he has been cheated and wishes to rescind the contract. (misrepresentation) ",
-        "OriginalFacts": [],
+        "OriginalFacts": [
+            "In December 2008, Doctor Raju offered to sell his medical practice to Doctor Pritam for RM150,000.",
+            "Doctor Pritam accepted the offer after reviewing the medical practice's income statement.",
+            "The sale and purchase transaction was set to complete in 4 months.",
+            "During this period, Doctor Raju fell ill and was unable to work most of the time.",
+            "Due to Doctor Raju's absence, his regular patients began seeking treatment elsewhere.",
+            "The medical practice's income dropped dramatically before Doctor Pritam took over.",
+            "Doctor Raju did not inform Doctor Pritam about the significant decrease in income.",
+            "Doctor Pritam discovered the reduced income after taking over the practice and now wishes to rescind the contract."],
         "RewrittenFacts": []
     },
     {
