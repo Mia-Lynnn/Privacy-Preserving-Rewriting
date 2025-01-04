@@ -905,13 +905,13 @@
         "ID": "s05",
         "Scenario": "Jennifer is a young and very talented squash player. She is sixteen years old and in February 2016, she entered into an agreement in Malaysia with Lawrence (who is a prominent coach) whereby he undertook to train her and also decides which tournament she should play in. In return, Jennifer agreed to follow Lawrence's instructions and to pay him 25% of her winnings from all future tournaments for 2 years. In August 2017, Jennifer disobeyed Lavwrence's instruction to play in European open whereby the total prize money was US 1.2 million and instead prefers to defend her title in the Malaysian open tournament, where the total prize money was only RM350, 000. ",
         "OriginalFacts": [
-            "Jennifer is a minor (16 years old) at the time of entering into the agreement with Lawrence.",
-            "The agreement requires Jennifer to follow Lawrence's instructions and pay him 25% of her winnings from all future tournaments for 2 years.",
-            "Lawrence had the right to decide which tournament Jennifer should play in, as per the agreement.",
-            "Jennifer disobeyed Lawrence's instruction to play in the European Open in August 2017.",
-            "The total prize money for the European Open was US$1.2 million, while the Malaysian Open had a much lower prize money of RM350,000.",
-            "The breach of contract occurred when Jennifer chose not to follow Lawrence's instructions and instead played in the Malaysian Open.",
-            "s age, whether Lawrence has the right to decide which tournaments she plays in, and whether Jennifer"
+            "Jennifer is a sixteen-year-old talented squash player.",
+            "In February 2016, Jennifer entered into an agreement with Lawrence, a prominent coach, in Malaysia.",
+            "Under the agreement, Lawrence would train Jennifer and decide which tournaments she should play in.",
+            "Jennifer agreed to follow Lawrence's instructions and pay him 25% of her tournament winnings for 2 years.",
+            "In August 2017, Lawrence instructed Jennifer to play in the European Open with a prize money of US$1.2 million.",
+            "Jennifer disobeyed Lawrence's instruction and chose to defend her title in the Malaysian Open.",
+            "The Malaysian Open had a total prize money of RM350,000."
         ],
         "RewrittenFacts": []
     },
