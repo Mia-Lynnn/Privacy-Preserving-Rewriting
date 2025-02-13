@@ -258,14 +258,14 @@
     {
         "ID": "FC3",
         "Topic": "Offer and acceptance ",
-        "Scenario": "Emma advertised a reward of $100 to whoever found her lost cat. Her friend Danny found the cat, but he had no knowledge of the advertisement and the reward. It was only after Danny returned the cat to Emma, then only he found out that he should be entitled to a reward of $100 because Danny\u2019s friend, Gillian told him about Emma\u2019s advertisement. He sought to claim the reward, but Emma refused to make payment. ",
-        "Issue": "Whether there is a contract between Emma and Danny. ",
-        "DecomQ": "Was Emma's advertisement an Invitation to treat or an offer? \nDid Danny accept Emma\u2019s offer? \nWas there a meeting of minds between Emma and Danny?",
+        "Scenario": "Party A published an advertisement offering a reward for the return of a lost pet. Party B located and returned the pet without prior awareness of the advertisement or the associated reward. Party B became aware of the advertisement and the reward only after returning the pet to Party A. A third party informed Party B about the advertisement and reward after the return of the pet. Party B subsequently requested compensation from Party A, asserting entitlement to the advertised reward.Party A declined to provide the reward to Party B.",
+        "Issue": "",
+        "DecomQ": "",
         "Sections": "",
         "CourtCase": "",
         "Analysis": "",
         "Flow": "",
-        "Conclusion": "There is a valid contract between Emma and Danny, Emma\u2019s refusal to make payment is a breach of contract. \n"
+        "Conclusion": ""
     },
     {
         "ID": "FC4",
@@ -343,14 +343,14 @@
     {
         "ID": "FC10",
         "Topic": "Consideration ",
-        "Scenario": "Kim hired a part time maid named Fatihah, and she was under a Maid Agency called MA company. She would come to Kim\u2019s house every Wednesday for 3 hours to clean her house, and Kim would pay her $80 once she completed her work. \nIn her prescribed job scope, Kim wanted her to clean the 4 bedrooms in the house, trim the grass in the backyard as well as cleaning the kitchen.\nLast Wednesday, Fatihah helped Kim to wash her car and made her lunch as she had already completed her job. Since this was not in the job scope, Fatihah sought for an additional $20 as she had done something over and above her prescribed job scope. Kim refused to pay the additional $20, MA now sought to sue Kim for not paying Fatihah\u2019s extra work. ",
-        "Issue": "Whether Fatihah\u2019s extra work is supported by valid considerations",
-        "DecomQ": "Does Fatihah\u2019s action amount to a past consideration? \nWas Fatihah\u2019s action under the request of the promisor (Kim)?\nDoes Fatihah\u2019s action (of washing the car and making her lunch) amount to valid consideration in order for her to claim the extra $20? ",
+        "Scenario": "Party A hired Party B, a part-time domestic helper, through an intermediary service provider, Party C. Party B entered into an agreement to perform specified cleaning tasks at Party A’s residence weekly, for a specified duration, in exchange for remuneration upon completion.The defined scope of duties encompassed cleaning four bedrooms, maintaining the backyard by trimming grass, and cleaning the kitchen.On a specific day, Party B exceeded their contractual obligations by performing additional tasks, including washing Party A’s vehicle and preparing a meal.Party B requested supplementary compensation for the additional services rendered, amounting to a specified sum.Party A declined to provide the additional payment requested by Party B.Party C, acting as Party B’s contractual intermediary, is pursuing legal action against Party A for non-payment concerning the extra services provided by Party B.",
+        "Issue": "",
+        "DecomQ": "",
         "Sections": "",
         "CourtCase": "",
         "Analysis": "",
-        "Flow": "It amounts to a past consideration (performance first) > The extra work done was not under the request of the promisor > Does not amount to a valid consideration ",
-        "Conclusion": "Fatihah\u2019s extra work was not supported by valid considerations, she is unable to claim the extra $20. "
+        "Flow": " ",
+        "Conclusion": " "
     },
     {
         "ID": "FC11",
@@ -367,14 +367,14 @@
     {
         "ID": "FC12",
         "Topic": "Intention to create legal relations ",
-        "Scenario": "While Penny and her friend, Tina were having brunch together on Saturday, Penny made an agreement with Tina that, as soon as she found a new place to move in, she will transfer the property that she is currently living in to Tina. In order to ensure that Penny would fulfill her promise, Tina requested her to briefly write it down on a piece of paper, stating that: \u201cI, Penny, will transfer the house that I am living in to Tina as soon as I find a new place to move in\u201d. \n\nAfter months of finding a new place, Penny has finally found an ideal studio apartment that suits all her needs and immediately informed Tina that she will be transferring her old house to Tina. Upon hearing this news, Tina quickly packed her belongings and prepared to move into Penny\u2019s old house. However, after a thorough consideration, Penny changes her mind and decides not to move anymore. Tina wants to sue for specific performance. ",
-        "Issue": "Whether Penny was legally bound to transfer the house to Tina. ",
-        "DecomQ": "Does the performance of the condition give rise to an enforceable contract? \nDoes the method of creating this promise affect the enforceability of the promise to transfer the house to Tina? \nDoes the relationship between Tina and Penny affect the enforceability of the promise to transfer the house to Tina? ",
+        "Scenario": "Party A and Party B entered into an informal agreement regarding the transfer of a residential property owned by Party A to Party B when Party A finds another residence to relocate.Party B requested that Party A form a formal written agreement for assurance.After an extended period, Party A found a new suitable residence to relocate to.Party A communicated to Party B, confirming the transfer of the property, as per the agreement.Acting in reliance on Party A's assurance, Party B prepared to take possession of the property, including relocating personal belongings.Party A subsequently rescinded the agreement by deciding to remain in the existing residence despite identifying an alternative housing option.Party B initiated legal proceedings, seeking specific performance and alleging a breach of the agreement by Party A.",
+        "Issue": " ",
+        "DecomQ": "",
         "Sections": "",
         "CourtCase": "",
         "Analysis": "",
-        "Flow": "The performance of the condition [found an ideal place to move into] gave rise to an enforceable contract > informally created an agreement [briefly on a paper], the contract is void > social agreements [between friends] are presumed to not be legally bound. ",
-        "Conclusion": "Penny was not legally bound to transfer the house to Tina. "
+        "Flow": "",
+        "Conclusion": " "
     },
     {
         "ID": "FC13",
